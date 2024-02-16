@@ -1,0 +1,17 @@
+{
+    "legacy_source_versions": [
+        "23-03-27-11-50-38-b42880",
+        "23-06-25-13-09-13-327c56"
+    ],
+    "legacy_activities": {
+        "23-03-27-11-50-38-b42880": "gamedata/levels/activities/act24side.ab",
+        "23-06-25-13-09-13-327c56": "gamedata/levels/activities/act26side.ab"
+    },
+    "source_versions": [
+        "23-08-25-11-36-41-12f55f",
+        "23-09-20-13-28-42-486799",
+        "23-11-17-08-48-31-26d599",
+        "24-01-12-07-52-32-80033a"
+    ],
+    "target_version": "24-02-06-16-52-58-51f4ae"
+}
