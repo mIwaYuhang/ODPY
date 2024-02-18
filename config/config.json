@@ -90,7 +90,7 @@
         "allChars": true
     },
     "battleReplayConfig": {
-        "anonymous": false
+        "anonymous": true
     },
     "userConfig": {
         "restorePreviousStates": {
