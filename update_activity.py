@@ -7,7 +7,7 @@ try:
     activity_start_time_list = []
 
     for i in activity_table["basicInfo"]:
-        if i.endswith("side") or i.endswith("sre"):
+        if i.endswith("side"):
             startTime = activity_table["basicInfo"][i]["startTime"]
             endTime = activity_table["basicInfo"][i]["endTime"]
             activity_start_time_list.append((startTime, endTime))

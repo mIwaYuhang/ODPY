@@ -5,7 +5,7 @@ with open("data/excel/activity_table.json", encoding="utf-8") as f:
     activity_table = json.load(f)
     activity_list = []
     for i in activity_table["basicInfo"]:
-        if i.endswith("side") or i.endswith("sre"):
+        if i.endswith("side"):
             name = activity_table["basicInfo"][i]["name"]
             startTime = activity_table["basicInfo"][i]["startTime"]
             endTime = activity_table["basicInfo"][i]["endTime"]
