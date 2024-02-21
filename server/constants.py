@@ -28,6 +28,8 @@ TOWERDATA_PATH = "data/tower/towerData.json"
 SANDBOX_JSON_PATH = "data/user/sandbox.json"
 SANDBOX_TEMP_JSON_PATH = "data/user/sandboxTemp.json"
 
+GACHA_JSON_PATH = "data/user/gacha.json"
+
 config = read_json(CONFIG_PATH)
 mode = config["server"]["mode"]
 if mode == "global":

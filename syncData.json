@@ -138,10 +138,10 @@
             "socialPoint": 6,
             "gachaTicket": 0,
             "tenGachaTicket": 0,
-            "instantFinishTicket": 0,
+            "instantFinishTicket": 9999999,
             "hggShard": 0,
             "lggShard": 0,
-            "recruitLicense": 0,
+            "recruitLicense": 9999999,
             "progress": 30000,
             "buyApRemainTimes": 99,
             "apLimitUpFlag": 0,
@@ -149,10 +149,10 @@
             "flags": {},
             "ap": 999,
             "maxAp": 999,
-            "androidDiamond": 0,
+            "androidDiamond": 9999999,
             "iosDiamond": 999,
-            "diamondShard": 0,
-            "gold": 0,
+            "diamondShard": 9999999,
+            "gold": 9999999,
             "practiceTicket": 999,
             "lastRefreshTs": 0,
             "lastApAddTime": 0,
@@ -7521,7 +7521,48 @@
             "sweepMaxKills": {}
         },
         "inventory": {},
-        "recruit": {},
+        "recruit": {
+            "normal": {
+                "slots": {
+                    "0": {
+                        "state": 1,
+                        "tags": [],
+                        "selectTags": [],
+                        "startTs": -1,
+                        "durationInSec": -1,
+                        "maxFinishTs": -1,
+                        "realFinishTs": -1
+                    },
+                    "1": {
+                        "state": 1,
+                        "tags": [],
+                        "selectTags": [],
+                        "startTs": -1,
+                        "durationInSec": -1,
+                        "maxFinishTs": -1,
+                        "realFinishTs": -1
+                    },
+                    "2": {
+                        "state": 1,
+                        "tags": [],
+                        "selectTags": [],
+                        "startTs": -1,
+                        "durationInSec": -1,
+                        "maxFinishTs": -1,
+                        "realFinishTs": -1
+                    },
+                    "3": {
+                        "state": 1,
+                        "tags": [],
+                        "selectTags": [],
+                        "startTs": -1,
+                        "durationInSec": -1,
+                        "maxFinishTs": -1,
+                        "realFinishTs": -1
+                    }
+                }
+            }
+        },
         "consumable": {},
         "checkIn": {
             "canCheckIn": 0,

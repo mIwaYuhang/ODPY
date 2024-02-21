@@ -6,7 +6,7 @@ from base64 import b64encode
 from hashlib import md5
 from flask import request
 
-from constants import USER_JSON_PATH, CONFIG_PATH, BATTLE_REPLAY_JSON_PATH, \
+from constants import USER_JSON_PATH, CONFIG_PATH, BATTLE_REPLAY_JSON_PATH, GACHA_JSON_PATH, \
                     SKIN_TABLE_URL, CHARACTER_TABLE_URL, EQUIP_TABLE_URL, STORY_TABLE_URL, STAGE_TABLE_URL, \
                     SYNC_DATA_TEMPLATE_PATH, BATTLEEQUIP_TABLE_URL, DM_TABLE_URL, RETRO_TABLE_URL, \
                     HANDBOOK_INFO_TABLE_URL, MAILLIST_PATH, CHARM_TABLE_URL, ACTIVITY_TABLE_URL, SQUADS_PATH, STORY_REVIEW_TABLE_URL, ENEMY_HANDBOOK_TABLE_URL, MEDAL_TABLE_URL, RL_TABLE_URL
@@ -604,6 +604,10 @@ def accountSyncData():
     rlv2_table = updateData(RL_TABLE_URL)
     for theme in player_data["user"]["rlv2"]["outer"]:
         player_data["user"]["rlv2"]["outer"][theme]["record"]["stageCnt"] = {i:1 for i in rlv2_table["details"][theme]["stages"]}
+
+    gacha = read_json(GACHA_JSON_PATH)
+    for i in player_data["user"]["recruit"]["normal"]["slots"]:
+        player_data["user"]["recruit"]["normal"]["slots"][i]["tags"] = gacha["normal"]["tags"]
 
     write_json(player_data, USER_JSON_PATH)
 

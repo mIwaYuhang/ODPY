@@ -9,7 +9,7 @@ from constants import CONFIG_PATH
 
 import account, background, building, campaignV2, char, charBuild, charm, \
         crisis, deepsea, mail, online, tower, quest, pay, rlv2, shop, story, \
-        user, asset.assetbundle, config.prod, sandbox
+        user, asset.assetbundle, config.prod, sandbox, gacha
 
 server_config = read_json(CONFIG_PATH)
 
@@ -180,6 +180,10 @@ app.add_url_rule('/sandboxPerm/sandboxV2/setSquad', methods=['POST'], view_func=
 app.add_url_rule('/sandboxPerm/sandboxV2/homeBuildSave', methods=['POST'], view_func=sandbox.homeBuildSave)
 app.add_url_rule('/sandboxPerm/sandboxV2/settleGame', methods=['POST'], view_func=sandbox.settleGame)
 app.add_url_rule('/sandboxPerm/sandboxV2/eatFood', methods=['POST'], view_func=sandbox.eatFood)
+
+app.add_url_rule('/gacha/normalGacha', methods=['POST'], view_func=gacha.normalGacha)
+app.add_url_rule('/gacha/boostNormalGacha', methods=['POST'], view_func=gacha.boostNormalGacha)
+app.add_url_rule('/gacha/finishNormalGacha', methods=['POST'], view_func=gacha.finishNormalGacha)
 
 app.add_url_rule(
     '/user/auth/v1/token_by_phone_password',
