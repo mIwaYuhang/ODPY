@@ -21,7 +21,7 @@ def normalGacha():
                                 "selectTags": [
                                     {
                                         "tagId": i,
-                                        "pick": 0
+                                        "pick": 1
                                     } for i in request_json["tagList"]
                                 ],
                                 "startTs": start_ts,
