@@ -4,6 +4,10 @@ from base64 import b64decode
 import frida
 import json
 
+import os
+
+ADB_PATH = "platform-tools\\adb.exe"
+
 with open("config/config.json") as f:
     config = json.load(f)
 
@@ -15,13 +19,19 @@ NO_PROXY = server["noProxy"]
 ACTIVITY_MIN_START_TS = config["userConfig"]["activityMinStartTs"]
 ACTIVITY_MAX_START_TS = config["userConfig"]["activityMaxStartTs"]
 
+GADGET = server["gadget"]
+
 def on_message(message, data):
     print("[%s] => %s" % (message, data))
 
 def main():
     device = frida.get_usb_device(timeout=1)
 
-    if MODE == "cn":
+    if GADGET:
+        os.system(f'"{ADB_PATH}" reverse tcp:{PORT} tcp:{PORT}')
+        session = device.attach("Gadget")
+
+    elif MODE == "cn":
         pid = device.spawn(
             b64decode('Y29tLmh5cGVyZ3J5cGguYXJrbmlnaHRz').decode())
         device.resume(pid)

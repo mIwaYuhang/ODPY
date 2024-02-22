@@ -6,7 +6,8 @@
         "maintenanceMsg": "Server is currently under maintenance!",
         "mode": "cn",
         "adaptive": true,
-        "noProxy": false
+        "noProxy": false,
+        "gadget": false
     },
     "assets": {
         "autoUpdate": false,
