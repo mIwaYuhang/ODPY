@@ -492,7 +492,8 @@ def accountSyncData():
     # Enable battle replays
     if replay_data["currentCharConfig"] in list(replay_data["saved"].keys()):
         for replay in replay_data["saved"][replay_data["currentCharConfig"]]:
-            player_data["user"]["dungeon"]["stages"][replay]["hasBattleReplay"] = 1
+            if replay in player_data["user"]["dungeon"]["stages"]:
+                player_data["user"]["dungeon"]["stages"][replay]["hasBattleReplay"] = 1
 
     squads_data = read_json(SQUADS_PATH)
     charId2instId = {}
@@ -603,7 +604,8 @@ def accountSyncData():
 
     rlv2_table = updateData(RL_TABLE_URL)
     for theme in player_data["user"]["rlv2"]["outer"]:
-        player_data["user"]["rlv2"]["outer"][theme]["record"]["stageCnt"] = {i:1 for i in rlv2_table["details"][theme]["stages"]}
+        if theme in rlv2_table["details"]:
+            player_data["user"]["rlv2"]["outer"][theme]["record"]["stageCnt"] = {i:1 for i in rlv2_table["details"][theme]["stages"]}
 
     gacha = read_json(GACHA_JSON_PATH)
     for i in player_data["user"]["recruit"]["normal"]["slots"]:

@@ -32,7 +32,10 @@ def getFile(assetsHash, fileName):
     global MODS_LIST
     server_config = read_json(CONFIG_PATH)
     mode = server_config["server"]["mode"]
-    version = server_config["version"]["android"]["resVersion"]
+    if mode == "cn":
+        version = server_config["version"]["android"]["resVersion"]
+    elif mode == "global":
+        version = server_config["versionGlobal"]["android"]["resVersion"]
     basePath  = os.path.join('.', 'assets', version, 'redirect')
     
     if fileName == 'hot_update_list.json' and server_config["assets"]["enableMods"]:

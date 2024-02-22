@@ -28,7 +28,11 @@ def prodRefreshConfig():
 def prodAndroidVersion():
 
     server_config = read_json(CONFIG_PATH)
-    version = server_config["version"]["android"]
+    mode = server_config["server"]["mode"]
+    if mode == "cn":
+        version = server_config["version"]["android"]
+    elif mode == "global":
+        version = server_config["versionGlobal"]["android"]
 
     if server_config["assets"]["enableMods"]:
         version["resVersion"] = version["resVersion"][:18] + randomHash()
@@ -50,9 +54,10 @@ def prodNetworkConfig():
     if server_config["assets"]["autoUpdate"]:
         if mode == "cn":
             version = updateData("https://ak-conf.hypergryph.com/config/prod/official/Android/version")
+            server_config["version"]["android"] = version
         elif mode == "global":
             version = updateData("https://ark-us-static-online.yo-star.com/assetbundle/official/Android/version")
-        server_config["version"]["android"] = version
+            server_config["versionGlobal"]["android"] = version
 
         write_json(server_config, CONFIG_PATH)
 
