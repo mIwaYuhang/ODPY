@@ -63,9 +63,17 @@ def questBattleFinish():
         "unusualRewards": [],
         "additionalRewards": [],
         "furnitureRewards": [],
+        "overrideRewards": [],
         "alert": [],
         "suggestFriend": False,
         "pryResult": [],
+        "itemReturn": [],
+        "wave": 0,
+        "milestoneBefore": 0,
+        "milestoneAdd": 0,
+        "isMileStoneMax": False,
+        "tokenAdd": 0,
+        "isTokenMax": False,
         "playerDataDelta": {
             "modified": {},
             "deleted": {}
@@ -293,7 +301,7 @@ def typeAct20side_competitionFinish():
     return {"performance": 0, "expression": 0, "operation": 0, "total": 0, "level": "B", "isNew": False, "playerDataDelta": {"modified": {}, "deleted": {}}}
 
 def questBattleContinue():
-    return {"result": 0, "battleId": "abcdefgh-1234-5678-a1b2c3d4e5f6", "playerDataDelta": {"modified": {}, "deleted": {}}}
+    return {"result": 0, "battleId": "abcdefgh-1234-5678-a1b2c3d4e5f6", "apFailReturn": 0, "playerDataDelta": {"modified": {}, "deleted": {}}}
 
 def setTool():
     request_data = request.get_json()

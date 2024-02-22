@@ -117,6 +117,17 @@
                         },
                         "select": "act3bossrush_relic_01"
                     }
+                },
+                "act4bossrush": {
+                    "relic": {
+                        "level": {
+                            "act4bossrush_relic_01": 3,
+                            "act4bossrush_relic_02": 3,
+                            "act4bossrush_relic_03": 3,
+                            "act4bossrush_relic_04": 3
+                        },
+                        "select": "act4bossrush_relic_01"
+                    }
                 }
             },
             "TYPE_ACT24SIDE": {
