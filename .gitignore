@@ -42,6 +42,7 @@ __pycache__/
 
 # C extensions
 *.so
+!*.config.so
 
 # Distribution / packaging
 .Python
