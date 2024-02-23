@@ -14,7 +14,7 @@ except Exception:
 
 
 try:
-    architectures = ["x86_64"]
+    architectures = ["x86_64", "x86"]
     for architecture in architectures:
         version = requests.get(
             "https://api.github.com/repos/frida/frida/releases/latest"

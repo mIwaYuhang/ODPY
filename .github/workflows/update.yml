@@ -30,6 +30,15 @@ jobs:
           sparse-checkout: zh_CN/gamedata/excel/
       - run: mv tmp/zh_CN/gamedata/excel/ data/
       - run: rm -rf tmp/
+      - run: rm -rf data-global/excel/
+      - run: mkdir -p tmp/
+      - uses: actions/checkout@v3
+        with:
+          repository: Kengxxiao/ArknightsGameData_YoStar
+          path: tmp/
+          sparse-checkout: en_US/gamedata/excel/
+      - run: mv tmp/en_US/gamedata/excel/ data-global/
+      - run: rm -rf tmp/
       - run: python update_activity.py
       - run: git config --global user.name 'github-actions[bot]'
       - run: git config --global user.email 'github-actions[bot]@users.noreply.github.com'

@@ -4,40 +4,53 @@ import json
 with open("config/config.json") as f:
     config = json.load(f)
 
-old_resVersion = config["version"]["android"]["resVersion"]
-old_clientVersion = config["version"]["android"]["clientVersion"]
+for i, j, k, l in [
+    [
+        "version", "cn",
+        "ak-conf.hypergryph.com",
+        "https://ak-conf.hypergryph.com/config/prod/official/Android/version"
+    ],
+    [
+        "versionGlobal", "global",
+        "ak-conf.arknights.global",
+        "https://ark-us-static-online.yo-star.com/assetbundle/official/Android/version"
+    ]
+]:
 
-old_funcVer = config["networkConfig"]["cn"]["content"]["funcVer"]
+    old_resVersion = config[i]["android"]["resVersion"]
+    old_clientVersion = config[i]["android"]["clientVersion"]
 
-timeout = 30
+    old_funcVer = config["networkConfig"][j]["content"]["funcVer"]
 
-try:
-    version = requests.get(
-        "https://ak-conf.hypergryph.com/config/prod/official/Android/version", timeout=timeout
-    ).json()
-    resVersion = version["resVersion"]
-    clientVersion = version["clientVersion"]
-    if resVersion != old_resVersion:
-        config["version"]["android"]["resVersion"] = resVersion
-    if clientVersion != old_clientVersion:
-        config["version"]["android"]["clientVersion"] = clientVersion
+    timeout = 30
 
-except Exception:
-    pass
+    try:
+        version = requests.get(
+            l, timeout=timeout
+        ).json()
+        resVersion = version["resVersion"]
+        clientVersion = version["clientVersion"]
+        if resVersion != old_resVersion:
+            config[i]["android"]["resVersion"] = resVersion
+        if clientVersion != old_clientVersion:
+            config[i]["android"]["clientVersion"] = clientVersion
 
-try:
-    network_config = requests.get(
-        "https://ak-conf.hypergryph.com/config/prod/official/network_config", timeout=timeout
-    ).json()
-    content = json.loads(network_config["content"])
-    funcVer = content["funcVer"]
-    if funcVer != old_funcVer:
-        config["networkConfig"]["cn"]["content"]["funcVer"] = funcVer
-        config["networkConfig"]["cn"]["content"]["configs"][funcVer] = config["networkConfig"]["cn"]["content"]["configs"][old_funcVer]
-        del config["networkConfig"]["cn"]["content"]["configs"][old_funcVer]
+    except Exception:
+        pass
 
-except Exception:
-    pass
+    try:
+        network_config = requests.get(
+            f"https://{k}/config/prod/official/network_config", timeout=timeout
+        ).json()
+        content = json.loads(network_config["content"])
+        funcVer = content["funcVer"]
+        if funcVer != old_funcVer:
+            config["networkConfig"][j]["content"]["funcVer"] = funcVer
+            config["networkConfig"][j]["content"]["configs"][funcVer] = config["networkConfig"][j]["content"]["configs"][old_funcVer]
+            del config["networkConfig"][j]["content"]["configs"][old_funcVer]
+
+    except Exception:
+        pass
 
 
 with open("config/config.json", "w") as f:
