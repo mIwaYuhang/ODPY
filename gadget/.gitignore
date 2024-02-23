@@ -1,0 +1,14 @@
+/arknights*/
+/com.YoStarEN.Arknights/
+/global/
+/arknights*.apk
+/*.xapk
+/com.YoStarEN.Arknights.apk
+/apktool*.jar
+/uber-apk-signer*.jar
+/frida-gadget*
+/arknights.keystore
+/odpy.apk
+/odpy-dev.apk
+/odpy.xapk
+/odpy-dev.xapk
