@@ -4078,11 +4078,14 @@ def eatFood():
 
     buff = food["id"]
 
+    sandbox_table = updateData(SANDBOX_TABLE_URL)
+
     if food["sub"] == [
         "sandbox_1_condiment",
         "sandbox_1_condiment"
     ]:
-        buff += "_x"
+        if buff + "_x" in sandbox_table["detail"]["SANDBOX_V2"]["sandbox_1"]["runeDatas"]:
+            buff += "_x"
 
     sandbox["template"]["SANDBOX_V2"]["sandbox_1"]["buff"]["rune"]["char"][str(char_inst_id)] = [
         buff
