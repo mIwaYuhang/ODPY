@@ -1785,7 +1785,7 @@ def getBuffs(rlv2, stage_id):
                 ]
     elif theme == "rogue_3":
         if zone == -1:
-            zone = 6
+            zone = 7
         if mode_grade > 4:
             value = 1+0.16*(mode_grade-4)/(15-4)
             for i in range(zone):
