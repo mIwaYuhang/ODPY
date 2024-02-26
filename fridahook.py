@@ -18,6 +18,7 @@ MODE = server["mode"]
 NO_PROXY = server["noProxy"]
 ACTIVITY_MIN_START_TS = config["userConfig"]["activityMinStartTs"]
 ACTIVITY_MAX_START_TS = config["userConfig"]["activityMaxStartTs"]
+VISION = config["userConfig"]["vision"]
 
 GADGET = server["gadget"]
 
@@ -59,6 +60,11 @@ def main():
     script = session.create_script(s)
     script.on('message', on_message)
     script.load()
+    if VISION:
+        with open("vision.js", encoding="utf-8") as f:
+            s = f.read()
+        vision_script = session.create_script(s)
+        vision_script.load()
     print("[!] Ctrl+D on UNIX, Ctrl+Z on Windows/cmd.exe to detach from instrumented program.")
     sys.stdin.read()
     session.detach()
