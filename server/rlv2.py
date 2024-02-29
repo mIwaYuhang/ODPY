@@ -1,6 +1,6 @@
 from flask import request
 
-from constants import RLV2_JSON_PATH, USER_JSON_PATH, RL_TABLE_URL, CONFIG_PATH
+from constants import RLV2_JSON_PATH, USER_JSON_PATH, RL_TABLE_URL, CONFIG_PATH, RLV2_SETTINGS_PATH
 from utils import read_json, write_json, decrypt_battle_data
 from core.function.update import updateData
 from copy import deepcopy
@@ -641,6 +641,9 @@ def rlv2FinishEvent():
 
 
 def getZone(stage_id):
+    rlv2_settings = read_json(RLV2_SETTINGS_PATH)
+    if stage_id in rlv2_settings["stageZone"]:
+        return rlv2_settings["stageZone"][stage_id]
     if stage_id.find("_n_") != -1 or stage_id.find("_e_") != -1:
         try:
             return int(stage_id.split('_')[2])
