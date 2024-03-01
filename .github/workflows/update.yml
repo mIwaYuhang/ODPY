@@ -21,6 +21,7 @@ jobs:
       - run: pip install requests
       - run: python update_config.py
       - run: python update_game.py
+      - run: python update_mumu.py
       - run: rm -rf data/excel/
       - run: mkdir -p tmp/
       - uses: actions/checkout@v3

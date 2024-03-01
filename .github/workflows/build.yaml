@@ -17,7 +17,7 @@ jobs:
       - run: pip install -r requirements.txt
       - run: pip install pyinstaller
       - run: pyinstaller odpy.spec
-      - run: move config/, data/, data-global/, mods/, *.js, game.txt, README.md, syncData.json dist/odpy/
+      - run: move config/, data/, data-global/, mods/, *.js, game.txt, mumu.txt, README.md, syncData.json dist/odpy/
       - run: python update_cache.py
       - run: move adb.zip, frida-server-*.xz, aria2c.exe dist/odpy/ -ErrorAction SilentlyContinue
       - uses: actions/upload-artifact@v3

@@ -16,9 +16,7 @@ Discord: [https://discord.com/invite/SmuB88RR5W](https://discord.com/invite/SmuB
 
 ### MuMu Player X (aka MuMu Player 12)
 
-[https://www.mumuglobal.com/faq/system-requirement-mumu-player-x.html](https://www.mumuglobal.com/faq/system-requirement-mumu-player-x.html)
-
-[https://a11.gdl.netease.com/MuMuInstaller_12.0.0.6_12beta-gw-offline_all_1666787400.exe](https://a11.gdl.netease.com/MuMuInstaller_12.0.0.6_12beta-gw-offline_all_1666787400.exe)
+[http://a11.gdl.netease.com/MuMuNG-setup-V3.8.3.2696-overseas-0221213808.exe](http://a11.gdl.netease.com/MuMuNG-setup-V3.8.3.2696-overseas-0221213808.exe)
 
 1. Enable root permission in MuMu Player's settings (adb connection should be enabled by default, therefore no need to enable it manually).
 2. Start MuMu Player X (aka MuMu Player 12).
