@@ -16,6 +16,8 @@ try:
 
     link = j["data"]["mumu"]["link"]
 
+    link = link.replace("http://", "https://", 1)
+
     with open("mumu.txt", "w") as f:
         f.write(link)
 
