@@ -383,6 +383,19 @@ if shutil.which("flatc") is None:
         f.extractall()
 
 
+def process_level(level):
+    if "enemyDbRefs" in level and level["enemyDbRefs"] is not None:
+        for j in level["enemyDbRefs"]:
+            if "overwrittenData" in j and j["overwrittenData"] is not None:
+                if "attributes" in j["overwrittenData"] and j["overwrittenData"]["attributes"] is not None:
+                    for k in ["epDamageResistance", "epResistance", "damageHitratePhysical", "damageHitrateMagical", "disarmedCombatImmune"]:
+                        if k not in j["overwrittenData"]["attributes"]:
+                            j["overwrittenData"]["attributes"][k] = {}
+                for k in ["applyWay", "motion", "enemyTags", "notCountInTotal"]:
+                    if k not in j["overwrittenData"]:
+                        j["overwrittenData"][k] = {}
+
+
 for source_version in source_versions:
     os.makedirs(f"tmp/{source_version}/0/", exist_ok=True)
     os.makedirs(f"tmp/{source_version}/1/", exist_ok=True)
@@ -406,7 +419,7 @@ for source_version in source_versions:
             "--json", "--raw-binary",
             "-o", f"tmp/{source_version}/1/",
             "--strict-json", "--natural-utf8",
-            "OpenArknightsFBS/FBS/prts___levels.fbs",
+            f"fbs/{source_version}/prts___levels.fbs",
             "--",
             *[f"tmp/{source_version}/0/{i}" for i in filelist]
         ]
@@ -416,12 +429,7 @@ for source_version in source_versions:
         with open(f"tmp/{source_version}/1/{i}.json", encoding="utf-8") as f:
             level = json.load(f)
 
-        if "enemyDbRefs" in level:
-            for j in level["enemyDbRefs"]:
-                if "overwrittenData" in j:
-                    if "attributes" in j["overwrittenData"]:
-                        if "disarmedCombatImmune" not in j["overwrittenData"]["attributes"]:
-                            j["overwrittenData"]["attributes"]["disarmedCombatImmune"] = {}
+        process_level(level)
 
         with open(f"tmp/{source_version}/1/{i}.json", "w", encoding="utf-8") as f:
             json.dump(level, f, ensure_ascii=False, indent=4)
@@ -432,7 +440,7 @@ for source_version in source_versions:
             "--binary",
             "-o", f"tmp/{source_version}/2/",
             "--strict-json", "--natural-utf8",
-            "OpenArknightsFBS/FBS/prts___levels.fbs",
+            "fbs/target_version/prts___levels.fbs",
             *[f"tmp/{source_version}/1/{i}.json" for i in filelist]
         ]
     )
@@ -529,19 +537,7 @@ for source_version in legacy_activities:
             ]
             level["branches"] = branches
 
-        if "enemyDbRefs" in level and level["enemyDbRefs"] is not None:
-            for j in level["enemyDbRefs"]:
-                if "overwrittenData" in j and j["overwrittenData"] is not None:
-                    if "attributes" in j["overwrittenData"] and j["overwrittenData"]["attributes"] is not None:
-                        if "disarmedCombatImmune" not in j["overwrittenData"]["attributes"]:
-                            j["overwrittenData"]["attributes"]["disarmedCombatImmune"] = {}
-                        if "epDamageResistance" not in j["overwrittenData"]["attributes"]:
-                            j["overwrittenData"]["attributes"]["epDamageResistance"] = {}
-                        if "epResistance" not in j["overwrittenData"]["attributes"]:
-                            j["overwrittenData"]["attributes"]["epResistance"] = {}
-                    for k in ["applyWay", "motion", "enemyTags", "notCountInTotal"]:
-                        if k not in j["overwrittenData"]:
-                            j["overwrittenData"][k] = {}
+        process_level(level)
 
         with open(f"tmp/{source_version}/1/{i}.json", "w", encoding="utf-8") as f:
             json.dump(level, f, ensure_ascii=False, indent=4)
@@ -552,7 +548,7 @@ for source_version in legacy_activities:
             "--binary",
             "-o", f"tmp/{source_version}/2/",
             "--strict-json", "--natural-utf8",
-            "OpenArknightsFBS/FBS/prts___levels.fbs",
+            "fbs/target_version/prts___levels.fbs",
             *[f"tmp/{source_version}/1/{i}.json" for i in filelist]
         ]
     )
