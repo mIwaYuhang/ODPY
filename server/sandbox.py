@@ -4155,3 +4155,30 @@ def addEnemyRush(sandbox, node_id, enemy_id):
         "enemy": enemy,
         "badge": 0
     }
+
+
+def monthBattleStart():
+    return {
+        "battleId": "abcdefgh-1234-5678-a1b2c3d4e5f6",
+        "extraRunes": [
+        ],
+        "playerDataDelta": {
+            "modified": {},
+            "deleted": {}
+        }
+    }
+
+
+def monthBattleFinish():
+    return {
+        "success": True,
+        "firstPass": False,
+        "enemyRushCount": [
+            0,
+            0
+        ],
+        "playerDataDelta": {
+            "modified": {},
+            "deleted": {}
+        }
+    }
