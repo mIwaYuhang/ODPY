@@ -9,7 +9,7 @@ from flask import request
 from constants import USER_JSON_PATH, CONFIG_PATH, BATTLE_REPLAY_JSON_PATH, GACHA_JSON_PATH, \
                     SKIN_TABLE_URL, CHARACTER_TABLE_URL, EQUIP_TABLE_URL, STORY_TABLE_URL, STAGE_TABLE_URL, \
                     SYNC_DATA_TEMPLATE_PATH, BATTLEEQUIP_TABLE_URL, DM_TABLE_URL, RETRO_TABLE_URL, \
-                    HANDBOOK_INFO_TABLE_URL, MAILLIST_PATH, CHARM_TABLE_URL, ACTIVITY_TABLE_URL, SQUADS_PATH, STORY_REVIEW_TABLE_URL, ENEMY_HANDBOOK_TABLE_URL, MEDAL_TABLE_URL, RL_TABLE_URL
+                    HANDBOOK_INFO_TABLE_URL, MAILLIST_PATH, CHARM_TABLE_URL, ACTIVITY_TABLE_URL, SQUADS_PATH, STORY_REVIEW_TABLE_URL, ENEMY_HANDBOOK_TABLE_URL, MEDAL_TABLE_URL, RL_TABLE_URL, CHARWORD_TABLE_URL
 from utils import read_json, write_json
 from core.function.update import updateData
 import uuid
@@ -53,6 +53,7 @@ def accountSyncData():
     retro_table = updateData(RETRO_TABLE_URL)
     charm_table = updateData(CHARM_TABLE_URL)
     activity_table = updateData(ACTIVITY_TABLE_URL)
+    charword_table = updateData(CHARWORD_TABLE_URL)
 
     ts = round(time())
     cnt = 0
@@ -116,6 +117,9 @@ def accountSyncData():
                 evolvePhase = edit_json["evolvePhase"]
         cntInstId = int(operatorKeys[cnt].split('_')[1])
         maxInstId = max(maxInstId, cntInstId)
+        voiceLan = "JP"
+        if operatorKeys[cnt] in charword_table["charDefaultTypeDict"]:
+            voiceLan = charword_table["charDefaultTypeDict"][operatorKeys[cnt]]
         myCharList[int(cntInstId)] = {
             "instId": int(cntInstId),
             "charId": operatorKeys[cnt],
@@ -129,7 +133,7 @@ def accountSyncData():
             "defaultSkillIndex": len(character_table[i]["skills"])-1,
             "gainTime": int(time()),
             "skills": [],
-            "voiceLan": "JP",
+            "voiceLan": voiceLan,
             "currentEquip": None,
             "equip": {},
             "starMark": 0
