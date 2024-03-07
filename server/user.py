@@ -452,6 +452,7 @@ def social_searchPlayer():
                 "serverName": "泰拉",
                 "level": 120,
                 "avatarId": "0",
+                "avatar": {},
                 "assistCharList": [
                     None
                 ],
@@ -460,6 +461,10 @@ def social_searchPlayer():
                     "type": "EMPTY",
                     "custom": None,
                     "template": None
+                },
+                "skin": {
+                    "selected": "nc_rhodes_default",
+                    "state": {}
                 }
             }
         ],
