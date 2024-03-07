@@ -189,6 +189,10 @@ app.add_url_rule('/sandboxPerm/sandboxV2/eatFood', methods=['POST'], view_func=s
 app.add_url_rule('/gacha/normalGacha', methods=['POST'], view_func=gacha.normalGacha)
 app.add_url_rule('/gacha/boostNormalGacha', methods=['POST'], view_func=gacha.boostNormalGacha)
 app.add_url_rule('/gacha/finishNormalGacha', methods=['POST'], view_func=gacha.finishNormalGacha)
+app.add_url_rule('/gacha/syncNormalGacha', methods=['POST'], view_func=gacha.syncNormalGacha)
+
+app.add_url_rule('/gacha/advancedGacha', methods=['POST'], view_func=gacha.advancedGacha)
+app.add_url_rule('/gacha/tenAdvancedGacha', methods=['POST'], view_func=gacha.tenAdvancedGacha)
 
 app.add_url_rule(
     '/user/auth/v1/token_by_phone_password',

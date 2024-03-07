@@ -112,3 +112,98 @@ def finishNormalGacha():
             "deleted": {}
         }
     }
+
+
+def syncNormalGacha():
+    return {
+        "playerDataDelta": {
+            "modified": {},
+            "deleted": {}
+        }
+    }
+
+
+def advancedGacha():
+    request_json = request.json
+    gacha = read_json(GACHA_JSON_PATH)
+    char_id = gacha["advanced"][0]["charId"]
+    char_inst_id = int(char_id.split('_')[1])
+    is_new = gacha["advanced"][0]["isNew"]
+    return {
+        "result": 0,
+        "charGet": {
+            "charInstId": char_inst_id,
+            "charId": char_id,
+            "isNew": is_new,
+            "itemGet": [
+                {
+                    "type": "HGG_SHD",
+                    "id": "4004",
+                    "count": 999
+
+                },
+                {
+                    "type": "LGG_SHD",
+                    "id": "4005",
+                    "count": 999
+                },
+                {
+                    "type": "MATERIAL",
+                    "id": f"p_{char_id}",
+                    "count": 999
+                }
+            ],
+            "logInfo": {}
+        },
+        "playerDataDelta": {
+            "modified": {},
+            "deleted": {}
+        }
+    }
+
+
+def tenAdvancedGacha():
+    request_json = request.json
+    gacha = read_json(GACHA_JSON_PATH)
+    chars = gacha["advanced"]
+    gachaResultList = []
+    j = 0
+    for i in range(10):
+        char_id = chars[j]["charId"]
+        char_inst_id = int(char_id.split('_')[1])
+        is_new = chars[j]["isNew"]
+        gachaResultList.append(
+            {
+                "charInstId": char_inst_id,
+                "charId": char_id,
+                "isNew": is_new,
+                "itemGet": [
+                    {
+                        "type": "HGG_SHD",
+                        "id": "4004",
+                        "count": 999
+
+                    },
+                    {
+                        "type": "LGG_SHD",
+                        "id": "4005",
+                        "count": 999
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": f"p_{char_id}",
+                        "count": 999
+                    }
+                ],
+                "logInfo": {}
+            }
+        )
+        j = (j+1) % len(chars)
+    return {
+        "result": 0,
+        "gachaResultList": gachaResultList,
+        "playerDataDelta": {
+            "modified": {},
+            "deleted": {}
+        }
+    }

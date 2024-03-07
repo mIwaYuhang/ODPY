@@ -6,5 +6,11 @@
         ],
         "charId": "char_4064_mlynar",
         "isNew": 1
-    }
+    },
+    "advanced": [
+        {
+            "charId": "char_350_surtr",
+            "isNew": 1
+        }
+    ]
 }
