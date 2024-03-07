@@ -175,6 +175,9 @@ app.add_url_rule('/social/setAssistCharList', methods=['POST'], view_func=user.s
 app.add_url_rule('/social/setCardShowMedal', methods=['POST'], view_func=user.social_setCardShowMedal)
 app.add_url_rule('/medal/setCustomData', methods=['POST'], view_func=user.medal_setCustomData)
 
+app.add_url_rule('/businessCard/changeNameCardComponent', methods=['POST'], view_func=user.businessCard_changeNameCardComponent)
+app.add_url_rule('/businessCard/changeNameCardSkin', methods=['POST'], view_func=user.businessCard_changeNameCardSkin)
+
 app.add_url_rule('/sandboxPerm/sandboxV2/createGame', methods=['POST'], view_func=sandbox.createGame)
 app.add_url_rule('/sandboxPerm/sandboxV2/battleStart', methods=['POST'], view_func=sandbox.battleStart)
 app.add_url_rule('/sandboxPerm/sandboxV2/battleFinish', methods=['POST'], view_func=sandbox.battleFinish)

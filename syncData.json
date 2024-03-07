@@ -185,6 +185,26 @@
             },
             "globalVoiceLan": "JP"
         },
+        "nameCardStyle": {
+            "componentOrder": [
+                "module_sign",
+                "module_assist",
+                "module_medal"
+            ],
+            "skin": {
+                "selected": "nc_rhodes_default",
+                "state": {
+                    "nc_rhodes_default": {
+                        "unlock": true,
+                        "progress": null
+                    },
+                    "nc_rhodes_light": {
+                        "unlock": true,
+                        "progress": null
+                    }
+                }
+            }
+        },
         "troop": {
             "curCharInstId": 0,
             "curSquadCount": 4,

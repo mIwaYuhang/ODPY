@@ -505,3 +505,31 @@ def agreement_version():
             "isLatestUserAgreement": True
         }
     }
+
+def businessCard_changeNameCardComponent():
+    request_data = request.get_json()
+    return {
+        "playerDataDelta": {
+            "modified": {
+                "nameCardStyle": {
+                    "componentOrder": request_data["component"]
+                }
+            },
+            "deleted": {}
+        }
+    }
+
+def businessCard_changeNameCardSkin():
+    request_data = request.get_json()
+    return {
+        "playerDataDelta": {
+            "modified": {
+                "nameCardStyle": {
+                    "skin": {
+                        "selected": request_data["skinId"]
+                    }
+                }
+            },
+            "deleted": {}
+        }
+    }
