@@ -7532,6 +7532,27 @@
             "sweepMaxKills": {}
         },
         "inventory": {},
+        "templateTrap": {
+            "domains": {
+                "act32side": {
+                    "traps": {
+                        "trap_rnfcar": {
+                            "count": 1
+                        },
+                        "trap_ads": {
+                            "count": 1
+                        },
+                        "trap_edd": {
+                            "count": 1
+                        }
+                    },
+                    "squad": [
+                        null,
+                        null
+                    ]
+                }
+            }
+        },
         "recruit": {
             "normal": {
                 "slots": {

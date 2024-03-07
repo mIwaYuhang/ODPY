@@ -120,6 +120,8 @@ app.add_url_rule('/act25side/battleFinish', methods=['POST'], view_func=quest.qu
 
 app.add_url_rule('/car/confirmBattleCar', methods=['POST'], view_func=quest.confirmBattleCar)
 
+app.add_url_rule('/templateTrap/setTrapSquad', methods=['POST'], view_func=quest.setTrapSquad)
+
 app.add_url_rule('/activity/act24side/battleStart', methods=['POST'], view_func=quest.questBattleStart)
 app.add_url_rule('/activity/act24side/battleFinish', methods=['POST'], view_func=quest.questBattleFinish)
 

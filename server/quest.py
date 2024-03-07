@@ -350,3 +350,23 @@ def relicSelect():
         }
     }
     return data
+
+def setTrapSquad():
+    request_data = request.get_json()
+    trapDomainId = request_data["trapDomainId"]
+    trapSquad = request_data["trapSquad"]
+    data = {
+        "playerDataDelta": {
+            "modified": {
+                "templateTrap": {
+                    "domains": {
+                        trapDomainId: {
+                            "squad": trapSquad
+                        }
+                    }
+                }
+            },
+            "deleted": {}
+        }
+    }
+    return data
