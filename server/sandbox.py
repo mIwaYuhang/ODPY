@@ -19,7 +19,7 @@ def createGame():
                         "ts": 1700000000,
                         "isRift": false,
                         "isGuide": false,
-                        "exploreMode": true
+                        "exploreMode": false
                     },
                     "base": {
                         "baseLv": 6,
@@ -4007,7 +4007,7 @@ def settleGame():
                                     "ts": 0,
                                     "isRift": false,
                                     "isGuide": false,
-                                    "exploreMode": true
+                                    "exploreMode": false
                                 }
                             }
                         }
@@ -4069,7 +4069,7 @@ def settleGame():
                         "ts": 0,
                         "isRift": false,
                         "isGuide": false,
-                        "exploreMode": true
+                        "exploreMode": false
                     },
                     "base": {
                         "baseLv": 0,
@@ -4358,3 +4358,36 @@ def monthBattleFinish():
             "deleted": {}
         }
     }
+
+
+def exploreMode():
+    request_json = request.json
+    exploreMode = bool(request_json["open"])
+
+    sandbox = read_json(SANDBOX_JSON_PATH)
+
+    sandbox["template"]["SANDBOX_V2"]["sandbox_1"]["status"]["exploreMode"] = exploreMode
+
+    exploreModeBuffs = ["normal_mode_buff1", "normal_mode_buff3"]
+
+    if exploreMode:
+        sandbox["template"]["SANDBOX_V2"]["sandbox_1"]["buff"]["rune"]["global"] += exploreModeBuffs
+    else:
+        for buff in exploreModeBuffs:
+            if buff in sandbox["template"]["SANDBOX_V2"]["sandbox_1"]["buff"]["rune"]["global"]:
+                sandbox["template"]["SANDBOX_V2"]["sandbox_1"]["buff"]["rune"]["global"].remove(
+                    buff
+                )
+
+    write_json(sandbox, SANDBOX_JSON_PATH)
+
+    data = {
+        "playerDataDelta": {
+            "modified": {
+                "sandboxPerm": sandbox
+            },
+            "deleted": {}
+        }
+    }
+
+    return data

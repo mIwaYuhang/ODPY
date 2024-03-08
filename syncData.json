@@ -7274,7 +7274,7 @@
                             "ts": 0,
                             "isRift": false,
                             "isGuide": false,
-                            "exploreMode": true
+                            "exploreMode": false
                         },
                         "base": {
                             "baseLv": 0,

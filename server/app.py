@@ -189,6 +189,8 @@ app.add_url_rule('/sandboxPerm/sandboxV2/eatFood', methods=['POST'], view_func=s
 app.add_url_rule('/sandboxPerm/sandboxV2/monthBattleStart', methods=['POST'], view_func=sandbox.monthBattleStart)
 app.add_url_rule('/sandboxPerm/sandboxV2/monthBattleFinish', methods=['POST'], view_func=sandbox.monthBattleFinish)
 
+app.add_url_rule('/sandboxPerm/sandboxV2/exploreMode', methods=['POST'], view_func=sandbox.exploreMode)
+
 app.add_url_rule('/gacha/normalGacha', methods=['POST'], view_func=gacha.normalGacha)
 app.add_url_rule('/gacha/boostNormalGacha', methods=['POST'], view_func=gacha.boostNormalGacha)
 app.add_url_rule('/gacha/finishNormalGacha', methods=['POST'], view_func=gacha.finishNormalGacha)

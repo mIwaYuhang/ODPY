@@ -8,7 +8,7 @@
                     "ts": 1700000000,
                     "isRift": false,
                     "isGuide": false,
-                    "exploreMode": true
+                    "exploreMode": false
                 },
                 "base": {
                     "baseLv": 6,
