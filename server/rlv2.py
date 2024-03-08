@@ -19,21 +19,33 @@ def getChars():
     for i in range(len(chars)):
         char = chars[i]
         if char["evolvePhase"] == 2:
-            if char["charId"] == "char_002_amiya":
-                char_alt = deepcopy(char)
-                char_alt["currentTmpl"] = "char_1001_amiya2"
-                chars.append(char_alt)
-                continue
             char_alt = deepcopy(char)
             char_alt["evolvePhase"] = 1
             char_alt["level"] -= 10
-            if len(char["skills"]) == 3:
+            if len(char_alt["skills"]) == 3:
                 char_alt["defaultSkillIndex"] = 1
                 char_alt["skills"][-1]["unlock"] = 0
             for skill in char_alt["skills"]:
                 skill["specializeLevel"] = 0
             char_alt["currentEquip"] = None
             chars.append(char_alt)
+            if char["charId"] == "char_002_amiya":
+                tmpls = list(char_alt["tmpl"].keys())
+                for j in tmpls:
+                    if len(char_alt["tmpl"][j]["skills"]) == 3:
+                        char_alt["tmpl"][j]["defaultSkillIndex"] = 1
+                        char_alt["tmpl"][j]["skills"][-1]["unlock"] = 0
+                    for skill in char_alt["tmpl"][j]["skills"]:
+                        skill["specializeLevel"] = 0
+                    char_alt["tmpl"][j]["currentEquip"] = None
+                char["currentTmpl"] = tmpls[0]
+                char_alt["currentTmpl"] = tmpls[0]
+                for j in range(1, len(tmpls)):
+                    for k in [char, char_alt]:
+                        char_alt_alt = deepcopy(k)
+                        char_alt_alt["currentTmpl"] = tmpls[j]
+                        chars.append(char_alt_alt)
+
     for i, char in enumerate(chars):
         char.update(
             {
