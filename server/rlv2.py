@@ -472,6 +472,7 @@ def rlv2RecruitChar():
     write_json(rlv2, RLV2_JSON_PATH)
 
     data = {
+        "chars": [char],
         "playerDataDelta": {
             "modified": {
                 "rlv2": {
