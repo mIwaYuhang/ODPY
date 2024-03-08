@@ -1567,6 +1567,127 @@
                         "value": 3
                     }
                 ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 0.03
+                    }
+                ]
+            },
+            {
+                "key": "up_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_3_exp"
+                    },
+                    {
+                        "key": "up",
+                        "value": 0.05
+                    },
+                    {
+                        "key": "mask",
+                        "valueStr": "battle"
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_3_gold"
+                    },
+                    {
+                        "key": "count",
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "key": "expedition_extra_random_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_3_gold"
+                    },
+                    {
+                        "key": "min",
+                        "value": 2
+                    },
+                    {
+                        "key": "max",
+                        "value": 5
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.03
+                    }
+                ]
+            },
+            {
+                "key": "inc_outerbuff_shop_slot_unlock",
+                "blackboard": [
+                    {
+                        "key": "count",
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "key": "battle_extra_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_3_shield"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    },
+                    {
+                        "key": "hp",
+                        "value": 10
+                    },
+                    {
+                        "key": "perfect",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "def",
+                        "value": 0.03
+                    }
+                ]
+            },
+            {
+                "key": "node_into_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_3_hp"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    },
+                    {
+                        "key": "node",
+                        "valueStr": "REST"
+                    }
+                ]
             }
         ]
     }
