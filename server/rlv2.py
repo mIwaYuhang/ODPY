@@ -59,6 +59,8 @@ def rlv2CreateGame():
 
     theme = request_data["theme"]
     mode = request_data["mode"]
+    if mode == "MONTH_TEAM" or mode == "CHALLENGE":
+        mode = "NORMAL"
     mode_grade = request_data["modeGrade"]
 
     if theme == "rogue_1":
