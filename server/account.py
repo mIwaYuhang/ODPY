@@ -363,11 +363,7 @@ def accountSyncData():
     for retro in retro_table["retroTrailList"]:
         trail.update({retro:{}})
         for trailReward in retro_table["retroTrailList"][retro]["trailRewardList"]:
-            trail.update({
-                retro: {
-                    trailReward["trailRewardId"]: 1
-                }
-            })
+            trail[retro][trailReward["trailRewardId"]] = 1
     player_data["user"]["retro"]["trail"] = trail
 
     # Tamper Anniliations
