@@ -24,5 +24,515 @@
         "ro3_b_6_b": 6,
         "ro3_b_7": 7,
         "ro3_b_7_b": 7
+    },
+    "initialBuffs": {
+        "rogue_1": [
+            {
+                "key": "bp_reward_increase",
+                "blackboard": [
+                    {
+                        "key": "value",
+                        "value": 4
+                    }
+                ]
+            },
+            {
+                "key": "bp_reward_increase",
+                "blackboard": [
+                    {
+                        "key": "value",
+                        "value": 4
+                    }
+                ]
+            },
+            {
+                "key": "bp_reward_increase",
+                "blackboard": [
+                    {
+                        "key": "value",
+                        "value": 4
+                    }
+                ]
+            },
+            {
+                "key": "bp_reward_increase",
+                "blackboard": [
+                    {
+                        "key": "value",
+                        "value": 4
+                    }
+                ]
+            },
+            {
+                "key": "bp_reward_increase",
+                "blackboard": [
+                    {
+                        "key": "value",
+                        "value": 4
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "def",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "def",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "def",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "def",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "def",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "def",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "def",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "def",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "def",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "def",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 0.01
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_1_gold"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_1_gold"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_1_gold"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_1_gold"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_1_gold"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_1_gold"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_1_gold"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_1_gold"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_1_gold"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_1_gold"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_1_hp"
+                    },
+                    {
+                        "key": "count",
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_1_squad_capacity"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "level_char_limit_add",
+                "blackboard": [
+                    {
+                        "key": "value",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "level_life_point_add",
+                "blackboard": [
+                    {
+                        "key": "value",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "up_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_1_exp"
+                    },
+                    {
+                        "key": "up",
+                        "value": 0.2
+                    },
+                    {
+                        "key": "mask",
+                        "valueStr": "battle"
+                    }
+                ]
+            }
+        ]
     }
 }

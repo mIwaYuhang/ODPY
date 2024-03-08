@@ -657,6 +657,10 @@ def getBuffs(rlv2, stage_id):
     theme = rlv2["game"]["theme"]
     buffs = []
 
+    rlv2_settings = read_json(RLV2_SETTINGS_PATH)
+    if theme in rlv2_settings["initialBuffs"]:
+        buffs += rlv2_settings["initialBuffs"][theme]
+
     if rlv2["inventory"]["trap"] is not None:
         item_id = rlv2["inventory"]["trap"]["id"]
         if item_id in rlv2_table["details"][theme]["relics"]:
