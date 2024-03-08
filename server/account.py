@@ -9,7 +9,7 @@ from flask import request
 from constants import USER_JSON_PATH, CONFIG_PATH, BATTLE_REPLAY_JSON_PATH, GACHA_JSON_PATH, SANDBOX_JSON_PATH, \
                     SKIN_TABLE_URL, CHARACTER_TABLE_URL, EQUIP_TABLE_URL, STORY_TABLE_URL, STAGE_TABLE_URL, \
                     SYNC_DATA_TEMPLATE_PATH, BATTLEEQUIP_TABLE_URL, DM_TABLE_URL, RETRO_TABLE_URL, \
-                    HANDBOOK_INFO_TABLE_URL, MAILLIST_PATH, CHARM_TABLE_URL, ACTIVITY_TABLE_URL, SQUADS_PATH, STORY_REVIEW_TABLE_URL, ENEMY_HANDBOOK_TABLE_URL, MEDAL_TABLE_URL, RL_TABLE_URL, CHARWORD_TABLE_URL
+                    HANDBOOK_INFO_TABLE_URL, MAILLIST_PATH, CHARM_TABLE_URL, ACTIVITY_TABLE_URL, SQUADS_PATH, STORY_REVIEW_TABLE_URL, ENEMY_HANDBOOK_TABLE_URL, MEDAL_TABLE_URL, RL_TABLE_URL, CHARWORD_TABLE_URL, STORY_REVIEW_META_TABLE_URL
 from utils import read_json, write_json
 from core.function.update import updateData
 import uuid
@@ -562,11 +562,13 @@ def accountSyncData():
     player_data["user"]["tower"]["season"]["id"] = season
 
     story_review_table = updateData(STORY_REVIEW_TABLE_URL)
+    story_review_meta_table = updateData(STORY_REVIEW_META_TABLE_URL)
     story_review_groups = {}
     for i in story_review_table:
         story_review_groups[i] = {
-            "rts": -1,
-            "stories": []
+            "rts": 1700000000,
+            "stories": [],
+            "trailRewards": []
         }
         for j in story_review_table[i]["infoUnlockDatas"]:
             story_review_groups[i]["stories"].append(
@@ -576,6 +578,11 @@ def accountSyncData():
                     "rc": 1
                 }
             )
+        if i in story_review_meta_table["miniActTrialData"]["miniActTrialDataMap"]:
+            for j in story_review_meta_table["miniActTrialData"]["miniActTrialDataMap"][i]["rewardList"]:
+                story_review_groups[i]["trailRewards"].append(
+                    j["trialRewardId"]
+                )
     player_data["user"]["storyreview"]["groups"] = story_review_groups
 
     enemy_handbook_table = updateData(ENEMY_HANDBOOK_TABLE_URL)
