@@ -7560,7 +7560,15 @@
                                     "achieve_3_21",
                                     "achieve_3_22"
                                 ],
-                                "quest": [],
+                                "quest": [
+                                    "story_1",
+                                    "story_2",
+                                    "story_3",
+                                    "story_4",
+                                    "story_5",
+                                    "story_6",
+                                    "story_7"
+                                ],
                                 "music": [
                                     "music_sandbox_v2_1",
                                     "music_sandbox_v2_2",
