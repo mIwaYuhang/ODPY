@@ -6,6 +6,7 @@ MAILLIST_PATH = "config/mails.json"
 RLV2_CONFIG_PATH = "config/rlv2Config.json"
 SQUADS_PATH = "config/squads.json"
 SYNC_DATA_TEMPLATE_PATH = "syncData.json"
+ASSIST_PATH = "config/assist.json"
 
 # User Data
 USER_JSON_PATH = "data/user/user.json"

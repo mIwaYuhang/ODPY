@@ -2,7 +2,7 @@ from faketime import time
 
 from flask import request
 
-from constants import BATTLE_REPLAY_JSON_PATH, USER_JSON_PATH, CONFIG_PATH
+from constants import BATTLE_REPLAY_JSON_PATH, USER_JSON_PATH, CONFIG_PATH, ASSIST_PATH
 from utils import read_json, write_json
 
 from base64 import b64decode, b64encode
@@ -214,7 +214,7 @@ def questSquadFormation():
 def questGetAssistList():
 
     data = request.data
-    assist_unit_configs = read_json(CONFIG_PATH)["assistUnits"]
+    assist_unit_configs = read_json(ASSIST_PATH)
     saved_data = read_json(USER_JSON_PATH)["user"]["troop"]["chars"]
     assist_units = []
     for assist_unit_config in assist_unit_configs:
