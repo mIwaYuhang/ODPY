@@ -4346,6 +4346,37 @@ def monthBattleStart():
 
 
 def monthBattleFinish():
+    request_json = request.json
+
+    node_id = "n12B9"
+
+    sandbox = read_json(SANDBOX_JSON_PATH)
+
+    if "building" not in sandbox["template"]["SANDBOX_V2"]["sandbox_1"]["main"]["stage"]["node"][node_id]:
+        sandbox["template"]["SANDBOX_V2"]["sandbox_1"]["main"]["stage"]["node"][node_id]["building"] = []
+
+    for i in request_json["sandboxV2Data"]["placedItems"]:
+        if i["value"]["hpRatio"]:
+            sandbox["template"]["SANDBOX_V2"]["sandbox_1"]["main"]["stage"]["node"][node_id]["building"].append(
+                {
+                    "key": i["key"]["itemId"],
+                    "pos": [
+                        i["key"]["position"]["row"],
+                        i["key"]["position"]["col"]
+                    ],
+                    "hpRatio": 10000,
+                    "dir": i["value"]["direction"]
+                }
+            )
+        else:
+            for j in range(len(sandbox["template"]["SANDBOX_V2"]["sandbox_1"]["main"]["stage"]["node"][node_id]["building"])):
+                k = sandbox["template"]["SANDBOX_V2"]["sandbox_1"]["main"]["stage"]["node"][node_id]["building"][j]
+                if k["pos"][0] == i["key"]["position"]["row"] and k["pos"][1] == i["key"]["position"]["col"]:
+                    sandbox["template"]["SANDBOX_V2"]["sandbox_1"]["main"]["stage"]["node"][node_id]["building"].pop(
+                        j)
+                    break
+
+    write_json(sandbox, SANDBOX_JSON_PATH)
     return {
         "success": True,
         "firstPass": False,
@@ -4354,7 +4385,9 @@ def monthBattleFinish():
             0
         ],
         "playerDataDelta": {
-            "modified": {},
+            "modified": {
+                "sandboxPerm": sandbox
+            },
             "deleted": {}
         }
     }
