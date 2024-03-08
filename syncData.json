@@ -7529,7 +7529,23 @@
             "building": 0,
             "status": 0
         },
-        "collectionReward": {},
+        "collectionReward": {
+            "team": {
+                "reward1_1": 1,
+                "reward2_1": 1,
+                "reward3_1": 1,
+                "reward4_1": 1,
+                "reward6_1": 1,
+                "reward8_1": 1,
+                "reward9_1": 1,
+                "reward10_1": 1,
+                "reward11_1": 1,
+                "reward12_1": 1,
+                "reward13_1": 1,
+                "reward15_1": 1,
+                "reward19_1": 1
+            }
+        },
         "campaignsV2": {
             "campaignCurrentFee": 0,
             "campaignTotalFee": 9999,
