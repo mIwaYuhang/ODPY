@@ -3863,7 +3863,7 @@ def settleGame():
     null = None
     true = True
     false = False
-    return {
+    data = {
         "playerDataDelta": {
             "modified": {
                 "sandboxPerm": {
@@ -4058,6 +4058,182 @@ def settleGame():
             }
         }
     }
+
+    sandbox = {
+        "template": {
+            "SANDBOX_V2": {
+                "sandbox_1": {
+                    "status": {
+                        "ver": 1,
+                        "state": 0,
+                        "ts": 0,
+                        "isRift": false,
+                        "isGuide": false,
+                        "exploreMode": true
+                    },
+                    "base": {
+                        "baseLv": 0,
+                        "upgradeProgress": [],
+                        "trapLimit": {},
+                        "portableUnlock": false,
+                        "outpostUnlock": false,
+                        "repairDiscount": 0,
+                        "bossKill": []
+                    },
+                    "main": {
+                        "game": {
+                            "mapId": "",
+                            "day": 0,
+                            "maxDay": 0,
+                            "ap": 0,
+                            "maxAp": 0
+                        },
+                        "map": {
+                            "season": {
+                                "type": 0,
+                                "remain": 0,
+                                "total": 0
+                            },
+                            "zone": {},
+                            "node": {}
+                        },
+                        "stage": {
+                            "node": {}
+                        },
+                        "enemy": {
+                            "enemyRush": {},
+                            "rareAnimal": {}
+                        },
+                        "npc": {
+                            "node": {},
+                            "favor": {}
+                        },
+                        "report": {
+                            "settle": null,
+                            "daily": null
+                        },
+                        "event": {
+                            "node": {},
+                            "effect": []
+                        }
+                    },
+                    "rift": null,
+                    "riftInfo": {
+                        "isUnlocked": false,
+                        "randomRemain": 0,
+                        "difficultyLvMax": -1,
+                        "teamLv": 0,
+                        "fixFinish": [],
+                        "reservation": null,
+                        "gameInfo": null,
+                        "settleInfo": null
+                    },
+                    "quest": {
+                        "pending": [],
+                        "complete": []
+                    },
+                    "mission": {
+                        "squad": []
+                    },
+                    "troop": {
+                        "food": {},
+                        "squad": [
+                            {
+                                "slots": [],
+                                "tools": []
+                            },
+                            {
+                                "slots": [],
+                                "tools": []
+                            },
+                            {
+                                "slots": [],
+                                "tools": []
+                            },
+                            {
+                                "slots": [],
+                                "tools": []
+                            },
+                            {
+                                "slots": [],
+                                "tools": []
+                            },
+                            {
+                                "slots": [],
+                                "tools": []
+                            },
+                            {
+                                "slots": [],
+                                "tools": []
+                            },
+                            {
+                                "slots": [],
+                                "tools": []
+                            }
+                        ],
+                        "usedChar": []
+                    },
+                    "cook": {
+                        "drink": 0,
+                        "extraDrink": 0,
+                        "book": {},
+                        "food": {}
+                    },
+                    "build": {
+                        "book": {},
+                        "building": {},
+                        "tactical": {},
+                        "animal": {}
+                    },
+                    "bag": {
+                        "material": {},
+                        "craft": []
+                    },
+                    "tech": {
+                        "token": 6,
+                        "cent": 0,
+                        "unlock": []
+                    },
+                    "bank": {
+                        "book": [],
+                        "coin": {}
+                    },
+                    "buff": {
+                        "rune": {
+                            "global": [],
+                            "node": {},
+                            "char": {}
+                        }
+                    },
+                    "archive": {
+                        "save": [],
+                        "nextLoadTs": 0,
+                        "loadTimes": 0,
+                        "loadTs": 0
+                    },
+                    "supply": {
+                        "unlock": false,
+                        "enable": false,
+                        "slotCnt": 0,
+                        "char": []
+                    },
+                    "shop": {
+                        "unlock": false,
+                        "day": 0,
+                        "slots": []
+                    },
+                    "month": {
+                        "rushPass": []
+                    }
+                }
+            }
+        }
+
+    }
+
+    write_json(sandbox, SANDBOX_JSON_PATH)
+
+    return data
 
 
 def eatFood():
