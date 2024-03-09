@@ -1,6 +1,6 @@
 from flask import request
 
-from constants import GACHA_JSON_PATH, POOL_JSON_PATH, GACHA_TEMP_JSON_PATH, CONFIG_PATH
+from constants import GACHA_JSON_PATH, POOL_JSON_PATH, GACHA_TEMP_JSON_PATH, CONFIG_PATH, GACHA_UP_CHAR_JSON_PATH
 from utils import read_json, write_json, decrypt_battle_data
 from core.function.update import updateData
 import random
@@ -124,9 +124,17 @@ def syncNormalGacha():
     }
 
 
-def doWishes(num):
-    chars = []
+def doGetPool(poolId):
     pool = read_json(POOL_JSON_PATH, encoding="utf-8")
+    gachaUpChar = read_json(GACHA_UP_CHAR_JSON_PATH)
+    if poolId in gachaUpChar:
+        pool["detailInfo"]["upCharInfo"]["perCharList"] = gachaUpChar[poolId]
+    return pool
+
+
+def doWishes(num, poolId):
+    chars = []
+    pool = doGetPool(poolId)
     rankChars = {}
     rankProb = {}
     for i in pool["detailInfo"]["availCharInfo"]["perAvailList"]:
@@ -174,10 +182,11 @@ def doWishes(num):
 
 def advancedGacha():
     request_json = request.json
+    poolId = request_json["poolId"]
     config = read_json(CONFIG_PATH)
     simulateGacha = config["userConfig"]["simulateGacha"]
     if simulateGacha:
-        chars = doWishes(1)
+        chars = doWishes(1, poolId)
     else:
         gacha = read_json(GACHA_JSON_PATH)
         chars = gacha["advanced"]
@@ -219,10 +228,11 @@ def advancedGacha():
 
 def tenAdvancedGacha():
     request_json = request.json
+    poolId = request_json["poolId"]
     config = read_json(CONFIG_PATH)
     simulateGacha = config["userConfig"]["simulateGacha"]
     if simulateGacha:
-        chars = doWishes(10)
+        chars = doWishes(10, poolId)
     else:
         gacha = read_json(GACHA_JSON_PATH)
         chars = gacha["advanced"]
@@ -270,5 +280,7 @@ def tenAdvancedGacha():
 
 
 def getPoolDetail():
-    pool = read_json(POOL_JSON_PATH, encoding="utf-8")
+    request_json = request.json
+    poolId = request_json["poolId"]
+    pool = doGetPool(poolId)
     return pool
