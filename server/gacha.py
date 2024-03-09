@@ -1,6 +1,6 @@
 from flask import request
 
-from constants import GACHA_JSON_PATH
+from constants import GACHA_JSON_PATH, POOL_JSON_PATH
 from utils import read_json, write_json, decrypt_battle_data
 from core.function.update import updateData
 
@@ -207,3 +207,8 @@ def tenAdvancedGacha():
             "deleted": {}
         }
     }
+
+
+def getPoolDetail():
+    pool = read_json(POOL_JSON_PATH, encoding="utf-8")
+    return pool

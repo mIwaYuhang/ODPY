@@ -30,6 +30,7 @@ TOWERDATA_PATH = "data/tower/towerData.json"
 SANDBOX_JSON_PATH = "data/user/sandbox.json"
 SANDBOX_TEMP_JSON_PATH = "data/user/sandboxTemp.json"
 
+POOL_JSON_PATH = "data/user/pool.json"
 GACHA_JSON_PATH = "data/user/gacha.json"
 
 config = read_json(CONFIG_PATH)
