@@ -112,7 +112,8 @@
         "background": "bg_kazimierz_1",
         "theme": "tm_mainline_1",
         "fakeTime": -1,
-        "vision": true
+        "vision": true,
+        "simulateGacha": true
     },
     "charConfig": {
         "favorPoint": 25570,

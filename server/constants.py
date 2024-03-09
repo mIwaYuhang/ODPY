@@ -32,6 +32,7 @@ SANDBOX_TEMP_JSON_PATH = "data/user/sandboxTemp.json"
 
 POOL_JSON_PATH = "data/user/pool.json"
 GACHA_JSON_PATH = "data/user/gacha.json"
+GACHA_TEMP_JSON_PATH = "data/user/gachaTemp.json"
 
 config = read_json(CONFIG_PATH)
 mode = config["server"]["mode"]
