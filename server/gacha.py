@@ -1,6 +1,6 @@
 from flask import request
 
-from constants import GACHA_JSON_PATH, POOL_JSON_PATH, GACHA_TEMP_JSON_PATH, CONFIG_PATH, GACHA_UP_CHAR_JSON_PATH
+from constants import GACHA_JSON_PATH, POOL_JSON_PATH, POOL_CLASSIC_JSON_PATH, GACHA_TEMP_JSON_PATH, CONFIG_PATH, GACHA_UP_CHAR_JSON_PATH
 from utils import read_json, write_json, decrypt_battle_data
 from core.function.update import updateData
 import random
@@ -125,7 +125,10 @@ def syncNormalGacha():
 
 
 def doGetPool(poolId):
-    pool = read_json(POOL_JSON_PATH, encoding="utf-8")
+    if poolId.startswith("CLASSIC_"):
+        pool = read_json(POOL_CLASSIC_JSON_PATH, encoding="utf-8")
+    else:
+        pool = read_json(POOL_JSON_PATH, encoding="utf-8")
     gachaUpChar = read_json(GACHA_UP_CHAR_JSON_PATH)
     if poolId in gachaUpChar:
         pool["detailInfo"]["upCharInfo"]["perCharList"] = gachaUpChar[poolId]

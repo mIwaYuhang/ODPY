@@ -31,6 +31,7 @@ SANDBOX_JSON_PATH = "data/user/sandbox.json"
 SANDBOX_TEMP_JSON_PATH = "data/user/sandboxTemp.json"
 
 POOL_JSON_PATH = "data/user/pool.json"
+POOL_CLASSIC_JSON_PATH = "data/user/poolClassic.json"
 GACHA_JSON_PATH = "data/user/gacha.json"
 GACHA_TEMP_JSON_PATH = "data/user/gachaTemp.json"
 
