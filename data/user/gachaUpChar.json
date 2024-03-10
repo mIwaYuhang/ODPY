@@ -5054,5 +5054,27 @@
             "percent": 0.16666666666666666,
             "count": 3
         }
+    ],
+    "NORM_11_0_3": [
+        {
+            "rarityRank": 4,
+            "charIdList": [
+                "char_344_beewax",
+                "char_349_chiave"
+            ],
+            "percent": 0.25,
+            "count": 2
+        }
+    ],
+    "NORM_10_0_1": [
+        {
+            "rarityRank": 4,
+            "charIdList": [
+                "char_378_asbest",
+                "char_343_tknogi"
+            ],
+            "percent": 0.25,
+            "count": 2
+        }
     ]
 }
