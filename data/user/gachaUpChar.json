@@ -334,11 +334,18 @@
         {
             "rarityRank": 4,
             "charIdList": [
-                "char_436_whispr",
+                "char_436_whispr"
+            ],
+            "percent": 0.5,
+            "count": 1
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_347_jaksel"
             ],
-            "percent": 0.25,
-            "count": 2
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "LIMITED_9_0_3": [
@@ -449,11 +456,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_494_vendla",
-                "char_492_quercu",
+                "char_492_quercu"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_4107_vrdant"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_42_0_3": [
@@ -472,13 +486,20 @@
             "charIdList": [
                 "char_4040_rockr",
                 "char_4071_peper",
-                "char_464_cement",
+                "char_464_cement"
+            ],
+            "percent": 0.16666666666666666,
+            "count": 3
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_4041_chnut",
                 "char_4062_totter",
                 "char_491_humus"
             ],
-            "percent": 0.08333333333333333,
-            "count": 6
+            "percent": 0.16666666666666666,
+            "count": 3
         }
     ],
     "SINGLE_42_0_1": [
@@ -589,11 +610,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_464_cement",
-                "char_433_windft",
+                "char_433_windft"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_491_humus"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_36_0_4": [
@@ -612,13 +640,20 @@
             "charIdList": [
                 "char_473_mberry",
                 "char_4040_rockr",
-                "char_4071_peper",
+                "char_4071_peper"
+            ],
+            "percent": 0.16666666666666666,
+            "count": 3
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_484_robrta",
                 "char_4041_chnut",
                 "char_4062_totter"
             ],
-            "percent": 0.08333333333333333,
-            "count": 6
+            "percent": 0.16666666666666666,
+            "count": 3
         }
     ],
     "NORM_35_0_6": [
@@ -710,11 +745,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_4071_peper",
-                "char_173_slchan",
+                "char_173_slchan"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_4062_totter"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_32_0_1": [
@@ -733,13 +775,20 @@
             "charIdList": [
                 "char_436_whispr",
                 "char_473_mberry",
-                "char_4040_rockr",
+                "char_4040_rockr"
+            ],
+            "percent": 0.16666666666666666,
+            "count": 3
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_347_jaksel",
                 "char_484_robrta",
                 "char_4041_chnut"
             ],
-            "percent": 0.08333333333333333,
-            "count": 6
+            "percent": 0.16666666666666666,
+            "count": 3
         }
     ],
     "NORM_31_0_1": [
@@ -812,11 +861,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_4040_rockr",
-                "char_171_bldsk",
+                "char_171_bldsk"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_4041_chnut"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_26_0_3": [
@@ -908,11 +964,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_214_kafka",
-                "char_108_silent",
+                "char_108_silent"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_440_pinecn"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_22_0_5": [
@@ -947,11 +1010,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_346_aosta",
-                "char_204_platnm",
+                "char_204_platnm"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_381_bubble"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_22_0_1": [
@@ -967,11 +1037,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_473_mberry",
-                "char_107_liskam",
+                "char_107_liskam"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_484_robrta"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_21_0_4": [
@@ -987,11 +1064,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_218_cuttle",
-                "char_145_prove",
+                "char_145_prove"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_272_strong"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_20_0_3": [
@@ -1007,11 +1091,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_415_flint",
-                "char_219_meteo",
+                "char_219_meteo"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_366_acdrop"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_20_0_1": [
@@ -1046,11 +1137,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_294_ayer",
-                "char_164_nightm",
+                "char_164_nightm"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_328_cammou"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_19_0_1": [
@@ -1066,11 +1164,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_478_kirara",
-                "char_173_slchan",
+                "char_173_slchan"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_469_indigo"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_18_0_1": [
@@ -1105,11 +1210,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_254_vodfox",
-                "char_128_plosis",
+                "char_128_plosis"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_301_cutter"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_15_0_3": [
@@ -1125,11 +1237,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_338_iris",
-                "char_349_chiave",
+                "char_349_chiave"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_452_bstalk"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_15_0_1": [
@@ -1145,11 +1264,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_214_kafka",
-                "char_108_silent",
+                "char_108_silent"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_440_pinecn"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_14_0_5": [
@@ -1165,11 +1291,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_243_waaifu",
-                "char_158_milu",
+                "char_158_milu"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_133_mm"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_13_0_5": [
@@ -1185,11 +1318,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_346_aosta",
-                "char_204_platnm",
+                "char_204_platnm"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_381_bubble"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_13_0_3": [
@@ -1205,12 +1345,19 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_164_nightm",
-                "char_148_nearl",
+                "char_148_nearl"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_137_brownb",
                 "char_236_rope"
             ],
-            "percent": 0.125,
-            "count": 4
+            "percent": 0.25,
+            "count": 2
         }
     ],
     "NORM_13_0_1": [
@@ -1226,11 +1373,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_365_aprl",
-                "char_401_elysm",
+                "char_401_elysm"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_271_spikes"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_12_0_3": [
@@ -1246,11 +1400,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_218_cuttle",
-                "char_145_prove",
+                "char_145_prove"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_272_strong"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_12_0_4": [
@@ -1266,11 +1427,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_415_flint",
-                "char_219_meteo",
+                "char_219_meteo"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_366_acdrop"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_12_0_1": [
@@ -1286,11 +1454,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_415_flint",
-                "char_219_meteo",
+                "char_219_meteo"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_366_acdrop"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_11_0_5": [
@@ -1306,11 +1481,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_218_cuttle",
-                "char_145_prove",
+                "char_145_prove"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_272_strong"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_11_0_1": [
@@ -1326,11 +1508,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_294_ayer",
-                "char_164_nightm",
+                "char_164_nightm"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_328_cammou"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_10_0_3": [
@@ -1346,11 +1535,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_373_lionhd",
-                "char_195_glassb",
+                "char_195_glassb"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_258_podego"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_9_0_1": [
@@ -1366,11 +1562,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_254_vodfox",
-                "char_128_plosis",
+                "char_128_plosis"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_301_cutter"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_8_0_1": [
@@ -1386,11 +1589,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_379_sesa",
-                "char_115_headbr",
+                "char_115_headbr"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_337_utage"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_7_0_1": [
@@ -1425,11 +1635,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_367_swllow",
-                "char_166_skfire",
+                "char_166_skfire"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_302_glaze"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_5_0_3": [
@@ -1464,11 +1681,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_243_waaifu",
-                "char_158_milu",
+                "char_158_milu"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_133_mm"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_4_0_1": [
@@ -1484,11 +1708,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_279_excu",
-                "char_108_silent",
+                "char_108_silent"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_190_clour"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_3_0_5": [
@@ -1523,11 +1754,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_274_astesi",
-                "char_201_moeshd",
+                "char_201_moeshd"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_151_myrtle"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_3_0_1": [
@@ -1543,11 +1781,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_326_glacus",
-                "char_129_bluep",
+                "char_129_bluep"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_298_susuro"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_2_0_3": [
@@ -1582,11 +1827,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_308_swire",
-                "char_241_panda",
+                "char_241_panda"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_253_greyy"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_1_0_1": [
@@ -1602,12 +1854,19 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_164_nightm",
-                "char_148_nearl",
+                "char_148_nearl"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_137_brownb",
                 "char_236_rope"
             ],
-            "percent": 0.125,
-            "count": 4
+            "percent": 0.25,
+            "count": 2
         }
     ],
     "NORM_0_1_3": [
@@ -1623,11 +1882,18 @@
             "rarityRank": 4,
             "charIdList": [
                 "char_174_slbell",
-                "char_173_slchan",
+                "char_173_slchan"
+            ],
+            "percent": 0.25,
+            "count": 2
+        },
+        {
+            "rarityRank": 3,
+            "charIdList": [
                 "char_199_yak"
             ],
-            "percent": 0.16666666666666666,
-            "count": 3
+            "percent": 0.5,
+            "count": 1
         }
     ],
     "NORM_47_0_3": [
