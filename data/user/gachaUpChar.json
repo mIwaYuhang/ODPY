@@ -478,7 +478,7 @@
                 "char_4072_ironmn",
                 "char_4087_ines"
             ],
-            "percent": 0.16666666666666666,
+            "percent": 0.3333333333333333,
             "count": 3
         },
         {
@@ -632,7 +632,7 @@
                 "char_4039_horn",
                 "char_4072_ironmn"
             ],
-            "percent": 0.16666666666666666,
+            "percent": 0.3333333333333333,
             "count": 3
         },
         {
@@ -767,7 +767,7 @@
                 "char_479_sleach",
                 "char_4039_horn"
             ],
-            "percent": 0.16666666666666666,
+            "percent": 0.3333333333333333,
             "count": 3
         },
         {
@@ -1905,7 +1905,7 @@
                 "char_4082_qiubai",
                 "char_1033_swire2"
             ],
-            "percent": 0.125,
+            "percent": 0.25,
             "count": 4
         },
         {
@@ -1918,7 +1918,7 @@
                 "char_478_kirara",
                 "char_493_firwhl"
             ],
-            "percent": 0.08333333333333333,
+            "percent": 0.16666666666666666,
             "count": 6
         }
     ],
@@ -1931,7 +1931,7 @@
                 "char_4055_bgsnow",
                 "char_358_lisa"
             ],
-            "percent": 0.125,
+            "percent": 0.25,
             "count": 4
         },
         {
@@ -1944,7 +1944,7 @@
                 "char_214_kafka",
                 "char_378_asbest"
             ],
-            "percent": 0.08333333333333333,
+            "percent": 0.16666666666666666,
             "count": 6
         }
     ],
@@ -1957,7 +1957,7 @@
                 "char_4064_mlynar",
                 "char_4055_bgsnow"
             ],
-            "percent": 0.125,
+            "percent": 0.25,
             "count": 4
         },
         {
@@ -1970,7 +1970,7 @@
                 "char_464_cement",
                 "char_4006_melnte"
             ],
-            "percent": 0.08333333333333333,
+            "percent": 0.16666666666666666,
             "count": 6
         }
     ],
@@ -1983,7 +1983,7 @@
                 "char_377_gdglow",
                 "char_311_mudrok"
             ],
-            "percent": 0.125,
+            "percent": 0.25,
             "count": 4
         },
         {
@@ -1996,7 +1996,7 @@
                 "char_346_aosta",
                 "char_214_kafka"
             ],
-            "percent": 0.08333333333333333,
+            "percent": 0.16666666666666666,
             "count": 6
         }
     ],
@@ -2009,7 +2009,7 @@
                 "char_4048_doroth",
                 "char_293_thorns"
             ],
-            "percent": 0.125,
+            "percent": 0.25,
             "count": 4
         },
         {
@@ -2022,7 +2022,7 @@
                 "char_492_quercu",
                 "char_164_nightm"
             ],
-            "percent": 0.08333333333333333,
+            "percent": 0.16666666666666666,
             "count": 6
         }
     ],
@@ -2035,7 +2035,7 @@
                 "char_358_lisa",
                 "char_377_gdglow"
             ],
-            "percent": 0.125,
+            "percent": 0.25,
             "count": 4
         },
         {
@@ -2048,7 +2048,7 @@
                 "char_431_ashlok",
                 "char_294_ayer"
             ],
-            "percent": 0.08333333333333333,
+            "percent": 0.16666666666666666,
             "count": 6
         }
     ],
@@ -2061,7 +2061,7 @@
                 "char_248_mgllan",
                 "char_472_pasngr"
             ],
-            "percent": 0.125,
+            "percent": 0.25,
             "count": 4
         },
         {
@@ -2074,7 +2074,7 @@
                 "char_421_crow",
                 "char_166_skfire"
             ],
-            "percent": 0.08333333333333333,
+            "percent": 0.16666666666666666,
             "count": 6
         }
     ],
@@ -2087,7 +2087,7 @@
                 "char_264_f12yin",
                 "char_003_kalts"
             ],
-            "percent": 0.125,
+            "percent": 0.25,
             "count": 4
         },
         {
@@ -2100,7 +2100,7 @@
                 "char_343_tknogi",
                 "char_475_akafyu"
             ],
-            "percent": 0.08333333333333333,
+            "percent": 0.16666666666666666,
             "count": 6
         }
     ],
@@ -2113,7 +2113,7 @@
                 "char_250_phatom",
                 "char_350_surtr"
             ],
-            "percent": 0.125,
+            "percent": 0.25,
             "count": 4
         },
         {
@@ -2126,7 +2126,7 @@
                 "char_365_aprl",
                 "char_338_iris"
             ],
-            "percent": 0.08333333333333333,
+            "percent": 0.16666666666666666,
             "count": 6
         }
     ],
@@ -2139,7 +2139,7 @@
                 "char_358_lisa",
                 "char_400_weedy"
             ],
-            "percent": 0.125,
+            "percent": 0.25,
             "count": 4
         },
         {
@@ -2152,7 +2152,7 @@
                 "char_401_elysm",
                 "char_373_lionhd"
             ],
-            "percent": 0.08333333333333333,
+            "percent": 0.16666666666666666,
             "count": 6
         }
     ],
@@ -2165,7 +2165,7 @@
                 "char_2013_cerber",
                 "char_222_bpipe"
             ],
-            "percent": 0.125,
+            "percent": 0.25,
             "count": 4
         },
         {
@@ -2178,7 +2178,7 @@
                 "char_195_glassb",
                 "char_274_astesi"
             ],
-            "percent": 0.08333333333333333,
+            "percent": 0.16666666666666666,
             "count": 6
         }
     ],
@@ -2191,7 +2191,7 @@
                 "char_213_mostma",
                 "char_188_helage"
             ],
-            "percent": 0.125,
+            "percent": 0.25,
             "count": 4
         },
         {
@@ -2204,7 +2204,7 @@
                 "char_279_excu",
                 "char_326_glacus"
             ],
-            "percent": 0.08333333333333333,
+            "percent": 0.16666666666666666,
             "count": 6
         }
     ],
@@ -2217,7 +2217,7 @@
                 "char_180_amgoat",
                 "char_291_aglina"
             ],
-            "percent": 0.125,
+            "percent": 0.25,
             "count": 4
         },
         {
@@ -2230,7 +2230,7 @@
                 "char_215_mantic",
                 "char_308_swire"
             ],
-            "percent": 0.08333333333333333,
+            "percent": 0.16666666666666666,
             "count": 6
         }
     ],
