@@ -152,6 +152,7 @@ def doWishes(num, poolId):
         rankUpProb[i["rarityRank"]] = i["percent"] * i["count"]
     gachaTemp = read_json(GACHA_TEMP_JSON_PATH)
     numWish = gachaTemp["numWish"]
+    numWishUp = gachaTemp["numWishUp"]
     for i in range(num):
         rankUpperLimit = {}
         if numWish < 50:
@@ -169,13 +170,22 @@ def doWishes(num, poolId):
         else:
             numWish += 1
         if rank in rankUpChars:
-            r = random.random()
+            if rank == 5 and numWishUp >= 150 and len(rankUpChars[rank]) == 1:
+                r = 0
+            else:
+                r = random.random()
             if r < rankUpProb[rank]:
                 char_id = random.choice(rankUpChars[rank])
+                if rank == 5:
+                    numWishUp = 0
+                else:
+                    numWishUp += 1
             else:
                 char_id = random.choice(rankChars[rank])
+                numWishUp += 1
         else:
             char_id = random.choice(rankChars[rank])
+            numWishUp += 1
         chars.append(
             {
                 "charId": char_id,
@@ -183,6 +193,7 @@ def doWishes(num, poolId):
             }
         )
     gachaTemp["numWish"] = numWish
+    gachaTemp["numWishUp"] = numWishUp
     write_json(gachaTemp, GACHA_TEMP_JSON_PATH)
     return chars
 
