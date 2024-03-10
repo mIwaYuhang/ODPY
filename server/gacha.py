@@ -1,9 +1,11 @@
 from flask import request
+from werkzeug.utils import safe_join
 
-from constants import GACHA_JSON_PATH, POOL_JSON_PATH, POOL_CLASSIC_JSON_PATH, GACHA_TEMP_JSON_PATH, CONFIG_PATH, GACHA_UP_CHAR_JSON_PATH
+from constants import GACHA_JSON_PATH, POOL_JSON_PATH, POOL_CLASSIC_JSON_PATH, GACHA_TEMP_JSON_PATH, CONFIG_PATH, GACHA_UP_CHAR_JSON_PATH, GACHA_TABLE_URL, POOL_JSON_DIR
 from utils import read_json, write_json, decrypt_battle_data
 from core.function.update import updateData
 import random
+import os
 
 from faketime import time
 
@@ -125,15 +127,17 @@ def syncNormalGacha():
 
 
 def doGetPool(poolId):
-    if poolId.startswith("CLASSIC_"):
-        pool = read_json(POOL_CLASSIC_JSON_PATH, encoding="utf-8")
-    else:
-        pool = read_json(POOL_JSON_PATH, encoding="utf-8")
-    if "ATTAIN_" in poolId:
-        pool["detailInfo"]["upCharInfo"]["perCharList"] = []
-    gachaUpChar = read_json(GACHA_UP_CHAR_JSON_PATH)
-    if poolId in gachaUpChar:
-        pool["detailInfo"]["upCharInfo"]["perCharList"] = gachaUpChar[poolId]
+    gacha_table = updateData(GACHA_TABLE_URL)
+    is_valid = False
+    for i in gacha_table["gachaPoolClient"]:
+        if i["gachaPoolId"] == poolId:
+            is_valid = True
+    if is_valid:
+        pool_file = safe_join(POOL_JSON_DIR, poolId+".json")
+        if os.path.isfile(pool_file):
+            pool = read_json(pool_file, encoding="utf-8")
+            return pool
+    pool = read_json(POOL_JSON_PATH, encoding="utf-8")
     return pool
 
 

@@ -37,6 +37,8 @@ GACHA_TEMP_JSON_PATH = "data/user/gachaTemp.json"
 
 GACHA_UP_CHAR_JSON_PATH = "data/user/gachaUpChar.json"
 
+POOL_JSON_DIR = "data/gacha/"
+
 config = read_json(CONFIG_PATH)
 mode = config["server"]["mode"]
 if mode == "global":
@@ -65,3 +67,4 @@ MEDAL_TABLE_URL = BASE_URL + "/excel/medal_table.json"
 SANDBOX_TABLE_URL = BASE_URL + "/excel/sandbox_perm_table.json"
 CHARWORD_TABLE_URL = BASE_URL + "/excel/charword_table.json"
 STORY_REVIEW_META_TABLE_URL = BASE_URL + "/excel/story_review_meta_table.json"
+GACHA_TABLE_URL = BASE_URL + "/excel/gacha_table.json"
