@@ -6,7 +6,7 @@ from base64 import b64encode
 from hashlib import md5
 from flask import request
 
-from constants import USER_JSON_PATH, CONFIG_PATH, BATTLE_REPLAY_JSON_PATH, GACHA_JSON_PATH, SANDBOX_JSON_PATH, \
+from constants import USER_JSON_PATH, CONFIG_PATH, BATTLE_REPLAY_JSON_PATH, GACHA_JSON_PATH, SANDBOX_JSON_PATH, GACHA_TEMP_JSON_PATH, \
                     SKIN_TABLE_URL, CHARACTER_TABLE_URL, EQUIP_TABLE_URL, STORY_TABLE_URL, STAGE_TABLE_URL, \
                     SYNC_DATA_TEMPLATE_PATH, BATTLEEQUIP_TABLE_URL, DM_TABLE_URL, RETRO_TABLE_URL, \
                     HANDBOOK_INFO_TABLE_URL, MAILLIST_PATH, CHARM_TABLE_URL, ACTIVITY_TABLE_URL, SQUADS_PATH, STORY_REVIEW_TABLE_URL, ENEMY_HANDBOOK_TABLE_URL, MEDAL_TABLE_URL, RL_TABLE_URL, CHARWORD_TABLE_URL, STORY_REVIEW_META_TABLE_URL
@@ -620,6 +620,8 @@ def accountSyncData():
     
     sandbox = read_json(SANDBOX_JSON_PATH)
     player_data["user"]["sandboxPerm"]["template"]["SANDBOX_V2"]["sandbox_1"].update(sandbox["template"]["SANDBOX_V2"]["sandbox_1"])
+
+    write_json({}, GACHA_TEMP_JSON_PATH)
 
     write_json(player_data, USER_JSON_PATH)
 
