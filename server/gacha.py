@@ -190,16 +190,19 @@ def doWishes(num, poolId):
                 r = random.random()
             if r < rankUpProb[rank]:
                 char_id = random.choice(rankUpChars[rank])
-                if rank == 5:
-                    numWishUp = 0
-                else:
-                    numWishUp += 1
+                if numWishUp != -1:
+                    if rank == 5:
+                        numWishUp = -1
+                    else:
+                        numWishUp += 1
             else:
                 char_id = random.choice(rankChars[rank])
-                numWishUp += 1
+                if numWishUp != -1:
+                    numWishUp += 1
         else:
             char_id = random.choice(rankChars[rank])
-            numWishUp += 1
+            if numWishUp != -1:
+                numWishUp += 1
         chars.append(
             {
                 "charId": char_id,
