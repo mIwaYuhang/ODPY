@@ -137,7 +137,10 @@ def doGetPool(poolId):
         if os.path.isfile(pool_file):
             pool = read_json(pool_file, encoding="utf-8")
             return pool
-    pool = read_json(POOL_JSON_PATH, encoding="utf-8")
+    if poolId.startswith("CLASSIC_"):
+        pool = read_json(POOL_CLASSIC_JSON_PATH, encoding="utf-8")
+    else:
+        pool = read_json(POOL_JSON_PATH, encoding="utf-8")
     return pool
 
 
@@ -149,6 +152,14 @@ def doWishes(num, poolId):
     for i in pool["detailInfo"]["availCharInfo"]["perAvailList"]:
         rankChars[i["rarityRank"]] = i["charIdList"]
         rankProb[i["rarityRank"]] = i["totalPercent"]
+    if pool["detailInfo"]["weightUpCharInfoList"]:
+        for i in pool["detailInfo"]["weightUpCharInfoList"]:
+            rankChars[i["rarityRank"]] += [
+                i["charId"]
+                for j in range(
+                    int(i["weight"]/100)-1
+                )
+            ]
     rankUpChars = {}
     rankUpProb = {}
     for i in pool["detailInfo"]["upCharInfo"]["perCharList"]:
