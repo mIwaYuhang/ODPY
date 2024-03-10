@@ -129,6 +129,8 @@ def doGetPool(poolId):
         pool = read_json(POOL_CLASSIC_JSON_PATH, encoding="utf-8")
     else:
         pool = read_json(POOL_JSON_PATH, encoding="utf-8")
+    if "ATTAIN_" in poolId:
+        pool["detailInfo"]["upCharInfo"]["perCharList"] = []
     gachaUpChar = read_json(GACHA_UP_CHAR_JSON_PATH)
     if poolId in gachaUpChar:
         pool["detailInfo"]["upCharInfo"]["perCharList"] = gachaUpChar[poolId]
