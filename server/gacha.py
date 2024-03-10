@@ -151,8 +151,13 @@ def doWishes(num, poolId):
         rankUpChars[i["rarityRank"]] = i["charIdList"]
         rankUpProb[i["rarityRank"]] = i["percent"] * i["count"]
     gachaTemp = read_json(GACHA_TEMP_JSON_PATH)
-    numWish = gachaTemp["numWish"]
-    numWishUp = gachaTemp["numWishUp"]
+    if poolId not in gachaTemp:
+        gachaTemp[poolId] = {
+            "numWish": 0,
+            "numWishUp": 0
+        }
+    numWish = gachaTemp[poolId]["numWish"]
+    numWishUp = gachaTemp[poolId]["numWishUp"]
     for i in range(num):
         rankUpperLimit = {}
         if numWish < 50:
@@ -192,8 +197,8 @@ def doWishes(num, poolId):
                 "isNew": 1
             }
         )
-    gachaTemp["numWish"] = numWish
-    gachaTemp["numWishUp"] = numWishUp
+    gachaTemp[poolId]["numWish"] = numWish
+    gachaTemp[poolId]["numWishUp"] = numWishUp
     write_json(gachaTemp, GACHA_TEMP_JSON_PATH)
     return chars
 
