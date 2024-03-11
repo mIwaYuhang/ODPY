@@ -7594,6 +7594,13 @@
         "openServer": {},
         "aprilFool": {},
         "tshop": {},
+        "gacha": {
+            "newbee": {
+                "openFlag": 1,
+                "cnt": 20,
+                "poolId": "BOOT_0_1_2"
+            }
+        },
         "retro": {
             "coin": 2,
             "supplement": 1,

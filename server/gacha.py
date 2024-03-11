@@ -132,6 +132,9 @@ def doGetPool(poolId):
     for i in gacha_table["gachaPoolClient"]:
         if i["gachaPoolId"] == poolId:
             is_valid = True
+    for i in gacha_table["newbeeGachaPoolClient"]:
+        if i["gachaPoolId"] == poolId:
+            is_valid = True
     if is_valid:
         pool_file = safe_join(POOL_JSON_DIR, poolId+".json")
         if os.path.isfile(pool_file):
@@ -162,9 +165,10 @@ def doWishes(num, poolId):
             ]
     rankUpChars = {}
     rankUpProb = {}
-    for i in pool["detailInfo"]["upCharInfo"]["perCharList"]:
-        rankUpChars[i["rarityRank"]] = i["charIdList"]
-        rankUpProb[i["rarityRank"]] = i["percent"] * i["count"]
+    if pool["detailInfo"]["upCharInfo"]:
+        for i in pool["detailInfo"]["upCharInfo"]["perCharList"]:
+            rankUpChars[i["rarityRank"]] = i["charIdList"]
+            rankUpProb[i["rarityRank"]] = i["percent"] * i["count"]
     pool_is_linkage = poolId.startswith("LINKAGE_")
     gachaTemp = read_json(GACHA_TEMP_JSON_PATH)
     if poolId not in gachaTemp:
