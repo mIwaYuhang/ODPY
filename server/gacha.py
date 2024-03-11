@@ -192,14 +192,14 @@ def doWishes(num, poolId):
             rankUpperLimit[j] = rankUpperLimit[j+1]+rankProb[j]
         if (pool_is_linkage and numWishUp == 119) or (pool_is_boot and numWish == 9 and numWishUp == 9):
             rankUpperLimit[5] = 1
-        if first5Star == 9:
+        if (not pool_is_boot and first5Star == 9) or (pool_is_boot and first5Star == 19):
             rankUpperLimit[4] = 1
         r = random.random()
         for rank in range(5, 1, -1):
             if r < rankUpperLimit[rank]:
                 break
         if first5Star != -1:
-            if rank >= 4:
+            if (not pool_is_boot and rank >= 4) or (pool_is_boot and (rank == 4 or (rank == 5 and numWish < numWishUp))):
                 first5Star = -1
             else:
                 first5Star += 1
