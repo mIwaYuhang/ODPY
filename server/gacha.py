@@ -259,6 +259,14 @@ def doWishes(num, poolId):
                 }
             }
         }
+        if pool_is_single:
+            gacha_data["single"] = {
+                poolId: {
+                    "singleEnsureCnt": -1 if numWishUp >= 150 else numWishUp,
+                    "singleEnsureUse": numWishUp == -1,
+                    "singleEnsureChar": rankUpChars[5][0]
+                }
+            }
         if pool_is_linkage:
             gacha_table = updateData(GACHA_TABLE_URL)
             for i in gacha_table["gachaPoolClient"]:
