@@ -244,7 +244,7 @@ def doWishes(num, poolId):
     if pool_is_boot:
         gacha_data = {
             "newbee": {
-                "openFlag": numTotal == 20,
+                "openFlag": int(numTotal < 20),
                 "cnt": 20-numTotal
             }
         }
