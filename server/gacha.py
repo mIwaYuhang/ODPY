@@ -169,6 +169,7 @@ def doWishes(num, poolId):
         for i in pool["detailInfo"]["upCharInfo"]["perCharList"]:
             rankUpChars[i["rarityRank"]] = i["charIdList"]
             rankUpProb[i["rarityRank"]] = i["percent"] * i["count"]
+    pool_is_single = poolId.startswith("SINGLE_")
     pool_is_linkage = poolId.startswith("LINKAGE_")
     pool_is_boot = poolId.startswith("BOOT_")
     gachaTemp = read_json(GACHA_TEMP_JSON_PATH)
@@ -207,7 +208,7 @@ def doWishes(num, poolId):
         else:
             numWish += 1
         if rank in rankUpChars:
-            if (rank == 5 and numWishUp >= 150 and len(rankUpChars[rank]) == 1) or (pool_is_linkage and numWishUp == 119):
+            if (pool_is_single and rank == 5 and numWishUp >= 150) or (pool_is_linkage and numWishUp == 119):
                 r = 0
             else:
                 r = random.random()
