@@ -241,16 +241,24 @@ def doWishes(num, poolId):
     gachaTemp[poolId]["numWishUp"] = numWishUp
     gachaTemp[poolId]["first5Star"] = first5Star
     write_json(gachaTemp, GACHA_TEMP_JSON_PATH)
-    gacha_data = {
-        "normal": {
-            poolId: {
-                "cnt": numTotal,
-                "maxCnt": 10,
-                "rarity": 4,
-                "avail": first5Star != -1
+    if pool_is_boot:
+        gacha_data = {
+            "newbee": {
+                "openFlag": numTotal == 20,
+                "cnt": 20-numTotal
             }
         }
-    }
+    else:
+        gacha_data = {
+            "normal": {
+                poolId: {
+                    "cnt": numTotal,
+                    "maxCnt": 10,
+                    "rarity": 4,
+                    "avail": first5Star != -1
+                }
+            }
+        }
     return chars, gacha_data
 
 
