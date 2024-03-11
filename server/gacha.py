@@ -259,6 +259,18 @@ def doWishes(num, poolId):
                 }
             }
         }
+        if pool_is_linkage:
+            gacha_table = updateData(GACHA_TABLE_URL)
+            for i in gacha_table["gachaPoolClient"]:
+                if i["gachaPoolId"] == poolId:
+                    gacha_data["linkage"] = {
+                        poolId: {
+                            i["linkageRuleId"]: {
+                                "must6": numWishUp != -1
+                            }
+                        }
+                    }
+                    break
     return chars, gacha_data
 
 
