@@ -175,10 +175,12 @@ def doWishes(num, poolId):
     gachaTemp = read_json(GACHA_TEMP_JSON_PATH)
     if poolId not in gachaTemp:
         gachaTemp[poolId] = {
+            "numTotal": 0,
             "numWish": 0,
             "numWishUp": 0,
             "first5Star": 0
         }
+    numTotal = gachaTemp[poolId]["numTotal"]
     numWish = gachaTemp[poolId]["numWish"]
     numWishUp = gachaTemp[poolId]["numWishUp"]
     first5Star = gachaTemp[poolId]["first5Star"]
@@ -190,7 +192,7 @@ def doWishes(num, poolId):
             rankUpperLimit[5] = (numWish - 48)*rankProb[5]
         for j in range(4, 1, -1):
             rankUpperLimit[j] = rankUpperLimit[j+1]+rankProb[j]
-        if (pool_is_linkage and numWishUp == 119) or (pool_is_boot and numWish == 9 and numWishUp == 9):
+        if (pool_is_linkage and numWishUp == 119) or (pool_is_boot and numWish == 9 and numTotal == 9):
             rankUpperLimit[5] = 1
         if (not pool_is_boot and first5Star == 9) or (pool_is_boot and first5Star == 19):
             rankUpperLimit[4] = 1
@@ -199,10 +201,11 @@ def doWishes(num, poolId):
             if r < rankUpperLimit[rank]:
                 break
         if first5Star != -1:
-            if (not pool_is_boot and rank >= 4) or (pool_is_boot and (rank == 4 or (rank == 5 and numWish < numWishUp))):
+            if (not pool_is_boot and rank >= 4) or (pool_is_boot and (rank == 4 or (rank == 5 and numWish < numTotal))):
                 first5Star = -1
             else:
                 first5Star += 1
+        numTotal += 1
         if rank == 5:
             numWish = 0
         else:
@@ -233,6 +236,7 @@ def doWishes(num, poolId):
                 "isNew": 1
             }
         )
+    gachaTemp[poolId]["numTotal"] = numTotal
     gachaTemp[poolId]["numWish"] = numWish
     gachaTemp[poolId]["numWishUp"] = numWishUp
     gachaTemp[poolId]["first5Star"] = first5Star
