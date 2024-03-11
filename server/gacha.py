@@ -140,7 +140,7 @@ def doGetPool(poolId):
         if os.path.isfile(pool_file):
             pool = read_json(pool_file, encoding="utf-8")
             return pool
-    if poolId.startswith("CLASSIC_"):
+    if "CLASSIC_" in poolId:
         pool = read_json(POOL_CLASSIC_JSON_PATH, encoding="utf-8")
     else:
         pool = read_json(POOL_JSON_PATH, encoding="utf-8")
