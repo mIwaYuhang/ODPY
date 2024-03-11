@@ -241,7 +241,17 @@ def doWishes(num, poolId):
     gachaTemp[poolId]["numWishUp"] = numWishUp
     gachaTemp[poolId]["first5Star"] = first5Star
     write_json(gachaTemp, GACHA_TEMP_JSON_PATH)
-    return chars
+    gacha_data = {
+        "normal": {
+            poolId: {
+                "cnt": numTotal,
+                "maxCnt": 10,
+                "rarity": 4,
+                "avail": first5Star != -1
+            }
+        }
+    }
+    return chars, gacha_data
 
 
 def advancedGacha():
@@ -250,10 +260,11 @@ def advancedGacha():
     config = read_json(CONFIG_PATH)
     simulateGacha = config["userConfig"]["simulateGacha"]
     if simulateGacha:
-        chars = doWishes(1, poolId)
+        chars, gacha_data = doWishes(1, poolId)
     else:
         gacha = read_json(GACHA_JSON_PATH)
         chars = gacha["advanced"]
+        gacha_data = {}
     char_id = chars[0]["charId"]
     is_new = chars[0]["isNew"]
     char_inst_id = int(char_id.split('_')[1])
@@ -284,7 +295,9 @@ def advancedGacha():
             "logInfo": {}
         },
         "playerDataDelta": {
-            "modified": {},
+            "modified": {
+                "gacha": gacha_data
+            },
             "deleted": {}
         }
     }
@@ -296,10 +309,11 @@ def tenAdvancedGacha():
     config = read_json(CONFIG_PATH)
     simulateGacha = config["userConfig"]["simulateGacha"]
     if simulateGacha:
-        chars = doWishes(10, poolId)
+        chars, gacha_data = doWishes(10, poolId)
     else:
         gacha = read_json(GACHA_JSON_PATH)
         chars = gacha["advanced"]
+        gacha_data = {}
     gachaResultList = []
     j = 0
     for i in range(10):
@@ -337,7 +351,9 @@ def tenAdvancedGacha():
         "result": 0,
         "gachaResultList": gachaResultList,
         "playerDataDelta": {
-            "modified": {},
+            "modified": {
+                "gacha": gacha_data
+            },
             "deleted": {}
         }
     }
