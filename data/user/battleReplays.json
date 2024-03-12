@@ -86284,8 +86284,8 @@
                             "potentialRank": 5,
                             "favorBattlePhase": 100,
                             "isAssistChar": false,
-                            "uniequipId": "",
-                            "uniequipLevel": 0
+                            "uniequipId": "uniequip_001_f12yin",
+                            "uniequipLevel": 1
                         },
                         {
                             "charInstId": 350,
