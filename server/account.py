@@ -535,7 +535,8 @@ def accountSyncData():
             player_data["user"]["troop"]["chars"][index]["voiceLan"] = saved_character["voiceLan"]
             player_data["user"]["troop"]["chars"][index]["skin"] = saved_character["skin"]
             player_data["user"]["troop"]["chars"][index]["defaultSkillIndex"] = saved_character["defaultSkillIndex"]
-            player_data["user"]["troop"]["chars"][index]["currentEquip"] = saved_character["currentEquip"]
+            if saved_character["currentEquip"]:
+                player_data["user"]["troop"]["chars"][index]["currentEquip"] = saved_character["currentEquip"]
 
     secretary = config["userConfig"]["secretary"]
     secretarySkinId = config["userConfig"]["secretarySkinId"]
