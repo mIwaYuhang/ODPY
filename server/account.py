@@ -623,8 +623,6 @@ def accountSyncData():
 
     write_json({}, GACHA_TEMP_JSON_PATH)
 
-    write_json(player_data, USER_JSON_PATH)
-
     building = buildingSync()
     player_data["user"]["building"] = building["playerDataDelta"]["modified"]["building"]
 
@@ -635,6 +633,8 @@ def accountSyncData():
             for j in rlv2_static[i]:
                 rlv2[i][j].update(rlv2_static[i][j])
         player_data["user"]["rlv2"]["current"] = rlv2
+
+    write_json(player_data, USER_JSON_PATH)
 
     return player_data
 
