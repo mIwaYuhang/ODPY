@@ -521,22 +521,23 @@ def accountSyncData():
     player_data["user"]["troop"]["squads"] = squads_data
 
     # Copy over from previous launch if data exists
-    if "user" in list(saved_data.keys()) and config["userConfig"]["restorePreviousStates"]["squadsAndFavs"]:
+    if "user" in saved_data and config["userConfig"]["restorePreviousStates"]["squadsAndFavs"]:
         player_data["user"]["troop"]["squads"] = saved_data["user"]["troop"]["squads"]
 
         for _, saved_character in saved_data["user"]["troop"]["chars"].items():
-            index = "0"
+            index = None
             for character_index, character in player_data["user"]["troop"]["chars"].items():
                 if saved_character["charId"] == character["charId"]:
                     index = character_index
                     break
 
-            player_data["user"]["troop"]["chars"][index]["starMark"] = saved_character["starMark"]
-            player_data["user"]["troop"]["chars"][index]["voiceLan"] = saved_character["voiceLan"]
-            player_data["user"]["troop"]["chars"][index]["skin"] = saved_character["skin"]
-            player_data["user"]["troop"]["chars"][index]["defaultSkillIndex"] = saved_character["defaultSkillIndex"]
-            if saved_character["currentEquip"]:
-                player_data["user"]["troop"]["chars"][index]["currentEquip"] = saved_character["currentEquip"]
+            if index is not None:
+                player_data["user"]["troop"]["chars"][index]["starMark"] = saved_character["starMark"]
+                player_data["user"]["troop"]["chars"][index]["voiceLan"] = saved_character["voiceLan"]
+                player_data["user"]["troop"]["chars"][index]["skin"] = saved_character["skin"]
+                player_data["user"]["troop"]["chars"][index]["defaultSkillIndex"] = saved_character["defaultSkillIndex"]
+                if saved_character["currentEquip"]:
+                    player_data["user"]["troop"]["chars"][index]["currentEquip"] = saved_character["currentEquip"]
 
     secretary = config["userConfig"]["secretary"]
     secretarySkinId = config["userConfig"]["secretarySkinId"]
