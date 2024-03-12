@@ -1,6 +1,6 @@
 from flask import request
 
-from constants import RLV2_JSON_PATH, USER_JSON_PATH, RL_TABLE_URL, CONFIG_PATH, RLV2_SETTINGS_PATH
+from constants import RLV2_JSON_PATH, USER_JSON_PATH, RL_TABLE_URL, CONFIG_PATH, RLV2_SETTINGS_PATH, RLV2_STATIC_JSON_PATH
 from utils import read_json, write_json, decrypt_battle_data
 from core.function.update import updateData
 from copy import deepcopy
@@ -254,6 +254,7 @@ def rlv2CreateGame():
     write_json(rlv2, RLV2_JSON_PATH)
 
     # too large, do not send it every time
+    rlv2_static = {}
     config = read_json(CONFIG_PATH)
     if config["rlv2Config"]["allChars"]:
         if theme == "rogue_1":
@@ -279,6 +280,15 @@ def rlv2CreateGame():
                 "needAssist": True
             }
             rlv2["troop"]["chars"][char_id] = char
+        rlv2_static = {
+            "inventory": {
+                "recruit": rlv2["inventory"]["recruit"]
+            },
+            "troop": {
+                "chars": rlv2["troop"]["chars"]
+            }
+        }
+    write_json(rlv2_static, RLV2_STATIC_JSON_PATH)
 
     data = {
         "playerDataDelta": {
@@ -639,7 +649,12 @@ def rlv2FinishEvent():
     write_json(rlv2, RLV2_JSON_PATH)
 
     # too large, do not send it every time
+    rlv2_static = read_json(RLV2_STATIC_JSON_PATH)
     rlv2["map"]["zones"] = getMap(theme)
+    rlv2_static["map"] = {
+        "zones": rlv2["map"]["zones"]
+    }
+    write_json(rlv2_static, RLV2_STATIC_JSON_PATH)
 
     data = {
         "playerDataDelta": {
