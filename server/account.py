@@ -623,9 +623,6 @@ def accountSyncData():
 
     write_json({}, GACHA_TEMP_JSON_PATH)
 
-    building = buildingSync()
-    player_data["user"]["building"] = building["playerDataDelta"]["modified"]["building"]
-
     if config["userConfig"]["restorePreviousStates"]["is2"]:
         rlv2 = read_json(RLV2_JSON_PATH)
         rlv2_static = read_json(RLV2_STATIC_JSON_PATH)
@@ -635,6 +632,10 @@ def accountSyncData():
         player_data["user"]["rlv2"]["current"] = rlv2
 
     write_json(player_data, USER_JSON_PATH)
+
+    # must after write_json(player_data, USER_JSON_PATH)
+    building = buildingSync()
+    player_data["user"]["building"] = building["playerDataDelta"]["modified"]["building"]
 
     return player_data
 
