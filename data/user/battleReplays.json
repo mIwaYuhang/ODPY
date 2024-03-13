@@ -1,5 +1,5 @@
 {
-    "current": "tough_13-10",
+    "current": "tough_13-13",
     "currentCharConfig": "95cf97c228e6c235cd6503e5eeb1b737",
     "saved": {
         "95cf97c228e6c235cd6503e5eeb1b737": {
@@ -91567,6 +91567,1541 @@
                         }
                     ],
                     "randomSeed": 6815646,
+                    "runeList": null
+                }
+            },
+            "tough_13-11": {
+                "campaignOnlyVersion": 0,
+                "timestamp": "1700000000",
+                "journal": {
+                    "metadata": {
+                        "standardPlayTime": 208.633133,
+                        "gameResult": 1,
+                        "saveTime": "2023-11-15T06:13:20Z",
+                        "remainingCost": 99,
+                        "remainingLifePoint": 3,
+                        "killedEnemiesCnt": 28,
+                        "missedEnemiesCnt": 0,
+                        "levelId": "Obt/Main/level_tough_13-11",
+                        "stageId": "tough_13-11",
+                        "validKilledEnemiesCnt": 28
+                    },
+                    "squad": [
+                        {
+                            "charInstId": 479,
+                            "skinId": "char_479_sleach@summer#11",
+                            "tmplId": null,
+                            "skillId": "skchr_sleach_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_sleach",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 17,
+                            "skinId": "char_017_huang@as#1",
+                            "tmplId": null,
+                            "skillId": "skchr_huang_2",
+                            "skillIndex": 1,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_huang",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 4064,
+                            "skinId": "char_4064_mlynar@epoque#28",
+                            "tmplId": null,
+                            "skillId": "skchr_mlynar_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "",
+                            "uniequipLevel": 0
+                        },
+                        {
+                            "charInstId": 264,
+                            "skinId": "char_264_f12yin@epoque#15",
+                            "tmplId": null,
+                            "skillId": "skchr_f12yin_2",
+                            "skillIndex": 1,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_f12yin",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 350,
+                            "skinId": "char_350_surtr@summer#9",
+                            "tmplId": null,
+                            "skillId": "skchr_surtr_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "",
+                            "uniequipLevel": 0
+                        },
+                        {
+                            "charInstId": 1013,
+                            "skinId": "char_1013_chen2@boc#6",
+                            "tmplId": null,
+                            "skillId": "skchr_chen2_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "",
+                            "uniequipLevel": 0
+                        },
+                        {
+                            "charInstId": 3,
+                            "skinId": "char_003_kalts@boc#6",
+                            "tmplId": null,
+                            "skillId": "skchr_kalts_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_003_kalts",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 179,
+                            "skinId": "char_179_cgbird@witch#1",
+                            "tmplId": null,
+                            "skillId": "skchr_cgbird_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_cgbird",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 1016,
+                            "skinId": "char_1016_agoat2#2",
+                            "tmplId": null,
+                            "skillId": "skchr_agoat2_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "",
+                            "uniequipLevel": 0
+                        },
+                        {
+                            "charInstId": 1028,
+                            "skinId": "char_1028_texas2@iteration#1",
+                            "tmplId": null,
+                            "skillId": "skchr_texas2_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_texas2",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 1026,
+                            "skinId": "char_1026_gvial2@summer#12",
+                            "tmplId": null,
+                            "skillId": "skchr_gvial2_2",
+                            "skillIndex": 1,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_gvial2",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 4116,
+                            "skinId": "char_4116_blkkgt#2",
+                            "tmplId": null,
+                            "skillId": "skchr_blkkgt_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_blkkgt",
+                            "uniequipLevel": 3
+                        }
+                    ],
+                    "logs": [
+                        {
+                            "timestamp": 0.0333333,
+                            "signiture": {
+                                "uniqueId": 2147484127,
+                                "charId": "char_479_sleach"
+                            },
+                            "op": 0,
+                            "direction": 1,
+                            "pos": {
+                                "row": 3,
+                                "col": 2
+                            }
+                        },
+                        {
+                            "timestamp": 13.0666542,
+                            "signiture": {
+                                "uniqueId": 2147484127,
+                                "charId": "char_479_sleach"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 3,
+                                "col": 2
+                            }
+                        },
+                        {
+                            "timestamp": 13.1333208,
+                            "signiture": {
+                                "uniqueId": 2147483998,
+                                "charId": "char_350_surtr"
+                            },
+                            "op": 0,
+                            "direction": 1,
+                            "pos": {
+                                "row": 3,
+                                "col": 4
+                            }
+                        },
+                        {
+                            "timestamp": 16.0333176,
+                            "signiture": {
+                                "uniqueId": 2147483912,
+                                "charId": "char_264_f12yin"
+                            },
+                            "op": 0,
+                            "direction": 1,
+                            "pos": {
+                                "row": 4,
+                                "col": 3
+                            }
+                        },
+                        {
+                            "timestamp": 18.1666489,
+                            "signiture": {
+                                "uniqueId": 2147483998,
+                                "charId": "char_350_surtr"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 3,
+                                "col": 4
+                            }
+                        },
+                        {
+                            "timestamp": 21.0333138,
+                            "signiture": {
+                                "uniqueId": 2147483912,
+                                "charId": "char_264_f12yin"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 4,
+                                "col": 3
+                            }
+                        },
+                        {
+                            "timestamp": 34.9999657,
+                            "signiture": {
+                                "uniqueId": 2147483998,
+                                "charId": "char_350_surtr"
+                            },
+                            "op": 1,
+                            "direction": 0,
+                            "pos": {
+                                "row": 3,
+                                "col": 4
+                            }
+                        },
+                        {
+                            "timestamp": 35.099968,
+                            "signiture": {
+                                "uniqueId": 2147483665,
+                                "charId": "char_017_huang"
+                            },
+                            "op": 0,
+                            "direction": 1,
+                            "pos": {
+                                "row": 2,
+                                "col": 3
+                            }
+                        },
+                        {
+                            "timestamp": 43.09996,
+                            "signiture": {
+                                "uniqueId": 2147484127,
+                                "charId": "char_479_sleach"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 3,
+                                "col": 2
+                            }
+                        },
+                        {
+                            "timestamp": 43.1332932,
+                            "signiture": {
+                                "uniqueId": 2147484664,
+                                "charId": "char_1016_agoat2"
+                            },
+                            "op": 0,
+                            "direction": 2,
+                            "pos": {
+                                "row": 5,
+                                "col": 2
+                            }
+                        },
+                        {
+                            "timestamp": 55.03328,
+                            "signiture": {
+                                "uniqueId": 2147487764,
+                                "charId": "char_4116_blkkgt"
+                            },
+                            "op": 0,
+                            "direction": 1,
+                            "pos": {
+                                "row": 3,
+                                "col": 3
+                            }
+                        },
+                        {
+                            "timestamp": 65.03327,
+                            "signiture": {
+                                "uniqueId": 2147487712,
+                                "charId": "char_4064_mlynar"
+                            },
+                            "op": 0,
+                            "direction": 2,
+                            "pos": {
+                                "row": 4,
+                                "col": 4
+                            }
+                        },
+                        {
+                            "timestamp": 73.19993,
+                            "signiture": {
+                                "uniqueId": 2147484127,
+                                "charId": "char_479_sleach"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 3,
+                                "col": 2
+                            }
+                        },
+                        {
+                            "timestamp": 105.066566,
+                            "signiture": {
+                                "uniqueId": 2147483998,
+                                "charId": "char_350_surtr"
+                            },
+                            "op": 0,
+                            "direction": 1,
+                            "pos": {
+                                "row": 3,
+                                "col": 4
+                            }
+                        },
+                        {
+                            "timestamp": 110.099892,
+                            "signiture": {
+                                "uniqueId": 2147483998,
+                                "charId": "char_350_surtr"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 3,
+                                "col": 4
+                            }
+                        },
+                        {
+                            "timestamp": 131.633209,
+                            "signiture": {
+                                "uniqueId": 2147483998,
+                                "charId": "char_350_surtr"
+                            },
+                            "op": 1,
+                            "direction": 0,
+                            "pos": {
+                                "row": 3,
+                                "col": 4
+                            }
+                        },
+                        {
+                            "timestamp": 131.633209,
+                            "signiture": {
+                                "uniqueId": 2147487712,
+                                "charId": "char_4064_mlynar"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 4,
+                                "col": 4
+                            }
+                        },
+                        {
+                            "timestamp": 168.299835,
+                            "signiture": {
+                                "uniqueId": 2147487764,
+                                "charId": "char_4116_blkkgt"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 3,
+                                "col": 3
+                            }
+                        },
+                        {
+                            "timestamp": 201.699814,
+                            "signiture": {
+                                "uniqueId": 2147487712,
+                                "charId": "char_4064_mlynar"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 4,
+                                "col": 4
+                            }
+                        }
+                    ],
+                    "randomSeed": 8470021,
+                    "runeList": null
+                }
+            },
+            "tough_13-12": {
+                "campaignOnlyVersion": 0,
+                "timestamp": "1700000000",
+                "journal": {
+                    "metadata": {
+                        "standardPlayTime": 163.4665,
+                        "gameResult": 1,
+                        "saveTime": "2023-11-15T06:13:20Z",
+                        "remainingCost": 89,
+                        "remainingLifePoint": 3,
+                        "killedEnemiesCnt": 16,
+                        "missedEnemiesCnt": 0,
+                        "levelId": "Obt/Main/level_tough_13-12",
+                        "stageId": "tough_13-12",
+                        "validKilledEnemiesCnt": 11
+                    },
+                    "squad": [
+                        {
+                            "charInstId": 479,
+                            "skinId": "char_479_sleach@summer#11",
+                            "tmplId": null,
+                            "skillId": "skchr_sleach_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_sleach",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 17,
+                            "skinId": "char_017_huang@as#1",
+                            "tmplId": null,
+                            "skillId": "skchr_huang_2",
+                            "skillIndex": 1,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_huang",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 4064,
+                            "skinId": "char_4064_mlynar@epoque#28",
+                            "tmplId": null,
+                            "skillId": "skchr_mlynar_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "",
+                            "uniequipLevel": 0
+                        },
+                        {
+                            "charInstId": 264,
+                            "skinId": "char_264_f12yin@epoque#15",
+                            "tmplId": null,
+                            "skillId": "skchr_f12yin_2",
+                            "skillIndex": 1,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_f12yin",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 350,
+                            "skinId": "char_350_surtr@summer#9",
+                            "tmplId": null,
+                            "skillId": "skchr_surtr_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "",
+                            "uniequipLevel": 0
+                        },
+                        {
+                            "charInstId": 1013,
+                            "skinId": "char_1013_chen2@boc#6",
+                            "tmplId": null,
+                            "skillId": "skchr_chen2_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "",
+                            "uniequipLevel": 0
+                        },
+                        {
+                            "charInstId": 3,
+                            "skinId": "char_003_kalts@boc#6",
+                            "tmplId": null,
+                            "skillId": "skchr_kalts_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_003_kalts",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 179,
+                            "skinId": "char_179_cgbird@witch#1",
+                            "tmplId": null,
+                            "skillId": "skchr_cgbird_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_cgbird",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 1016,
+                            "skinId": "char_1016_agoat2#2",
+                            "tmplId": null,
+                            "skillId": "skchr_agoat2_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "",
+                            "uniequipLevel": 0
+                        },
+                        {
+                            "charInstId": 1028,
+                            "skinId": "char_1028_texas2@iteration#1",
+                            "tmplId": null,
+                            "skillId": "skchr_texas2_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_texas2",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 1026,
+                            "skinId": "char_1026_gvial2@summer#12",
+                            "tmplId": null,
+                            "skillId": "skchr_gvial2_2",
+                            "skillIndex": 1,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_gvial2",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 4116,
+                            "skinId": "char_4116_blkkgt#2",
+                            "tmplId": null,
+                            "skillId": "skchr_blkkgt_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_blkkgt",
+                            "uniequipLevel": 3
+                        }
+                    ],
+                    "logs": [
+                        {
+                            "timestamp": 0.0999999046,
+                            "signiture": {
+                                "uniqueId": 2147484127,
+                                "charId": "char_479_sleach"
+                            },
+                            "op": 0,
+                            "direction": 3,
+                            "pos": {
+                                "row": 5,
+                                "col": 9
+                            }
+                        },
+                        {
+                            "timestamp": 1.99999809,
+                            "signiture": {
+                                "uniqueId": 2147483912,
+                                "charId": "char_264_f12yin"
+                            },
+                            "op": 0,
+                            "direction": 3,
+                            "pos": {
+                                "row": 5,
+                                "col": 8
+                            }
+                        },
+                        {
+                            "timestamp": 6.99999332,
+                            "signiture": {
+                                "uniqueId": 2147483912,
+                                "charId": "char_264_f12yin"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 5,
+                                "col": 8
+                            }
+                        },
+                        {
+                            "timestamp": 12.0333214,
+                            "signiture": {
+                                "uniqueId": 2147487712,
+                                "charId": "char_4064_mlynar"
+                            },
+                            "op": 0,
+                            "direction": 3,
+                            "pos": {
+                                "row": 5,
+                                "col": 7
+                            }
+                        },
+                        {
+                            "timestamp": 13.1666546,
+                            "signiture": {
+                                "uniqueId": 2147484127,
+                                "charId": "char_479_sleach"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 5,
+                                "col": 9
+                            }
+                        },
+                        {
+                            "timestamp": 21.0333138,
+                            "signiture": {
+                                "uniqueId": 2147483998,
+                                "charId": "char_350_surtr"
+                            },
+                            "op": 0,
+                            "direction": 3,
+                            "pos": {
+                                "row": 1,
+                                "col": 7
+                            }
+                        },
+                        {
+                            "timestamp": 26.6999741,
+                            "signiture": {
+                                "uniqueId": 2147483998,
+                                "charId": "char_350_surtr"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 1,
+                                "col": 7
+                            }
+                        },
+                        {
+                            "timestamp": 37.0333,
+                            "signiture": {
+                                "uniqueId": 2147483827,
+                                "charId": "char_179_cgbird"
+                            },
+                            "op": 0,
+                            "direction": 2,
+                            "pos": {
+                                "row": 4,
+                                "col": 8
+                            }
+                        },
+                        {
+                            "timestamp": 43.19996,
+                            "signiture": {
+                                "uniqueId": 2147484127,
+                                "charId": "char_479_sleach"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 5,
+                                "col": 9
+                            }
+                        },
+                        {
+                            "timestamp": 49.033287,
+                            "signiture": {
+                                "uniqueId": 2147483665,
+                                "charId": "char_017_huang"
+                            },
+                            "op": 0,
+                            "direction": 3,
+                            "pos": {
+                                "row": 1,
+                                "col": 8
+                            }
+                        },
+                        {
+                            "timestamp": 49.06662,
+                            "signiture": {
+                                "uniqueId": 2147483998,
+                                "charId": "char_350_surtr"
+                            },
+                            "op": 1,
+                            "direction": 0,
+                            "pos": {
+                                "row": 1,
+                                "col": 7
+                            }
+                        },
+                        {
+                            "timestamp": 50.033287,
+                            "signiture": {
+                                "uniqueId": 1,
+                                "charId": "trap_126_outset"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 2,
+                                "col": 7
+                            }
+                        },
+                        {
+                            "timestamp": 59.26661,
+                            "signiture": {
+                                "uniqueId": 2147484676,
+                                "charId": "char_1028_texas2"
+                            },
+                            "op": 0,
+                            "direction": 3,
+                            "pos": {
+                                "row": 1,
+                                "col": 5
+                            }
+                        },
+                        {
+                            "timestamp": 65.0666046,
+                            "signiture": {
+                                "uniqueId": 2147487712,
+                                "charId": "char_4064_mlynar"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 5,
+                                "col": 7
+                            }
+                        },
+                        {
+                            "timestamp": 73.2665939,
+                            "signiture": {
+                                "uniqueId": 2147484127,
+                                "charId": "char_479_sleach"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 5,
+                                "col": 9
+                            }
+                        },
+                        {
+                            "timestamp": 75.7665939,
+                            "signiture": {
+                                "uniqueId": 2147484676,
+                                "charId": "char_1028_texas2"
+                            },
+                            "op": 1,
+                            "direction": 0,
+                            "pos": {
+                                "row": 1,
+                                "col": 5
+                            }
+                        },
+                        {
+                            "timestamp": 76.13326,
+                            "signiture": {
+                                "uniqueId": 2147484661,
+                                "charId": "char_1013_chen2"
+                            },
+                            "op": 0,
+                            "direction": 3,
+                            "pos": {
+                                "row": 2,
+                                "col": 4
+                            }
+                        },
+                        {
+                            "timestamp": 101.766571,
+                            "signiture": {
+                                "uniqueId": 2147484661,
+                                "charId": "char_1013_chen2"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 2,
+                                "col": 4
+                            }
+                        },
+                        {
+                            "timestamp": 147.399857,
+                            "signiture": {
+                                "uniqueId": 2147487712,
+                                "charId": "char_4064_mlynar"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 5,
+                                "col": 7
+                            }
+                        }
+                    ],
+                    "randomSeed": 9782044,
+                    "runeList": null
+                }
+            },
+            "tough_13-13": {
+                "campaignOnlyVersion": 0,
+                "timestamp": "1700000000",
+                "journal": {
+                    "metadata": {
+                        "standardPlayTime": 256.599762,
+                        "gameResult": 1,
+                        "saveTime": "2023-11-15T06:13:20Z",
+                        "remainingCost": 89,
+                        "remainingLifePoint": 3,
+                        "killedEnemiesCnt": 23,
+                        "missedEnemiesCnt": 0,
+                        "levelId": "Obt/Main/level_tough_13-13",
+                        "stageId": "tough_13-13",
+                        "validKilledEnemiesCnt": 23
+                    },
+                    "squad": [
+                        {
+                            "charInstId": 479,
+                            "skinId": "char_479_sleach@summer#11",
+                            "tmplId": null,
+                            "skillId": "skchr_sleach_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_sleach",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 17,
+                            "skinId": "char_017_huang@as#1",
+                            "tmplId": null,
+                            "skillId": "skchr_huang_2",
+                            "skillIndex": 1,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_huang",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 4064,
+                            "skinId": "char_4064_mlynar@epoque#28",
+                            "tmplId": null,
+                            "skillId": "skchr_mlynar_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "",
+                            "uniequipLevel": 0
+                        },
+                        {
+                            "charInstId": 264,
+                            "skinId": "char_264_f12yin@epoque#15",
+                            "tmplId": null,
+                            "skillId": "skchr_f12yin_2",
+                            "skillIndex": 1,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_f12yin",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 350,
+                            "skinId": "char_350_surtr@summer#9",
+                            "tmplId": null,
+                            "skillId": "skchr_surtr_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "",
+                            "uniequipLevel": 0
+                        },
+                        {
+                            "charInstId": 1013,
+                            "skinId": "char_1013_chen2@boc#6",
+                            "tmplId": null,
+                            "skillId": "skchr_chen2_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "",
+                            "uniequipLevel": 0
+                        },
+                        {
+                            "charInstId": 1029,
+                            "skinId": "char_1029_yato2#2",
+                            "tmplId": null,
+                            "skillId": "skchr_yato2_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_yato2",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 179,
+                            "skinId": "char_179_cgbird@witch#1",
+                            "tmplId": null,
+                            "skillId": "skchr_cgbird_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_cgbird",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 1016,
+                            "skinId": "char_1016_agoat2#2",
+                            "tmplId": null,
+                            "skillId": "skchr_agoat2_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "",
+                            "uniequipLevel": 0
+                        },
+                        {
+                            "charInstId": 1028,
+                            "skinId": "char_1028_texas2@iteration#1",
+                            "tmplId": null,
+                            "skillId": "skchr_texas2_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_texas2",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 1026,
+                            "skinId": "char_1026_gvial2@summer#12",
+                            "tmplId": null,
+                            "skillId": "skchr_gvial2_2",
+                            "skillIndex": 1,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_gvial2",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 4116,
+                            "skinId": "char_4116_blkkgt#2",
+                            "tmplId": null,
+                            "skillId": "skchr_blkkgt_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_blkkgt",
+                            "uniequipLevel": 3
+                        }
+                    ],
+                    "logs": [
+                        {
+                            "timestamp": 0.366666317,
+                            "signiture": {
+                                "uniqueId": 2147484127,
+                                "charId": "char_479_sleach"
+                            },
+                            "op": 0,
+                            "direction": 1,
+                            "pos": {
+                                "row": 5,
+                                "col": 5
+                            }
+                        },
+                        {
+                            "timestamp": 6.99999332,
+                            "signiture": {
+                                "uniqueId": 2147483912,
+                                "charId": "char_264_f12yin"
+                            },
+                            "op": 0,
+                            "direction": 1,
+                            "pos": {
+                                "row": 5,
+                                "col": 6
+                            }
+                        },
+                        {
+                            "timestamp": 11.9999886,
+                            "signiture": {
+                                "uniqueId": 2147483912,
+                                "charId": "char_264_f12yin"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 5,
+                                "col": 6
+                            }
+                        },
+                        {
+                            "timestamp": 15.0333195,
+                            "signiture": {
+                                "uniqueId": 2147484676,
+                                "charId": "char_1028_texas2"
+                            },
+                            "op": 0,
+                            "direction": 3,
+                            "pos": {
+                                "row": 7,
+                                "col": 6
+                            }
+                        },
+                        {
+                            "timestamp": 15.0333195,
+                            "signiture": {
+                                "uniqueId": 2147484127,
+                                "charId": "char_479_sleach"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 5,
+                                "col": 5
+                            }
+                        },
+                        {
+                            "timestamp": 21.0333138,
+                            "signiture": {
+                                "uniqueId": 2147483827,
+                                "charId": "char_179_cgbird"
+                            },
+                            "op": 0,
+                            "direction": 2,
+                            "pos": {
+                                "row": 4,
+                                "col": 6
+                            }
+                        },
+                        {
+                            "timestamp": 30.99997,
+                            "signiture": {
+                                "uniqueId": 2147484676,
+                                "charId": "char_1028_texas2"
+                            },
+                            "op": 1,
+                            "direction": 0,
+                            "pos": {
+                                "row": 7,
+                                "col": 6
+                            }
+                        },
+                        {
+                            "timestamp": 40.0666275,
+                            "signiture": {
+                                "uniqueId": 1,
+                                "charId": "trap_126_outset"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 7,
+                                "col": 1
+                            }
+                        },
+                        {
+                            "timestamp": 41.0666275,
+                            "signiture": {
+                                "uniqueId": 2147484677,
+                                "charId": "char_1029_yato2"
+                            },
+                            "op": 0,
+                            "direction": 1,
+                            "pos": {
+                                "row": 7,
+                                "col": 2
+                            }
+                        },
+                        {
+                            "timestamp": 45.0666237,
+                            "signiture": {
+                                "uniqueId": 2147484127,
+                                "charId": "char_479_sleach"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 5,
+                                "col": 5
+                            }
+                        },
+                        {
+                            "timestamp": 47.033287,
+                            "signiture": {
+                                "uniqueId": 2147483665,
+                                "charId": "char_017_huang"
+                            },
+                            "op": 0,
+                            "direction": 1,
+                            "pos": {
+                                "row": 3,
+                                "col": 5
+                            }
+                        },
+                        {
+                            "timestamp": 53.733284,
+                            "signiture": {
+                                "uniqueId": 2147484677,
+                                "charId": "char_1029_yato2"
+                            },
+                            "op": 1,
+                            "direction": 0,
+                            "pos": {
+                                "row": 7,
+                                "col": 2
+                            }
+                        },
+                        {
+                            "timestamp": 57.23328,
+                            "signiture": {
+                                "uniqueId": 2147484676,
+                                "charId": "char_1028_texas2"
+                            },
+                            "op": 0,
+                            "direction": 1,
+                            "pos": {
+                                "row": 7,
+                                "col": 6
+                            }
+                        },
+                        {
+                            "timestamp": 63.03327,
+                            "signiture": {
+                                "uniqueId": 2147487712,
+                                "charId": "char_4064_mlynar"
+                            },
+                            "op": 0,
+                            "direction": 1,
+                            "pos": {
+                                "row": 3,
+                                "col": 7
+                            }
+                        },
+                        {
+                            "timestamp": 75.09993,
+                            "signiture": {
+                                "uniqueId": 2147484127,
+                                "charId": "char_479_sleach"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 5,
+                                "col": 5
+                            }
+                        },
+                        {
+                            "timestamp": 75.49993,
+                            "signiture": {
+                                "uniqueId": 2147484674,
+                                "charId": "char_1026_gvial2"
+                            },
+                            "op": 0,
+                            "direction": 1,
+                            "pos": {
+                                "row": 1,
+                                "col": 6
+                            }
+                        },
+                        {
+                            "timestamp": 80.3999252,
+                            "signiture": {
+                                "uniqueId": 2147484676,
+                                "charId": "char_1028_texas2"
+                            },
+                            "op": 1,
+                            "direction": 0,
+                            "pos": {
+                                "row": 7,
+                                "col": 6
+                            }
+                        },
+                        {
+                            "timestamp": 83.03326,
+                            "signiture": {
+                                "uniqueId": 2147484664,
+                                "charId": "char_1016_agoat2"
+                            },
+                            "op": 0,
+                            "direction": 2,
+                            "pos": {
+                                "row": 4,
+                                "col": 5
+                            }
+                        },
+                        {
+                            "timestamp": 104.033234,
+                            "signiture": {
+                                "uniqueId": 2147487764,
+                                "charId": "char_4116_blkkgt"
+                            },
+                            "op": 0,
+                            "direction": 1,
+                            "pos": {
+                                "row": 1,
+                                "col": 7
+                            }
+                        },
+                        {
+                            "timestamp": 105.133232,
+                            "signiture": {
+                                "uniqueId": 2147484127,
+                                "charId": "char_479_sleach"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 5,
+                                "col": 5
+                            }
+                        },
+                        {
+                            "timestamp": 111.499893,
+                            "signiture": {
+                                "uniqueId": 2147487712,
+                                "charId": "char_4064_mlynar"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 3,
+                                "col": 7
+                            }
+                        },
+                        {
+                            "timestamp": 120.799881,
+                            "signiture": {
+                                "uniqueId": 6,
+                                "charId": "trap_126_outset"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 5,
+                                "col": 8
+                            }
+                        },
+                        {
+                            "timestamp": 132.7332,
+                            "signiture": {
+                                "uniqueId": 2147484676,
+                                "charId": "char_1028_texas2"
+                            },
+                            "op": 0,
+                            "direction": 3,
+                            "pos": {
+                                "row": 5,
+                                "col": 10
+                            }
+                        },
+                        {
+                            "timestamp": 150.29985,
+                            "signiture": {
+                                "uniqueId": 2147484676,
+                                "charId": "char_1028_texas2"
+                            },
+                            "op": 1,
+                            "direction": 0,
+                            "pos": {
+                                "row": 5,
+                                "col": 10
+                            }
+                        },
+                        {
+                            "timestamp": 161.899841,
+                            "signiture": {
+                                "uniqueId": 6,
+                                "charId": "trap_126_outset"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 5,
+                                "col": 8
+                            }
+                        },
+                        {
+                            "timestamp": 166.333176,
+                            "signiture": {
+                                "uniqueId": 2147484676,
+                                "charId": "char_1028_texas2"
+                            },
+                            "op": 0,
+                            "direction": 2,
+                            "pos": {
+                                "row": 4,
+                                "col": 10
+                            }
+                        },
+                        {
+                            "timestamp": 189.399826,
+                            "signiture": {
+                                "uniqueId": 2147484676,
+                                "charId": "char_1028_texas2"
+                            },
+                            "op": 1,
+                            "direction": 0,
+                            "pos": {
+                                "row": 4,
+                                "col": 10
+                            }
+                        },
+                        {
+                            "timestamp": 202.166473,
+                            "signiture": {
+                                "uniqueId": 2147487712,
+                                "charId": "char_4064_mlynar"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 3,
+                                "col": 7
+                            }
+                        },
+                        {
+                            "timestamp": 202.9998,
+                            "signiture": {
+                                "uniqueId": 6,
+                                "charId": "trap_126_outset"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 5,
+                                "col": 8
+                            }
+                        },
+                        {
+                            "timestamp": 205.466476,
+                            "signiture": {
+                                "uniqueId": 2147484676,
+                                "charId": "char_1028_texas2"
+                            },
+                            "op": 0,
+                            "direction": 2,
+                            "pos": {
+                                "row": 4,
+                                "col": 10
+                            }
+                        },
+                        {
+                            "timestamp": 230.333115,
+                            "signiture": {
+                                "uniqueId": 2147484676,
+                                "charId": "char_1028_texas2"
+                            },
+                            "op": 1,
+                            "direction": 0,
+                            "pos": {
+                                "row": 4,
+                                "col": 10
+                            }
+                        },
+                        {
+                            "timestamp": 230.466446,
+                            "signiture": {
+                                "uniqueId": 2147483998,
+                                "charId": "char_350_surtr"
+                            },
+                            "op": 0,
+                            "direction": 1,
+                            "pos": {
+                                "row": 3,
+                                "col": 6
+                            }
+                        },
+                        {
+                            "timestamp": 235.466446,
+                            "signiture": {
+                                "uniqueId": 2147483998,
+                                "charId": "char_350_surtr"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 3,
+                                "col": 6
+                            }
+                        }
+                    ],
+                    "randomSeed": 11480006,
                     "runeList": null
                 }
             }
