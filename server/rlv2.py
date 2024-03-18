@@ -79,12 +79,8 @@ def rlv2CreateGame():
     bands = rlv2_table["details"][theme]["init"][0]["initialBandRelic"]
     recruit_group = rlv2_table["details"][theme]["init"][0]["initialRecruitGroup"]
 
-    if theme == "rogue_1":
-        ending = "ro_ending_1"
-    elif theme == "rogue_2":
-        ending = "ro2_ending_1"
-    elif theme == "rogue_3":
-        ending = "ro3_ending_1"
+    theme_id = theme.split('_')[-1]
+    ending = f"ro{theme_id}_ending_1"
 
     rlv2 = {
         "player": {
@@ -208,12 +204,8 @@ def rlv2CreateGame():
     rlv2_static = {}
     config = read_json(CONFIG_PATH)
     if config["rlv2Config"]["allChars"]:
-        if theme == "rogue_1":
-            ticket = "rogue_1_recruit_ticket_all"
-        elif theme == "rogue_2":
-            ticket = "rogue_2_recruit_ticket_all"
-        elif theme == "rogue_3":
-            ticket = "rogue_3_recruit_ticket_all"
+        theme_id = theme.split('_')[-1]
+        ticket = f"rogue_{theme_id}_recruit_ticket_all"
         chars = getChars()
         for i, char in enumerate(chars):
             ticket_id = f"t_{i}"
@@ -305,12 +297,8 @@ def rlv2SelectChoice():
 
 def addTicket(rlv2, ticket_id):
     theme = rlv2["game"]["theme"]
-    if theme == "rogue_1":
-        ticket = "rogue_1_recruit_ticket_all"
-    elif theme == "rogue_2":
-        ticket = "rogue_2_recruit_ticket_all"
-    elif theme == "rogue_3":
-        ticket = "rogue_3_recruit_ticket_all"
+    theme_id = theme.split('_')[-1]
+    ticket = f"rogue_{theme_id}_recruit_ticket_all"
     rlv2["inventory"]["recruit"][ticket_id] = {
         "index": ticket_id,
         "id": ticket,
@@ -492,6 +480,8 @@ def getMap(theme):
     elif theme == "rogue_2":
         shop = 4096
     elif theme == "rogue_3":
+        shop = 4096
+    else:
         shop = 4096
     map = {}
     zone = 1
@@ -1725,6 +1715,8 @@ def getBuffs(rlv2, stage_id):
                 ], [14]
             ),
         ]
+    else:
+        theme_buffs = []
     for i in range(len(theme_buffs)):
         if mode_grade < i:
             break
@@ -1838,6 +1830,8 @@ def rlv2MoveAndBattleStart():
                 ["trap_108_smbox",  "trap_109_smrbox", "trap_110_smbbox"]
             ): 100
         }
+    else:
+        box_info = {}
     dice_roll = []
     if theme == "rogue_2":
         dice_upgrade_count = 0
@@ -1927,12 +1921,8 @@ def rlv2BattleFinish():
     if battle_data["completeState"] != 1:
         rlv2["player"]["pending"].pop(0)
         theme = rlv2["game"]["theme"]
-        if theme == "rogue_1":
-            ticket = "rogue_1_recruit_ticket_all"
-        elif theme == "rogue_2":
-            ticket = "rogue_2_recruit_ticket_all"
-        elif theme == "rogue_3":
-            ticket = "rogue_3_recruit_ticket_all"
+        theme_id = theme.split('_')[-1]
+        ticket = f"rogue_{theme_id}_recruit_ticket_all"
         pending_index = getNextPendingIndex(rlv2)
         rlv2["player"]["pending"].insert(
             0,
@@ -2014,15 +2004,9 @@ def rlv2FinishBattleReward():
 
 
 def getGoods(theme):
-    if theme == "rogue_1":
-        ticket = "rogue_1_recruit_ticket_all"
-        price_id = "rogue_1_gold"
-    elif theme == "rogue_2":
-        ticket = "rogue_2_recruit_ticket_all"
-        price_id = "rogue_2_gold"
-    elif theme == "rogue_3":
-        ticket = "rogue_3_recruit_ticket_all"
-        price_id = "rogue_3_gold"
+    theme_id = theme.split('_')[-1]
+    ticket = f"rogue_{theme_id}_recruit_ticket_all"
+    price_id = f"rogue_{theme_id}_gold"
     goods = [
         {
             "index": "0",
