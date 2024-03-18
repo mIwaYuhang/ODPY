@@ -75,62 +75,15 @@ def rlv2CreateGame():
         mode = "NORMAL"
     mode_grade = request_data["modeGrade"]
 
+    rlv2_table = updateData(RL_TABLE_URL)
+    bands = rlv2_table["details"][theme]["init"][0]["initialBandRelic"]
+    recruit_group = rlv2_table["details"][theme]["init"][0]["initialRecruitGroup"]
+
     if theme == "rogue_1":
-        bands = [
-            "rogue_1_band_1",
-            "rogue_1_band_2",
-            "rogue_1_band_3",
-            "rogue_1_band_4",
-            "rogue_1_band_5",
-            "rogue_1_band_6",
-            "rogue_1_band_7",
-            "rogue_1_band_8",
-            "rogue_1_band_9",
-            "rogue_1_band_10"
-        ]
         ending = "ro_ending_1"
     elif theme == "rogue_2":
-        bands = [
-            "rogue_2_band_1",
-            "rogue_2_band_2",
-            "rogue_2_band_3",
-            "rogue_2_band_4",
-            "rogue_2_band_5",
-            "rogue_2_band_6",
-            "rogue_2_band_7",
-            "rogue_2_band_8",
-            "rogue_2_band_9",
-            "rogue_2_band_10",
-            "rogue_2_band_11",
-            "rogue_2_band_12",
-            "rogue_2_band_13",
-            "rogue_2_band_14",
-            "rogue_2_band_15",
-            "rogue_2_band_16",
-            "rogue_2_band_17",
-            "rogue_2_band_18",
-            "rogue_2_band_19",
-            "rogue_2_band_20",
-            "rogue_2_band_21",
-            "rogue_2_band_22"
-        ]
         ending = "ro2_ending_1"
     elif theme == "rogue_3":
-        bands = [
-            "rogue_3_band_1",
-            "rogue_3_band_2",
-            "rogue_3_band_3",
-            "rogue_3_band_4",
-            "rogue_3_band_5",
-            "rogue_3_band_6",
-            "rogue_3_band_7",
-            "rogue_3_band_8",
-            "rogue_3_band_9",
-            "rogue_3_band_10",
-            "rogue_3_band_11",
-            "rogue_3_band_12",
-            "rogue_3_band_13"
-        ]
         ending = "ro3_ending_1"
 
     rlv2 = {
@@ -186,9 +139,7 @@ def rlv2CreateGame():
                                 2,
                                 3
                             ],
-                            "option": [
-                                "recruit_group_1"
-                            ]
+                            "option": recruit_group
                         }
                     }
                 },

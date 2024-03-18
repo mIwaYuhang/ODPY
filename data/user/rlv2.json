@@ -88,7 +88,10 @@
                             3
                         ],
                         "option": [
-                            "recruit_group_1"
+                            "recruit_group_1",
+                            "recruit_group_2",
+                            "recruit_group_3",
+                            "recruit_group_random"
                         ]
                     }
                 }
