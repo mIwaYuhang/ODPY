@@ -196,6 +196,8 @@ app.add_url_rule('/gacha/boostNormalGacha', methods=['POST'], view_func=gacha.bo
 app.add_url_rule('/gacha/finishNormalGacha', methods=['POST'], view_func=gacha.finishNormalGacha)
 app.add_url_rule('/gacha/syncNormalGacha', methods=['POST'], view_func=gacha.syncNormalGacha)
 
+app.add_url_rule('/gacha/refreshTags', methods=['POST'], view_func=gacha.refreshTags)
+
 app.add_url_rule('/gacha/advancedGacha', methods=['POST'], view_func=gacha.advancedGacha)
 app.add_url_rule('/gacha/tenAdvancedGacha', methods=['POST'], view_func=gacha.tenAdvancedGacha)
 

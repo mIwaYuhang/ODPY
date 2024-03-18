@@ -238,6 +238,31 @@ def syncNormalGacha():
     }
 
 
+def refreshTags():
+    config = read_json(CONFIG_PATH)
+    simulateGacha = config["userConfig"]["simulateGacha"]
+    request_json = request.json
+    slot_id = str(request_json["slotId"])
+    data = {
+        "playerDataDelta": {
+            "modified": {
+                "recruit": {
+                    "normal": {
+                        "slots": {
+                        }
+                    }
+                }
+            },
+            "deleted": {}
+        }
+    }
+    if simulateGacha:
+        data["playerDataDelta"]["modified"]["recruit"]["normal"]["slots"][slot_id] = {
+            "tags": getTags()
+        }
+    return data
+
+
 def doGetPool(poolId):
     gacha_table = updateData(GACHA_TABLE_URL)
     is_valid = False
