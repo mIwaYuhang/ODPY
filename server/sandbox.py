@@ -3814,6 +3814,7 @@ def battleFinish():
 
 
 def homeBuildSave():
+    sandbox_table = updateData(SANDBOX_TABLE_URL)
     sandbox = read_json(SANDBOX_JSON_PATH)
 
     request_json = request.json
@@ -3825,9 +3826,10 @@ def homeBuildSave():
 
     for i in request_json["operation"]:
         if i["type"] == 1:
+            building_id = i["buildingId"]
             sandbox["template"]["SANDBOX_V2"]["sandbox_1"]["main"]["stage"]["node"][node_id]["building"].append(
                 {
-                    "key": i["buildingId"],
+                    "key": building_id,
                     "pos": [
                         i["pos"]["row"],
                         i["pos"]["col"]
@@ -3836,12 +3838,24 @@ def homeBuildSave():
                     "dir": i["dir"]
                 }
             )
+            building_buff = f"{building_id}_buff"
+            if building_buff in sandbox_table["detail"]["SANDBOX_V2"]["sandbox_1"]["runeDatas"]:
+                sandbox["template"]["SANDBOX_V2"]["sandbox_1"]["buff"]["rune"]["global"].append(
+                    building_buff
+                )
         elif i["type"] == 3:
             for j in range(len(sandbox["template"]["SANDBOX_V2"]["sandbox_1"]["main"]["stage"]["node"][node_id]["building"])):
                 k = sandbox["template"]["SANDBOX_V2"]["sandbox_1"]["main"]["stage"]["node"][node_id]["building"][j]
                 if k["pos"][0] == i["pos"]["row"] and k["pos"][1] == i["pos"]["col"]:
+                    building_id = k["key"]
+                    building_buff = f"{building_id}_buff"
+                    if building_buff in sandbox_table["detail"]["SANDBOX_V2"]["sandbox_1"]["runeDatas"]:
+                        sandbox["template"]["SANDBOX_V2"]["sandbox_1"]["buff"]["rune"]["global"].remove(
+                            building_buff
+                        )
                     sandbox["template"]["SANDBOX_V2"]["sandbox_1"]["main"]["stage"]["node"][node_id]["building"].pop(
-                        j)
+                        j
+                    )
                     break
 
     write_json(sandbox, SANDBOX_JSON_PATH)
