@@ -2037,6 +2037,8 @@ def getGoods(theme):
         i += 1
     for j in rlv2_table["details"][theme]["difficultyUpgradeRelicGroups"]:
         for k in rlv2_table["details"][theme]["difficultyUpgradeRelicGroups"][j]["relicData"]:
+            if k["equivalentGrade"] == 0:
+                continue
             goods.append(
                 {
                     "index": str(i),
