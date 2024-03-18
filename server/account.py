@@ -14,6 +14,7 @@ from utils import read_json, write_json
 from core.function.update import updateData
 import uuid
 from building import buildingSync
+from gacha import getTags
 
 def accountLogin():
     try:
@@ -616,9 +617,13 @@ def accountSyncData():
         if theme in rlv2_table["details"]:
             player_data["user"]["rlv2"]["outer"][theme]["record"]["stageCnt"] = {i:1 for i in rlv2_table["details"][theme]["stages"]}
 
-    gacha = read_json(GACHA_JSON_PATH)
-    for i in player_data["user"]["recruit"]["normal"]["slots"]:
-        player_data["user"]["recruit"]["normal"]["slots"][i]["tags"] = gacha["normal"]["tags"]
+    if config["userConfig"]["simulateGacha"]:
+        for i in player_data["user"]["recruit"]["normal"]["slots"]:
+            player_data["user"]["recruit"]["normal"]["slots"][i]["tags"] = getTags()
+    else:
+        gacha = read_json(GACHA_JSON_PATH)
+        for i in player_data["user"]["recruit"]["normal"]["slots"]:
+            player_data["user"]["recruit"]["normal"]["slots"][i]["tags"] = gacha["normal"]["tags"]
     
     sandbox = read_json(SANDBOX_JSON_PATH)
     player_data["user"]["sandboxPerm"]["template"]["SANDBOX_V2"]["sandbox_1"].update(sandbox["template"]["SANDBOX_V2"]["sandbox_1"])

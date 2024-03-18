@@ -1,7 +1,7 @@
 from flask import request
 from werkzeug.utils import safe_join
 
-from constants import GACHA_JSON_PATH, POOL_JSON_PATH, POOL_CLASSIC_JSON_PATH, GACHA_TEMP_JSON_PATH, CONFIG_PATH, GACHA_UP_CHAR_JSON_PATH, GACHA_TABLE_URL, POOL_JSON_DIR
+from constants import GACHA_JSON_PATH, POOL_JSON_PATH, POOL_CLASSIC_JSON_PATH, GACHA_TEMP_JSON_PATH, CONFIG_PATH, GACHA_UP_CHAR_JSON_PATH, GACHA_TABLE_URL, POOL_JSON_DIR, CHARACTER_TABLE_URL
 from utils import read_json, write_json, decrypt_battle_data
 from core.function.update import updateData
 import random
@@ -10,23 +10,124 @@ import os
 from faketime import time
 
 
+def getTags():
+    gacha_table = updateData(GACHA_TABLE_URL)
+    all_tags = [
+        i["tagId"] for i in gacha_table["gachaTags"]
+        if not i["tagName"].endswith("性干员")
+    ]
+    tags = random.sample(all_tags, 5)
+    return tags
+
+
+def buildTagCharSet():
+    tag_char_set = {}
+    tag_char_set["EVERYONE"] = set()
+    gacha_table = updateData(GACHA_TABLE_URL)
+    for i in gacha_table["gachaTags"]:
+        tag_char_set[i["tagName"]] = set()
+
+    string_mapping = {
+        "WARRIOR": "近卫干员",
+        "SNIPER": "狙击干员",
+        "TANK": "重装干员",
+        "MEDIC": "医疗干员",
+        "SUPPORT": "辅助干员",
+        "CASTER": "术师干员",
+        "SPECIAL": "特种干员",
+        "PIONEER": "先锋干员",
+        "MELEE": "近战位",
+        "RANGED": "远程位"
+    }
+
+    character_table = updateData(CHARACTER_TABLE_URL)
+    for i in character_table:
+        if not i.startswith("char_") or i == "char_512_aprot":
+            continue
+        tag_char_set["EVERYONE"].add(i)
+        tag_char_set[string_mapping[character_table[i]["profession"]]].add(i)
+        tag_char_set[string_mapping[character_table[i]["position"]]].add(i)
+        if character_table[i]["rarity"] == "TIER_6":
+            tag_char_set["高级资深干员"].add(i)
+        elif character_table[i]["rarity"] == "TIER_5":
+            tag_char_set["资深干员"].add(i)
+        for j in character_table[i]["tagList"]:
+            if j in tag_char_set:
+                tag_char_set[j].add(i)
+
+    return tag_char_set
+
+
+def doNormalWish(slot_id, tag_list):
+    gacha_table = updateData(GACHA_TABLE_URL)
+    int_string_mapping = {}
+    string_int_mapping = {}
+    for i in gacha_table["gachaTags"]:
+        int_string_mapping[i["tagId"]] = i["tagName"]
+        string_int_mapping[i["tagName"]] = i["tagId"]
+
+    chosen_tag_list = []
+    unchosen_tag_list = []
+
+    string_tag_list = [int_string_mapping[i] for i in tag_list]
+    random.shuffle(string_tag_list)
+
+    tag_char_set = buildTagCharSet()
+    current_char_set = tag_char_set["EVERYONE"]
+    for i in string_tag_list:
+        tmp_char_set = current_char_set.intersection(tag_char_set[i])
+        if tmp_char_set:
+            current_char_set = tmp_char_set
+            chosen_tag_list.append(string_int_mapping[i])
+        else:
+            unchosen_tag_list.append(string_int_mapping[i])
+    char_id = random.choice(list(current_char_set))
+
+    gachaTemp = read_json(GACHA_TEMP_JSON_PATH)
+    if "normal" not in gachaTemp:
+        gachaTemp["normal"] = {}
+    gachaTemp["normal"][slot_id] = char_id
+    write_json(gachaTemp, GACHA_TEMP_JSON_PATH)
+
+    return chosen_tag_list, unchosen_tag_list
+
+
 def normalGacha():
+    config = read_json(CONFIG_PATH)
+    simulateGacha = config["userConfig"]["simulateGacha"]
     request_json = request.json
     start_ts = int(time())
-    return {
+    slot_id = str(request_json["slotId"])
+    tag_list = request_json["tagList"]
+    if simulateGacha:
+        chosen_tag_list,  unchosen_tag_list = doNormalWish(slot_id, tag_list)
+        select_tags = [
+            {
+                "tagId": i,
+                "pick": 1
+            } for i in chosen_tag_list
+        ]+[
+            {
+                "tagId": i,
+                "pick": 0
+            } for i in unchosen_tag_list
+        ]
+    else:
+        select_tags = [
+            {
+                "tagId": i,
+                "pick": 1
+            } for i in tag_list
+        ]
+    data = {
         "playerDataDelta": {
             "modified": {
                 "recruit": {
                     "normal": {
                         "slots": {
-                            str(request_json["slotId"]): {
+                            slot_id: {
                                 "state": 2,
-                                "selectTags": [
-                                    {
-                                        "tagId": i,
-                                        "pick": 1
-                                    } for i in request_json["tagList"]
-                                ],
+                                "selectTags": select_tags,
                                 "startTs": start_ts,
                                 "durationInSec": request_json["duration"],
                                 "maxFinishTs": start_ts+request_json["duration"],
@@ -39,6 +140,9 @@ def normalGacha():
             "deleted": {}
         }
     }
+    if simulateGacha:
+        data["playerDataDelta"]["modified"]["recruit"]["normal"]["slots"][slot_id]["tags"] = getTags()
+    return data
 
 
 def boostNormalGacha():
@@ -64,11 +168,19 @@ def boostNormalGacha():
 
 
 def finishNormalGacha():
+    config = read_json(CONFIG_PATH)
+    simulateGacha = config["userConfig"]["simulateGacha"]
     request_json = request.json
-    gacha = read_json(GACHA_JSON_PATH)
-    char_id = gacha["normal"]["charId"]
+    slot_id = str(request_json["slotId"])
+    if simulateGacha:
+        gachaTemp = read_json(GACHA_TEMP_JSON_PATH)
+        char_id = gachaTemp["normal"][slot_id]
+        is_new = True
+    else:
+        gacha = read_json(GACHA_JSON_PATH)
+        char_id = gacha["normal"]["charId"]
+        is_new = gacha["normal"]["isNew"]
     char_inst_id = int(char_id.split('_')[1])
-    is_new = gacha["normal"]["isNew"]
     return {
         "result": 0,
         "charGet": {
@@ -100,7 +212,7 @@ def finishNormalGacha():
                 "recruit": {
                     "normal": {
                         "slots": {
-                            str(request_json["slotId"]): {
+                            slot_id: {
                                 "state": 1,
                                 "selectTags": [],
                                 "startTs": -1,
