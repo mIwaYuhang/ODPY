@@ -43,6 +43,7 @@ def main():
             b64decode('Y29tLllvU3RhckVOLkFya25pZ2h0cw==').decode())
         device.resume(pid)
         session = device.attach(pid, realm="emulated")
+        java_session = device.attach(pid)
 
     with open("_.js", encoding="utf-8") as f:
         s = f.read()
@@ -60,6 +61,10 @@ def main():
     script = session.create_script(s)
     script.on('message', on_message)
     script.load()
+    if MODE == "global":
+        java_script = java_session.create_script(s)
+        java_script.on('message', on_message)
+        java_script.load()
     if VISION:
         with open("vision.js", encoding="utf-8") as f:
             s = f.read()
