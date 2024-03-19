@@ -20,25 +20,43 @@ def getTags():
     return tags
 
 
-def buildTagCharSet():
+def buildTagCharSet(mode):
     tag_char_set = {}
     tag_char_set["EVERYONE"] = set()
     gacha_table = updateData(GACHA_TABLE_URL)
     for i in gacha_table["gachaTags"]:
         tag_char_set[i["tagName"]] = set()
 
-    string_mapping = {
-        "WARRIOR": "近卫干员",
-        "SNIPER": "狙击干员",
-        "TANK": "重装干员",
-        "MEDIC": "医疗干员",
-        "SUPPORT": "辅助干员",
-        "CASTER": "术师干员",
-        "SPECIAL": "特种干员",
-        "PIONEER": "先锋干员",
-        "MELEE": "近战位",
-        "RANGED": "远程位"
-    }
+    if mode == "cn":
+        string_mapping = {
+            "WARRIOR": "近卫干员",
+            "SNIPER": "狙击干员",
+            "TANK": "重装干员",
+            "MEDIC": "医疗干员",
+            "SUPPORT": "辅助干员",
+            "CASTER": "术师干员",
+            "SPECIAL": "特种干员",
+            "PIONEER": "先锋干员",
+            "MELEE": "近战位",
+            "RANGED": "远程位",
+            "TIER_6": "高级资深干员",
+            "TIER_5": "资深干员"
+        }
+    else:
+        string_mapping = {
+            "WARRIOR": "Guard",
+            "SNIPER": "Sniper",
+            "TANK": "Defender",
+            "MEDIC": "Medic",
+            "SUPPORT": "Supporter",
+            "CASTER": "Caster",
+            "SPECIAL": "Specialist",
+            "PIONEER": "Vanguard",
+            "MELEE": "Melee",
+            "RANGED": "Ranged",
+            "TIER_6": "Top Operator",
+            "TIER_5": "Senior Operator"
+        }
 
     character_table = updateData(CHARACTER_TABLE_URL)
     for i in character_table:
@@ -47,10 +65,8 @@ def buildTagCharSet():
         tag_char_set["EVERYONE"].add(i)
         tag_char_set[string_mapping[character_table[i]["profession"]]].add(i)
         tag_char_set[string_mapping[character_table[i]["position"]]].add(i)
-        if character_table[i]["rarity"] == "TIER_6":
-            tag_char_set["高级资深干员"].add(i)
-        elif character_table[i]["rarity"] == "TIER_5":
-            tag_char_set["资深干员"].add(i)
+        if character_table[i]["rarity"] == "TIER_6" or character_table[i]["rarity"] == "TIER_5":
+            tag_char_set[string_mapping[character_table[i]["rarity"]]].add(i)
         for j in character_table[i]["tagList"]:
             if j in tag_char_set:
                 tag_char_set[j].add(i)
@@ -58,7 +74,7 @@ def buildTagCharSet():
     return tag_char_set
 
 
-def doNormalWish(slot_id, tag_list):
+def doNormalWish(slot_id, tag_list, mode):
     gacha_table = updateData(GACHA_TABLE_URL)
     int_string_mapping = {}
     string_int_mapping = {}
@@ -72,7 +88,7 @@ def doNormalWish(slot_id, tag_list):
     string_tag_list = [int_string_mapping[i] for i in tag_list]
     random.shuffle(string_tag_list)
 
-    tag_char_set = buildTagCharSet()
+    tag_char_set = buildTagCharSet(mode)
     current_char_set = tag_char_set["EVERYONE"]
     for i in string_tag_list:
         tmp_char_set = current_char_set.intersection(tag_char_set[i])
@@ -100,7 +116,10 @@ def normalGacha():
     slot_id = str(request_json["slotId"])
     tag_list = request_json["tagList"]
     if simulateGacha:
-        chosen_tag_list,  unchosen_tag_list = doNormalWish(slot_id, tag_list)
+        mode = config["server"]["mode"]
+        chosen_tag_list,  unchosen_tag_list = doNormalWish(
+            slot_id, tag_list, mode
+        )
         select_tags = [
             {
                 "tagId": i,
