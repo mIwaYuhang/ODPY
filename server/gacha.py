@@ -14,7 +14,7 @@ def getTags():
     gacha_table = updateData(GACHA_TABLE_URL)
     all_tags = [
         i["tagId"] for i in gacha_table["gachaTags"]
-        if not i["tagName"].endswith("性干员")
+        if i["tagId"] < 1000
     ]
     tags = random.sample(all_tags, 5)
     return tags
