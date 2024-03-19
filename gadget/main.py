@@ -376,6 +376,11 @@ shutil.move(
 
 if IS_GLOBAL:
     print("---XAPK---")
+    with open("global/manifest.json") as f:
+        s = f.read()
+    s = s.replace("com.YoStarEN.Arknights", "com.odpy.global.Arknights")
+    with open("global/manifest.json", "w") as f:
+        f.write(s)
     odpy_xapk_name = "odpy.xapk"
     if IS_DEV_APK:
         odpy_xapk_name = "odpy-dev.xapk"
