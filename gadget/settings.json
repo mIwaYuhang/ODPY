@@ -1,5 +1,5 @@
 {
-    "isGlobal": false,
-    "isDevApk": false,
-    "globalXapkFilename": "Arknights_20.0.62_Apkpure.xapk"
+    "isGlobal": true,
+    "isDevApk": true,
+    "globalXapkFilename": "Arknights_21.1.01_Apkpure.xapk"
 }
