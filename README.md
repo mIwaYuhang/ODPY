@@ -8,18 +8,18 @@ Discord: [https://discord.com/invite/SmuB88RR5W](https://discord.com/invite/SmuB
 
 ## Currently tested emulator to be working
 
-1. MuMu Player X (aka MuMu Player 12) (**recommended**)
+1. MuMu Player 12 (**recommended**)
 
 2. LDPlayer9 (usable, but **NOT** recommended)
 
 ## How To
 
-### MuMu Player X (aka MuMu Player 12)
+### MuMu Player 12
 
 [https://a11.gdl.netease.com/MuMuNG-setup-V3.8.3.2696-overseas-0221213808.exe](https://a11.gdl.netease.com/MuMuNG-setup-V3.8.3.2696-overseas-0221213808.exe)
 
 1. Enable root permission in MuMu Player's settings (adb connection should be enabled by default, therefore no need to enable it manually).
-2. Start MuMu Player X (aka MuMu Player 12).
+2. Start MuMu Player 12.
 3. Run `setup_requirements.bat`, and success can be indicated from `"Press enter to exit..."`.
 4. Run `start_local_server.bat`, and the window should stay open if no error occurs.
 5. Run `start_frida-server.bat`, and the window should stay open if no error occurs.
@@ -61,23 +61,23 @@ Customize each operator indivually by adding new info in `customUnitInfo` key in
 ```
 
 ## Customizing support unit
-Customize the support unit list by changing the unit info in `assistUnit` key in `config\config.json`. All characters info can be found [here](https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json).
+Customize the support unit list by changing the unit info in `config/assist.json`. All characters info can be found [here](https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/character_table.json).
 
 - `charId` - key of the character
-- `skinId` - skinId of the character (Skin List can be found [here](https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/skin_table.json))
 - `skillIndex` - Skill Index of the support unit (Index starts from 0).
-
-Note: Characters stats and skill masteries are based on the above parameters.
+- `currentEquip` - module of the character
 
 ### Format
 ```
 {
-    "charId": "char_350_surtr",
-    "skinId": "char_350_surtr@it#1",
-    "skillIndex": 2
+    "charId": "char_479_sleach",
+    "skillIndex": 2,
+    "currentEquip": "uniequip_002_sleach"
 }
 ```
 
-## TODO
-- [ ] Add more info about mods
-- [ ] Add a UI for easy editing
+## Preserving In-Game Configurations for Characters, Squads & UI
+
+Set `"userConfig"` -> `"restorePreviousStates"` -> `"squadsAndFavs"` in `config/config.json` to `true` to keep previous configurations for characters and squads.
+
+Set `"userConfig"` -> `"restorePreviousStates"` -> `"ui"` in `config/config.json` to `true` to keep previous configurations for UI.
