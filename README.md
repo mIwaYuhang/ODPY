@@ -12,6 +12,8 @@ Discord: [https://discord.com/invite/SmuB88RR5W](https://discord.com/invite/SmuB
 
 2. LDPlayer9 (usable, but **NOT** recommended)
 
+3. BlueStacks 5 (not recommended, but it is the only simple option for the global version of the game)
+
 ## How To
 
 ### MuMu Player 12
@@ -35,6 +37,19 @@ Discord: [https://discord.com/invite/SmuB88RR5W](https://discord.com/invite/SmuB
 4. Run `start_local_server.bat`, and the window should stay open if no error occurs.
 5. Run `start_frida-server.bat`, and the window should stay open if no error occurs.
 6. Run `start_frida-hook.bat`. It should automatically open up the game. The window should stay open if no error occurs.
+
+### BlueStacks 5
+
+[https://ak-build.bluestacks.com/public/app-player/windows/nxt/5.21.103.1001/03f47a014441168cefa3c6fe6bc5c21e/FullInstaller/x64/BlueStacksFullInstaller_5.21.103.1001_amd64_native.exe](https://ak-build.bluestacks.com/public/app-player/windows/nxt/5.21.103.1001/03f47a014441168cefa3c6fe6bc5c21e/FullInstaller/x64/BlueStacksFullInstaller_5.21.103.1001_amd64_native.exe)
+
+1. Enable adb connection in BlueStacks 5's settings.
+2. Open `C:\ProgramData\BlueStacks_nxt\bluestacks.conf` and set `bst.feature.rooting`, `bst.instance.Nougat32.enable_root_access` (and `bst.instance.Nougat64.enable_root_access` if exists) to `"1"` so as to enable root permission.
+3. Start BlueStacks 5.
+4. Set `"server"` -> `"useSu"` in `config/config.json` to `true`.
+5. Run `setup_requirements.bat`, and success can be indicated from `"Press enter to exit..."`.
+6. Run `start_local_server.bat`, and the window should stay open if no error occurs.
+7. Run `start_frida-server.bat`, and the window should stay open if no error occurs.
+8. Run `start_frida-hook.bat`. It should automatically open up the game. The window should stay open if no error occurs. If you are running the global version of the game, please ignore the following output: `"Error: Java API only partially available; please file a bug."`.
 
 ## Changing contengency contract season
 Change the value of key `selectedCrisis` in `config\config.json` to whatever you want. The avaiable seasons are under `data\crisis`.
