@@ -6,7 +6,10 @@ import json
 
 from ppadb.client import Client as AdbClient
 
-server_port = json.load(open('config/config.json', 'r'))["server"]["port"]
+with open("config/config.json") as f:
+    config = json.load(f)
+
+server_port = config["server"]["port"]
 default_ports = [16384, 7555, 5555]
 ADB_PATH = "platform-tools\\adb.exe"
 
@@ -51,4 +54,7 @@ os.system(f'"{ADB_PATH}" wait-for-device')
 
 print("\nRunning frida\nNow you can start fridahook\n")
 os.system(f'"{ADB_PATH}" reverse tcp:{server_port} tcp:{server_port}')
-os.system(f'"{ADB_PATH}"' + " shell /data/local/tmp/frida-server")
+if config["server"]["useSu"]:
+    os.system(f'"{ADB_PATH}"' + " shell su -c /data/local/tmp/frida-server")
+else:
+    os.system(f'"{ADB_PATH}"' + " shell /data/local/tmp/frida-server")
