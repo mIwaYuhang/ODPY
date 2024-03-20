@@ -7,8 +7,15 @@ from zipfile import ZipFile
 
 with open("config/config.json") as f:
     config = json.load(f)
-res_version = config["version"]["android"]["resVersion"]
 
+mode = config["server"]["mode"]
+
+if mode == "cn":
+    res_version = config["version"]["android"]["resVersion"]
+    base_url = "https://ak.hycdn.cn/assetbundle/official/Android/assets"
+else:
+    res_version = config["versionGlobal"]["android"]["resVersion"]
+    base_url = "https://ark-us-static-online.yo-star.com/assetbundle/official/Android/assets"
 
 if shutil.which("aria2c") is None:
     aria2_url = "https://github.com/aria2/aria2/releases/download/release-1.37.0/aria2-1.37.0-win-64bit-build1.zip"
@@ -44,7 +51,7 @@ subprocess.run(
     [
         "curl", "-L", "-O",
         "--output-dir", f"assets/{res_version}/redirect/",
-        f"https://ak.hycdn.cn/assetbundle/official/Android/assets/{res_version}/hot_update_list.json"
+        f"{base_url}/{res_version}/hot_update_list.json"
     ]
 )
 
@@ -61,7 +68,7 @@ for i in hot_update_list["packInfos"]:
         '#', "__"
     )+".dat"
     url_list.append(
-        f"https://ak.hycdn.cn/assetbundle/official/Android/assets/{res_version}/{filename}"
+        f"{base_url}/{res_version}/{filename}"
     )
 
 
@@ -74,7 +81,7 @@ for i in hot_update_list["abInfos"]:
         )
     )[0]+".dat"
     url_list.append(
-        f"https://ak.hycdn.cn/assetbundle/official/Android/assets/{res_version}/{filename}"
+        f"{base_url}/{res_version}/{filename}"
     )
 
 with open("assets.txt", "w") as f:
