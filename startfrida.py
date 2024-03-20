@@ -9,6 +9,16 @@ from ppadb.client import Client as AdbClient
 with open("config/config.json") as f:
     config = json.load(f)
 
+if os.path.isfile("C:\\ProgramData\\BlueStacks_nxt\\bluestacks.conf"):
+    with open("C:\\ProgramData\\BlueStacks_nxt\\bluestacks.conf", encoding="utf-8") as f:
+        s = f.read()
+    t = s
+    t = t.replace('bst.feature.rooting="0"', 'bst.feature.rooting="1"')
+    t = t.replace('.enable_root_access="0"', '.enable_root_access="1"')
+    if t != s:
+        with open("C:\\ProgramData\\BlueStacks_nxt\\bluestacks.conf", "w", encoding="utf-8") as f:
+            f.write(t)
+
 server_port = config["server"]["port"]
 default_ports = [16384, 7555, 5555]
 ADB_PATH = "platform-tools\\adb.exe"
