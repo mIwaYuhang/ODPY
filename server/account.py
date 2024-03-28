@@ -6,7 +6,7 @@ from base64 import b64encode
 from hashlib import md5
 from flask import request
 
-from constants import USER_JSON_PATH, CONFIG_PATH, BATTLE_REPLAY_JSON_PATH, GACHA_JSON_PATH, SANDBOX_JSON_PATH, GACHA_TEMP_JSON_PATH, RLV2_JSON_PATH, RLV2_STATIC_JSON_PATH,\
+from constants import USER_JSON_PATH, CONFIG_PATH, BATTLE_REPLAY_JSON_PATH, GACHA_JSON_PATH, SANDBOX_JSON_PATH, GACHA_TEMP_JSON_PATH, RLV2_JSON_PATH, RLV2_STATIC_JSON_PATH, CRISIS_V2_JSON_BASE_PATH, \
                     SKIN_TABLE_URL, CHARACTER_TABLE_URL, EQUIP_TABLE_URL, STORY_TABLE_URL, STAGE_TABLE_URL, \
                     SYNC_DATA_TEMPLATE_PATH, BATTLEEQUIP_TABLE_URL, DM_TABLE_URL, RETRO_TABLE_URL, \
                     HANDBOOK_INFO_TABLE_URL, MAILLIST_PATH, CHARM_TABLE_URL, ACTIVITY_TABLE_URL, SQUADS_PATH, STORY_REVIEW_TABLE_URL, ENEMY_HANDBOOK_TABLE_URL, MEDAL_TABLE_URL, RL_TABLE_URL, CHARWORD_TABLE_URL, STORY_REVIEW_META_TABLE_URL
@@ -637,6 +637,14 @@ def accountSyncData():
             for j in rlv2_static[i]:
                 rlv2[i][j].update(rlv2_static[i][j])
         player_data["user"]["rlv2"]["current"] = rlv2
+
+    selected_crisis = config["crisisV2Config"]["selectedCrisis"]
+    if selected_crisis:
+        rune = read_json(
+            f"{CRISIS_V2_JSON_BASE_PATH}{selected_crisis}.json", encoding="utf-8"
+        )
+        season = rune["info"]["seasonId"]
+        player_data["user"]["crisisV2"]["current"] = season
 
     write_json(player_data, USER_JSON_PATH)
 

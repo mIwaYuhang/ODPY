@@ -432,6 +432,34 @@
                         "maxPnt": -1,
                         "chars": []
                     }
+                },
+                "crisis_v2_season_2_1": {
+                    "permanent": {
+                        "state": 0,
+                        "scoreTotal": [],
+                        "scoreSingle": [],
+                        "comment": [],
+                        "rune": {},
+                        "exRunes": {
+                            "node_57": 2
+                        },
+                        "runePack": {},
+                        "challenge": {},
+                        "reward": {}
+                    },
+                    "temporary": {
+                        "crisis_v2_02-02": {
+                            "state": 0,
+                            "scoreTotal": [],
+                            "rune": {},
+                            "challenge": {}
+                        }
+                    },
+                    "social": {
+                        "assistCnt": 0,
+                        "maxPnt": -1,
+                        "chars": []
+                    }
                 }
             },
             "shop": {
