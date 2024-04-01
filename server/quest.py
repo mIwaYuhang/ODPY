@@ -396,7 +396,44 @@ def act5fun_questBattleFinish():
 
 def act4fun_questBattleFinish():
     return {
-        "materials": [],
+        "materials": [
+            {
+                "instId": i,
+                "materialId": j,
+                "materialType": 1
+            } for i, j in enumerate([
+                "spLiveMat_tr_1",
+                "spLiveMat_tr_2",
+                "spLiveMat_01_1",
+                "spLiveMat_01_2",
+                "spLiveMat_01_3",
+                "spLiveMat_01_4",
+                "spLiveMat_01_5",
+                "spLiveMat_01_6",
+                "spLiveMat_01_7",
+                "spLiveMat_01_8",
+                "spLiveMat_01_9",
+                "spLiveMat_02_1",
+                "spLiveMat_02_2",
+                "spLiveMat_02_3",
+                "spLiveMat_02_4",
+                "spLiveMat_02_5",
+                "spLiveMat_02_6",
+                "spLiveMat_02_7",
+                "spLiveMat_02_8",
+                "spLiveMat_02_9",
+                "spLiveMat_03_1",
+                "spLiveMat_03_2",
+                "spLiveMat_03_3",
+                "spLiveMat_03_4",
+                "spLiveMat_03_5",
+                "spLiveMat_03_6",
+                "spLiveMat_03_7",
+                "spLiveMat_03_8",
+                "spLiveMat_03_9",
+
+            ])
+        ],
         "liveId": "abcdefgh-1234-5678-a1b2c3d4e5f6",
         "playerDataDelta": {
             "modified": {},
