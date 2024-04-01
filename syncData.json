@@ -139,6 +139,11 @@
                         "tool_bomb": 1
                     }
                 }
+            },
+            "APRIL_FOOL": {
+                "act5fun": {
+                    "isOpen": true
+                }
             }
         },
         "status": {
@@ -7591,7 +7596,113 @@
         },
         "setting": {},
         "openServer": {},
-        "aprilFool": {},
+        "aprilFool": {
+            "act3fun": {
+                "stages": {
+                    "act3fun_01": {
+                        "state": 3,
+                        "scores": [
+                            0
+                        ]
+                    },
+                    "act3fun_02": {
+                        "state": 3,
+                        "scores": [
+                            0
+                        ]
+                    },
+                    "act3fun_03": {
+                        "state": 3,
+                        "scores": [
+                            0
+                        ]
+                    }
+                }
+            },
+            "act4fun": {
+                "stages": {
+                    "act4fun_tr01": {
+                        "state": 3,
+                        "liveTimes": 0
+                    },
+                    "act4fun_01": {
+                        "state": 3,
+                        "liveTimes": 0
+                    },
+                    "act4fun_02": {
+                        "state": 3,
+                        "liveTimes": 0
+                    },
+                    "act4fun_03": {
+                        "state": 3,
+                        "liveTimes": 0
+                    }
+                },
+                "liveEndings": {
+                    "badending_1": 1,
+                    "badending_2": 1,
+                    "badending_3": 1,
+                    "badending_4": 1,
+                    "badending_5": 1,
+                    "badending_6": 1,
+                    "goodending_1": 1
+                },
+                "cameraLv": 7,
+                "fans": 0,
+                "posts": 0,
+                "missions": {
+                    "mission_1": {
+                        "value": 1,
+                        "target": 1,
+                        "finished": true,
+                        "hasRecv": true
+                    },
+                    "mission_2": {
+                        "value": 2,
+                        "target": 2,
+                        "finished": true,
+                        "hasRecv": true
+                    },
+                    "mission_3": {
+                        "value": 3,
+                        "target": 3,
+                        "finished": true,
+                        "hasRecv": true
+                    },
+                    "mission_4": {
+                        "value": 3,
+                        "target": 3,
+                        "finished": true,
+                        "hasRecv": true
+                    },
+                    "mission_5": {
+                        "value": 4,
+                        "target": 4,
+                        "finished": true,
+                        "hasRecv": true
+                    },
+                    "mission_6": {
+                        "value": 5,
+                        "target": 5,
+                        "finished": true,
+                        "hasRecv": true
+                    },
+                    "mission_7": {
+                        "value": 6,
+                        "target": 6,
+                        "finished": true,
+                        "hasRecv": true
+                    }
+                }
+            },
+            "act5fun": {
+                "stageState": {
+                    "act5fun_01": 3,
+                    "act5fun_02": 3
+                },
+                "highScore": 0
+            }
+        },
         "tshop": {},
         "gacha": {
             "newbee": {
