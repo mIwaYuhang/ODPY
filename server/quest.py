@@ -440,3 +440,12 @@ def act4fun_questBattleFinish():
             "deleted": {}
         }
     }
+
+def act4fun_liveSettle():
+    return {
+        "ending": "goodending_1",
+        "playerDataDelta": {
+            "modified": {},
+            "deleted": {}
+        }
+    }

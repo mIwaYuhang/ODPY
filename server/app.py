@@ -137,6 +137,7 @@ app.add_url_rule('/aprilFool/act5fun/battleFinish', methods=['POST'], view_func=
 
 app.add_url_rule('/aprilFool/act4fun/battleStart', methods=['POST'], view_func=quest.questBattleStart)
 app.add_url_rule('/aprilFool/act4fun/battleFinish', methods=['POST'], view_func=quest.act4fun_questBattleFinish)
+app.add_url_rule('/aprilFool/act4fun/liveSettle', methods=['POST'], view_func=quest.act4fun_liveSettle)
 
 app.add_url_rule('/aprilFool/act3fun/battleStart', methods=['POST'], view_func=quest.questBattleStart)
 app.add_url_rule('/aprilFool/act3fun/battleFinish', methods=['POST'], view_func=quest.questBattleFinish)
