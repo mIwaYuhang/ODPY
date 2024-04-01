@@ -441,7 +441,9 @@
                         "comment": [],
                         "rune": {},
                         "exRunes": {
-                            "node_57": 2
+                            "node_57": 2,
+                            "node_21": 2,
+                            "node_55": 2
                         },
                         "runePack": {},
                         "challenge": {},
@@ -449,6 +451,12 @@
                     },
                     "temporary": {
                         "crisis_v2_02-02": {
+                            "state": 0,
+                            "scoreTotal": [],
+                            "rune": {},
+                            "challenge": {}
+                        },
+                        "crisis_v2_02-03": {
                             "state": 0,
                             "scoreTotal": [],
                             "rune": {},
