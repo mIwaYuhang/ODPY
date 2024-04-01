@@ -209,3 +209,13 @@ def crisisV2_battleFinish():
             runeData = rune["info"]["mapDetailDataMap"][mapId]["runeDataMap"][runeId]
             scoreCurrent[runeData["dimension"]] += runeData["score"]
     return {"result": 0, "mapId": mapId, "runeSlots": runeSlots, "isNewRecord": False, "scoreRecord": [0, 0, 0, 0, 0, 0], "scoreCurrent": scoreCurrent, "runeCount": [0, 0], "commentNew": [], "commentOld": [], "ts": 1700000000, "playerDataDelta": {"modified": {}, "deleted": {}}}
+
+def crisisV2_getSnapshot():
+    return {
+        "detail": {},
+        "simple": {},
+        "playerDataDelta": {
+            "modified": {},
+            "deleted": {}
+        }
+    }

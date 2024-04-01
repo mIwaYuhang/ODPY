@@ -77,6 +77,8 @@ app.add_url_rule('/crisisV2/getInfo', methods=['POST'], view_func=crisis.crisisV
 app.add_url_rule('/crisisV2/battleStart', methods=['POST'], view_func=crisis.crisisV2_battleStart)
 app.add_url_rule('/crisisV2/battleFinish', methods=['POST'], view_func=crisis.crisisV2_battleFinish)
 
+app.add_url_rule('/crisisV2/getSnapshot', methods=['POST'], view_func=crisis.crisisV2_getSnapshot)
+
 app.add_url_rule('/deepSea/branch', methods=['POST'], view_func=deepsea.deepSeaBranch)
 app.add_url_rule('/deepSea/event', methods=['POST'], view_func=deepsea.deepSeaEvent)
 
