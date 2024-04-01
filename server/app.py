@@ -132,6 +132,15 @@ app.add_url_rule('/activity/act24side/setTool', methods=['POST'], view_func=ques
 app.add_url_rule('/activity/bossRush/battleStart', methods=['POST'], view_func=quest.questBattleStart)
 app.add_url_rule('/activity/bossRush/battleFinish', methods=['POST'], view_func=quest.questBattleFinish)
 
+app.add_url_rule('/aprilFool/act5fun/battleStart', methods=['POST'], view_func=quest.questBattleStart)
+app.add_url_rule('/aprilFool/act5fun/battleFinish', methods=['POST'], view_func=quest.act5fun_questBattleFinish)
+
+app.add_url_rule('/aprilFool/act4fun/battleStart', methods=['POST'], view_func=quest.questBattleStart)
+app.add_url_rule('/aprilFool/act4fun/battleFinish', methods=['POST'], view_func=quest.act4fun_questBattleFinish)
+
+app.add_url_rule('/aprilFool/act3fun/battleStart', methods=['POST'], view_func=quest.questBattleStart)
+app.add_url_rule('/aprilFool/act3fun/battleFinish', methods=['POST'], view_func=quest.questBattleFinish)
+
 app.add_url_rule('/activity/bossRush/relicSelect', methods=['POST'], view_func=quest.relicSelect)
 
 app.add_url_rule('/retro/typeAct20side/competitionStart', methods=['POST'], view_func=quest.typeAct20side_competitionStart)

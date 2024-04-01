@@ -370,3 +370,31 @@ def setTrapSquad():
         }
     }
     return data
+
+def act5fun_questBattleFinish():
+    return {
+        "result": 0,
+        "score": 0,
+        "isHighScore": False,
+        "npcResult": {},
+        "playerResult": {
+            "totalWin": 0,
+            "streak": 0,
+            "totalRound": 10
+        },
+        "reward": [],
+        "playerDataDelta": {
+            "modified": {},
+            "deleted": {}
+        }
+    }
+
+def act4fun_questBattleFinish():
+    return {
+        "materials": [],
+        "liveId": "abcdefgh-1234-5678-a1b2c3d4e5f6",
+        "playerDataDelta": {
+            "modified": {},
+            "deleted": {}
+        }
+    }
