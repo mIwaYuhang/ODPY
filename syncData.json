@@ -342,23 +342,9 @@
             "seasons": {
                 "crisis_v2_season_1_1": {
                     "permanent": {
-                        "state": 1,
-                        "scoreTotal": [
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0
-                        ],
-                        "scoreSingle": [
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0
-                        ],
+                        "state": 0,
+                        "scoreTotal": [],
+                        "scoreSingle": [],
                         "comment": [],
                         "rune": {},
                         "exRunes": {
@@ -375,54 +361,26 @@
                     },
                     "temporary": {
                         "crisis_v2_01-02": {
-                            "state": 1,
-                            "scoreTotal": [
-                                0,
-                                0,
-                                0,
-                                0,
-                                0,
-                                0
-                            ],
+                            "state": 0,
+                            "scoreTotal": [],
                             "rune": {},
                             "challenge": {}
                         },
                         "crisis_v2_01-03": {
-                            "state": 1,
-                            "scoreTotal": [
-                                0,
-                                0,
-                                0,
-                                0,
-                                0,
-                                0
-                            ],
+                            "state": 0,
+                            "scoreTotal": [],
                             "rune": {},
                             "challenge": {}
                         },
                         "crisis_v2_01-05": {
-                            "state": 1,
-                            "scoreTotal": [
-                                0,
-                                0,
-                                0,
-                                0,
-                                0,
-                                0
-                            ],
+                            "state": 0,
+                            "scoreTotal": [],
                             "rune": {},
                             "challenge": {}
                         },
                         "crisis_v2_01-07": {
-                            "state": 1,
-                            "scoreTotal": [
-                                0,
-                                0,
-                                0,
-                                0,
-                                0,
-                                0
-                            ],
+                            "state": 0,
+                            "scoreTotal": [],
                             "rune": {},
                             "challenge": {}
                         }
