@@ -3,7 +3,7 @@ from faketime import time
 from flask import request
 
 from constants import BATTLE_REPLAY_JSON_PATH, USER_JSON_PATH, CONFIG_PATH, ASSIST_PATH
-from utils import read_json, write_json
+from utils import read_json, write_json, decrypt_battle_data
 
 from base64 import b64decode, b64encode
 import io
@@ -372,9 +372,14 @@ def setTrapSquad():
     return data
 
 def act5fun_questBattleFinish():
+    battle_data = decrypt_battle_data(request.json["data"])
+    score = 0
+    for i in battle_data["battleData"]["stats"]["extraBattleInfo"]:
+        if i.startswith("SIMPLE,money,"):
+            score = int(i.split(',')[-1])
     return {
         "result": 0,
-        "score": 0,
+        "score": score,
         "isHighScore": False,
         "npcResult": {},
         "playerResult": {
