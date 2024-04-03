@@ -67,7 +67,7 @@
                 "name": "Windswept Highland",
                 "loadingPicId": "loading3",
                 "description": "These perennially windswept highlands, far away from the paths of any nomadic cities, are believed to harbor hostile enemy forces. Investigate the situation and repel the threat.",
-                "picId": "ccmap_highland",
+                "picId": "map_fc_reed",
                 "logoPicId": "logo_wild",
                 "startTime": -1,
                 "rewardEndTime": -1
@@ -12362,8 +12362,149 @@
                 "bagRoadDataMap": {},
                 "nodeViewData": {
                     "width": 1000,
-                    "height": 1600,
-                    "bagPosMap": {},
+                    "height": 3200,
+                    "bagPosMap": {
+                        "pack_enemy_dbskar": {
+                            "pos": {
+                                "x": 500,
+                                "y": -120
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_dlancer": {
+                            "pos": {
+                                "x": 500,
+                                "y": -320
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_dmgswd": {
+                            "pos": {
+                                "x": 500,
+                                "y": -520
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_dscout": {
+                            "pos": {
+                                "x": 500,
+                                "y": -720
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_atk": {
+                            "pos": {
+                                "x": 500,
+                                "y": -920
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_hp": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1120
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_char_atkatkspeed": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1320
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_char_hp": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1520
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_global_squadnum_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1720
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_forbid_loc": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1920
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_token_blower": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2120
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_char_exclude": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2320
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_global_lifepoint_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2520
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_def": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2720
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        }
+                    },
                     "roadPosMap": {},
                     "nodePosMap": {
                         "node_0": {
@@ -12374,210 +12515,351 @@
                         },
                         "node_enemy_dbskar_1": {
                             "position": {
-                                "x": 100,
-                                "y": -100
+                                "x": 200,
+                                "y": -200
                             }
                         },
                         "node_enemy_dbskar_2": {
                             "position": {
-                                "x": 200,
-                                "y": -100
+                                "x": 300,
+                                "y": -200
                             }
                         },
                         "node_enemy_dbskar_3": {
                             "position": {
-                                "x": 300,
-                                "y": -100
+                                "x": 400,
+                                "y": -200
                             }
                         },
                         "node_enemy_dlancer_1": {
                             "position": {
-                                "x": 100,
-                                "y": -200
+                                "x": 200,
+                                "y": -400
                             }
                         },
                         "node_enemy_dlancer_2": {
                             "position": {
-                                "x": 200,
-                                "y": -200
+                                "x": 300,
+                                "y": -400
                             }
                         },
                         "node_enemy_dmgswd_1": {
                             "position": {
-                                "x": 100,
-                                "y": -300
+                                "x": 200,
+                                "y": -600
                             }
                         },
                         "node_enemy_dmgswd_2": {
                             "position": {
-                                "x": 200,
-                                "y": -300
+                                "x": 300,
+                                "y": -600
                             }
                         },
                         "node_enemy_dmgswd_3": {
                             "position": {
-                                "x": 300,
-                                "y": -300
+                                "x": 400,
+                                "y": -600
                             }
                         },
                         "node_enemy_dscout_1": {
                             "position": {
-                                "x": 100,
-                                "y": -400
+                                "x": 200,
+                                "y": -800
                             }
                         },
                         "node_enemy_dscout_2": {
                             "position": {
-                                "x": 200,
-                                "y": -400
+                                "x": 300,
+                                "y": -800
                             }
                         },
                         "node_enemy_dscout_3": {
                             "position": {
-                                "x": 300,
-                                "y": -400
+                                "x": 400,
+                                "y": -800
                             }
                         },
                         "node_enemy_atk_1": {
                             "position": {
-                                "x": 100,
-                                "y": -500
+                                "x": 200,
+                                "y": -1000
                             }
                         },
                         "node_enemy_atk_2": {
                             "position": {
-                                "x": 200,
-                                "y": -500
+                                "x": 300,
+                                "y": -1000
                             }
                         },
                         "node_enemy_atk_3": {
                             "position": {
-                                "x": 300,
-                                "y": -500
+                                "x": 400,
+                                "y": -1000
                             }
                         },
                         "node_enemy_hp_1": {
                             "position": {
-                                "x": 100,
-                                "y": -600
+                                "x": 200,
+                                "y": -1200
                             }
                         },
                         "node_enemy_hp_2": {
                             "position": {
-                                "x": 200,
-                                "y": -600
+                                "x": 300,
+                                "y": -1200
                             }
                         },
                         "node_enemy_hp_3": {
                             "position": {
-                                "x": 300,
-                                "y": -600
+                                "x": 400,
+                                "y": -1200
                             }
                         },
                         "node_char_atkatkspeed_1": {
                             "position": {
-                                "x": 100,
-                                "y": -700
+                                "x": 200,
+                                "y": -1400
                             }
                         },
                         "node_char_atkatkspeed_2": {
                             "position": {
-                                "x": 200,
-                                "y": -700
+                                "x": 300,
+                                "y": -1400
                             }
                         },
                         "node_char_atkatkspeed_3": {
                             "position": {
-                                "x": 300,
-                                "y": -700
+                                "x": 400,
+                                "y": -1400
                             }
                         },
                         "node_char_hp_1": {
                             "position": {
-                                "x": 100,
-                                "y": -800
+                                "x": 200,
+                                "y": -1600
                             }
                         },
                         "node_char_hp_2": {
                             "position": {
-                                "x": 200,
-                                "y": -800
+                                "x": 300,
+                                "y": -1600
                             }
                         },
                         "node_char_hp_3": {
                             "position": {
-                                "x": 300,
-                                "y": -800
+                                "x": 400,
+                                "y": -1600
                             }
                         },
                         "node_global_squadnum_1": {
                             "position": {
-                                "x": 100,
-                                "y": -900
+                                "x": 200,
+                                "y": -1800
                             }
                         },
                         "node_global_forbidloc_1": {
                             "position": {
-                                "x": 100,
-                                "y": -1000
+                                "x": 200,
+                                "y": -2000
                             }
                         },
                         "node_global_forbidloc_2": {
                             "position": {
-                                "x": 200,
-                                "y": -1000
+                                "x": 300,
+                                "y": -2000
                             }
                         },
                         "node_global_forbidloc_3": {
                             "position": {
-                                "x": 300,
-                                "y": -1000
+                                "x": 400,
+                                "y": -2000
                             }
                         },
                         "node_token_blower_1": {
                             "position": {
-                                "x": 100,
-                                "y": -1100
+                                "x": 200,
+                                "y": -2200
                             }
                         },
                         "node_token_blower_2": {
                             "position": {
-                                "x": 200,
-                                "y": -1100
+                                "x": 300,
+                                "y": -2200
                             }
                         },
                         "node_char_cost_special_1": {
                             "position": {
-                                "x": 100,
-                                "y": -1200
+                                "x": 200,
+                                "y": -2400
                             }
                         },
                         "node_char_cost_special_2": {
                             "position": {
-                                "x": 200,
-                                "y": -1200
+                                "x": 300,
+                                "y": -2400
                             }
                         },
                         "node_global_lifepoint_1": {
                             "position": {
-                                "x": 100,
-                                "y": -1300
+                                "x": 200,
+                                "y": -2600
                             }
                         },
                         "node_enemy_def_1": {
                             "position": {
-                                "x": 100,
-                                "y": -1400
+                                "x": 200,
+                                "y": -2800
                             }
                         }
                     },
                     "exclusionDataMap": {}
                 },
                 "bagViewData": {
-                    "width": 0,
-                    "height": 0,
+                    "width": 1000,
+                    "height": 3200,
                     "treasurePosMap": {},
-                    "bagPosMap": {},
+                    "bagPosMap": {
+                        "pack_enemy_dbskar": {
+                            "pos": {
+                                "x": 500,
+                                "y": -200
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_dlancer": {
+                            "pos": {
+                                "x": 500,
+                                "y": -400
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_dmgswd": {
+                            "pos": {
+                                "x": 500,
+                                "y": -600
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_dscout": {
+                            "pos": {
+                                "x": 500,
+                                "y": -800
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_atk": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1000
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_hp": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1200
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_char_atkatkspeed": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1400
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_char_hp": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1600
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_global_squadnum_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1800
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_forbid_loc": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2000
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_token_blower": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2200
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_char_exclude": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2400
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_global_lifepoint_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2600
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_def": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2800
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        }
+                    },
                     "roadPosMap": {}
                 },
                 "bagDataMap": {
@@ -12808,37 +13090,37 @@
                 },
                 "exclusionDataMap": {
                     "exclude_enemy_dbskar": {
-                        "defaultSlotId": "node_enemy_dbskar_1"
+                        "defaultSlotId": "node_enemy_dbskar_3"
                     },
                     "exclude_enemy_dlancer": {
-                        "defaultSlotId": "node_enemy_dlancer_1"
+                        "defaultSlotId": "node_enemy_dlancer_2"
                     },
                     "exclude_enemy_dmgswd": {
-                        "defaultSlotId": "node_enemy_dmgswd_1"
+                        "defaultSlotId": "node_enemy_dmgswd_3"
                     },
                     "exclude_enemy_dscout": {
-                        "defaultSlotId": "node_enemy_dscout_1"
+                        "defaultSlotId": "node_enemy_dscout_3"
                     },
                     "exclude_enemy_atk": {
-                        "defaultSlotId": "node_enemy_atk_1"
+                        "defaultSlotId": "node_enemy_atk_3"
                     },
                     "exclude_enemy_hp": {
-                        "defaultSlotId": "node_enemy_hp_1"
+                        "defaultSlotId": "node_enemy_hp_3"
                     },
                     "exclude_char_atkatkspeed": {
-                        "defaultSlotId": "node_char_atkatkspeed_1"
+                        "defaultSlotId": "node_char_atkatkspeed_3"
                     },
                     "exclude_char_hp": {
-                        "defaultSlotId": "node_char_hp_1"
+                        "defaultSlotId": "node_char_hp_3"
                     },
                     "exclude_forbid_loc": {
-                        "defaultSlotId": "node_global_forbidloc_1"
+                        "defaultSlotId": "node_global_forbidloc_3"
                     },
                     "exclude_token_blower": {
-                        "defaultSlotId": "node_token_blower_1"
+                        "defaultSlotId": "node_token_blower_2"
                     },
                     "exclude_char_exclude": {
-                        "defaultSlotId": "node_char_cost_special_1"
+                        "defaultSlotId": "node_char_cost_special_2"
                     },
                     "exclude_enemy_def": {
                         "defaultSlotId": "node_enemy_def_1"

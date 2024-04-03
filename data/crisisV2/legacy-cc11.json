@@ -67,7 +67,7 @@
                 "name": "在建沙滩",
                 "loadingPicId": "loading_Bolivar_sea",
                 "description": "坎黛拉女士在多索雷斯人工海滩角落划了一块区域，让新来的杜林设计师们大展才华，但当这些“天才”和当地工人喝完酒开始闹事时，还是需要有人出面给他们点教训。\\n<@lv.item><深水区></>无法部署，其中的敌方攻击速度和移动速度降低，持续流失生命\\n<@lv.item><特制水上平台></>可部署在深水区，之后该格可部署任意单位，部署的单位撤退时平台损坏",
-                "picId": "ccmap_bolivar_beach",
+                "picId": "map_fc_reed",
                 "logoPicId": "logo_bolivar",
                 "startTime": -1,
                 "rewardEndTime": -1
@@ -12398,8 +12398,209 @@
                 "bagRoadDataMap": {},
                 "nodeViewData": {
                     "width": 1000,
-                    "height": 2200,
-                    "bagPosMap": {},
+                    "height": 4400,
+                    "bagPosMap": {
+                        "pack_global_lifepoint_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -120
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_magicresistance_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -320
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_token_predefinecanoe_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -520
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_token_canoe_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -720
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_char_atk": {
+                            "pos": {
+                                "x": 500,
+                                "y": -920
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_char_block": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1120
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_char_exclude": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1320
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_char_hp": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1520
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_cost_recovery": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1720
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_atk": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1920
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_hp": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2120
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_hvyslr": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2320
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_norgst": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2520
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_squad_limit": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2720
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_token_tidectrl_atkspeed_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2920
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_token_tidectrl_movespeed_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -3120
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_durbus_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -3320
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_durgrd_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -3520
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_char_cdtime_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -3720
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_char_attackspeed_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -3920
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        }
+                    },
                     "roadPosMap": {},
                     "nodePosMap": {
                         "node_0": {
@@ -12410,264 +12611,465 @@
                         },
                         "node_global_lifepoint_1": {
                             "position": {
-                                "x": 100,
-                                "y": -100
+                                "x": 200,
+                                "y": -200
                             }
                         },
                         "node_enemy_magicresistance_1": {
                             "position": {
-                                "x": 100,
-                                "y": -200
+                                "x": 200,
+                                "y": -400
                             }
                         },
                         "node_token_predefinecanoe_1": {
                             "position": {
-                                "x": 100,
-                                "y": -300
+                                "x": 200,
+                                "y": -600
                             }
                         },
                         "node_token_canoe_1": {
                             "position": {
-                                "x": 100,
-                                "y": -400
+                                "x": 200,
+                                "y": -800
                             }
                         },
                         "node_char_atk_1": {
                             "position": {
-                                "x": 100,
-                                "y": -500
+                                "x": 200,
+                                "y": -1000
                             }
                         },
                         "node_char_atk_2": {
                             "position": {
-                                "x": 200,
-                                "y": -500
+                                "x": 300,
+                                "y": -1000
                             }
                         },
                         "node_char_atk_3": {
                             "position": {
-                                "x": 300,
-                                "y": -500
+                                "x": 400,
+                                "y": -1000
                             }
                         },
                         "node_char_blockcnt_add": {
                             "position": {
-                                "x": 100,
-                                "y": -600
+                                "x": 200,
+                                "y": -1200
                             }
                         },
                         "node_char_blockcnt_add_2": {
                             "position": {
-                                "x": 200,
-                                "y": -600
+                                "x": 300,
+                                "y": -1200
                             }
                         },
                         "node_char_cost_slow_1": {
                             "position": {
-                                "x": 100,
-                                "y": -700
+                                "x": 200,
+                                "y": -1400
                             }
                         },
                         "node_char_cost_block_1": {
                             "position": {
-                                "x": 200,
-                                "y": -700
+                                "x": 300,
+                                "y": -1400
                             }
                         },
                         "node_char_cost_slow_2": {
                             "position": {
-                                "x": 300,
-                                "y": -700
+                                "x": 400,
+                                "y": -1400
                             }
                         },
                         "node_char_cost_block_2": {
                             "position": {
-                                "x": 400,
-                                "y": -700
+                                "x": 500,
+                                "y": -1400
                             }
                         },
                         "node_char_hp_1": {
                             "position": {
-                                "x": 100,
-                                "y": -800
+                                "x": 200,
+                                "y": -1600
                             }
                         },
                         "node_char_hp_2": {
                             "position": {
-                                "x": 200,
-                                "y": -800
+                                "x": 300,
+                                "y": -1600
                             }
                         },
                         "node_char_hp_3": {
                             "position": {
-                                "x": 300,
-                                "y": -800
+                                "x": 400,
+                                "y": -1600
                             }
                         },
                         "node_global_costrecovery_1": {
                             "position": {
-                                "x": 100,
-                                "y": -900
+                                "x": 200,
+                                "y": -1800
                             }
                         },
                         "node_global_costrecovery_2": {
                             "position": {
-                                "x": 200,
-                                "y": -900
+                                "x": 300,
+                                "y": -1800
                             }
                         },
                         "node_global_costrecovery_3": {
                             "position": {
-                                "x": 300,
-                                "y": -900
+                                "x": 400,
+                                "y": -1800
                             }
                         },
                         "node_enemy_atk_1": {
                             "position": {
-                                "x": 100,
-                                "y": -1000
+                                "x": 200,
+                                "y": -2000
                             }
                         },
                         "node_enemy_atk_2": {
                             "position": {
-                                "x": 200,
-                                "y": -1000
+                                "x": 300,
+                                "y": -2000
                             }
                         },
                         "node_enemy_atk_3": {
                             "position": {
-                                "x": 300,
-                                "y": -1000
+                                "x": 400,
+                                "y": -2000
                             }
                         },
                         "node_enemy_hp_1": {
                             "position": {
-                                "x": 100,
-                                "y": -1100
+                                "x": 200,
+                                "y": -2200
                             }
                         },
                         "node_enemy_hp_2": {
                             "position": {
-                                "x": 200,
-                                "y": -1100
+                                "x": 300,
+                                "y": -2200
                             }
                         },
                         "node_enemy_hp_3": {
                             "position": {
-                                "x": 300,
-                                "y": -1100
+                                "x": 400,
+                                "y": -2200
                             }
                         },
                         "node_enemy_hvyslr_1": {
                             "position": {
-                                "x": 100,
-                                "y": -1200
+                                "x": 200,
+                                "y": -2400
                             }
                         },
                         "node_enemy_hvyslr_amod_2": {
                             "position": {
-                                "x": 200,
-                                "y": -1200
+                                "x": 300,
+                                "y": -2400
                             }
                         },
                         "node_enemy_hvyslr_bmod_2": {
                             "position": {
-                                "x": 300,
-                                "y": -1200
+                                "x": 400,
+                                "y": -2400
                             }
                         },
                         "node_enemy_hvyslr_amod_3": {
                             "position": {
-                                "x": 400,
-                                "y": -1200
+                                "x": 500,
+                                "y": -2400
                             }
                         },
                         "node_enemy_hvyslr_bmod_3": {
                             "position": {
-                                "x": 500,
-                                "y": -1200
+                                "x": 600,
+                                "y": -2400
                             }
                         },
                         "node_enemy_norgst_1": {
                             "position": {
-                                "x": 100,
-                                "y": -1300
+                                "x": 200,
+                                "y": -2600
                             }
                         },
                         "node_enemy_norgst_2": {
                             "position": {
-                                "x": 200,
-                                "y": -1300
+                                "x": 300,
+                                "y": -2600
                             }
                         },
                         "node_global_squadnum_1": {
                             "position": {
-                                "x": 100,
-                                "y": -1400
+                                "x": 200,
+                                "y": -2800
                             }
                         },
                         "node_global_pcharnum_1": {
                             "position": {
-                                "x": 200,
-                                "y": -1400
+                                "x": 300,
+                                "y": -2800
                             }
                         },
                         "node_global_squadnum_2": {
                             "position": {
-                                "x": 300,
-                                "y": -1400
+                                "x": 400,
+                                "y": -2800
                             }
                         },
                         "node_global_pcharnum_2": {
                             "position": {
-                                "x": 400,
-                                "y": -1400
+                                "x": 500,
+                                "y": -2800
                             }
                         },
                         "node_token_tidectrl_atkspeed_1": {
                             "position": {
-                                "x": 100,
-                                "y": -1500
+                                "x": 200,
+                                "y": -3000
                             }
                         },
                         "node_token_tidectrl_movespeed_1": {
                             "position": {
-                                "x": 100,
-                                "y": -1600
+                                "x": 200,
+                                "y": -3200
                             }
                         },
                         "node_enemy_durbus_1": {
                             "position": {
-                                "x": 100,
-                                "y": -1700
+                                "x": 200,
+                                "y": -3400
                             }
                         },
                         "node_enemy_durgrd_1": {
                             "position": {
-                                "x": 100,
-                                "y": -1800
+                                "x": 200,
+                                "y": -3600
                             }
                         },
                         "node_char_cdtime_1": {
                             "position": {
-                                "x": 100,
-                                "y": -1900
+                                "x": 200,
+                                "y": -3800
                             }
                         },
                         "node_char_attackspeed_1": {
                             "position": {
-                                "x": 100,
-                                "y": -2000
+                                "x": 200,
+                                "y": -4000
                             }
                         }
                     },
                     "exclusionDataMap": {}
                 },
                 "bagViewData": {
-                    "width": 0,
-                    "height": 0,
+                    "width": 1000,
+                    "height": 4400,
                     "treasurePosMap": {},
-                    "bagPosMap": {},
+                    "bagPosMap": {
+                        "pack_global_lifepoint_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -200
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_magicresistance_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -400
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_token_predefinecanoe_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -600
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_token_canoe_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -800
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_char_atk": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1000
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_char_block": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1200
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_char_exclude": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1400
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_char_hp": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1600
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_cost_recovery": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1800
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_atk": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2000
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_hp": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2200
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_hvyslr": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2400
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_norgst": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2600
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_squad_limit": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2800
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_token_tidectrl_atkspeed_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -3000
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_token_tidectrl_movespeed_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -3200
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_durbus_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -3400
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_durgrd_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -3600
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_char_cdtime_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -3800
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_char_attackspeed_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -4000
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        }
+                    },
                     "roadPosMap": {}
                 },
                 "bagDataMap": {
@@ -12994,34 +13396,34 @@
                 },
                 "exclusionDataMap": {
                     "exclude_char_atk": {
-                        "defaultSlotId": "node_char_atk_1"
+                        "defaultSlotId": "node_char_atk_3"
                     },
                     "exclude_char_block": {
-                        "defaultSlotId": "node_char_blockcnt_add"
+                        "defaultSlotId": "node_char_blockcnt_add_2"
                     },
                     "exclude_char_exclude": {
-                        "defaultSlotId": "node_char_cost_slow_1"
+                        "defaultSlotId": "node_char_cost_block_2"
                     },
                     "exclude_char_hp": {
-                        "defaultSlotId": "node_char_hp_1"
+                        "defaultSlotId": "node_char_hp_3"
                     },
                     "exclude_cost_recovery": {
-                        "defaultSlotId": "node_global_costrecovery_1"
+                        "defaultSlotId": "node_global_costrecovery_3"
                     },
                     "exclude_enemy_atk": {
-                        "defaultSlotId": "node_enemy_atk_1"
+                        "defaultSlotId": "node_enemy_atk_3"
                     },
                     "exclude_enemy_hp": {
-                        "defaultSlotId": "node_enemy_hp_1"
+                        "defaultSlotId": "node_enemy_hp_3"
                     },
                     "exclude_enemy_hvyslr": {
-                        "defaultSlotId": "node_enemy_hvyslr_1"
+                        "defaultSlotId": "node_enemy_hvyslr_bmod_3"
                     },
                     "exclude_enemy_norgst": {
-                        "defaultSlotId": "node_enemy_norgst_1"
+                        "defaultSlotId": "node_enemy_norgst_2"
                     },
                     "exclude_squad_limit": {
-                        "defaultSlotId": "node_global_squadnum_1"
+                        "defaultSlotId": "node_global_pcharnum_2"
                     }
                 },
                 "dimensionItemList": [

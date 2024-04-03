@@ -67,7 +67,7 @@
                 "name": "Howling Desert",
                 "loadingPicId": "loading_OOD_03",
                 "description": "On the desolate plains where sandstorms reign supreme, locals and mercenaries alike fall together in a deadly clash, each seeking to usurp the other's wealth. It's time to correct such thinking.\n<@lv.item><Sandstorm></> Allied units caught inside the sandstorm will have reduced ATK, continuously take damage over time, and have extended redeployment time; Enemy units will instead be slowed\n<@lv.item><Dirt Mound></> A reinforceable structure that can be used to resist sandstorms; Dirt Mounds are naturally more durable in this environment and have higher HP",
-                "picId": "ccmap_howlingsand",
+                "picId": "map_fc_reed",
                 "logoPicId": "logo_sargon",
                 "startTime": -1,
                 "rewardEndTime": -1
@@ -12382,8 +12382,169 @@
                 "bagRoadDataMap": {},
                 "nodeViewData": {
                     "width": 1000,
-                    "height": 1800,
-                    "bagPosMap": {},
+                    "height": 3600,
+                    "bagPosMap": {
+                        "pack_enemy_cchmpn": {
+                            "pos": {
+                                "x": 500,
+                                "y": -120
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_ccripr": {
+                            "pos": {
+                                "x": 500,
+                                "y": -320
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_ccwitch": {
+                            "pos": {
+                                "x": 500,
+                                "y": -520
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_atk": {
+                            "pos": {
+                                "x": 500,
+                                "y": -720
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_hp": {
+                            "pos": {
+                                "x": 500,
+                                "y": -920
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_char_attackspeed": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1120
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_char_hp": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1320
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_char_exclude": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1520
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_costrecovery": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1720
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_squad_limit": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1920
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_storm_direction": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2120
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_global_lifepoint_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2320
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_char_atk_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2520
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_def_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2720
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_token_storm_speed_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2920
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        },
+                        "pack_token_storm_damage_2": {
+                            "pos": {
+                                "x": 500,
+                                "y": -3120
+                            },
+                            "size": {
+                                "x": 800,
+                                "y": 100
+                            }
+                        }
+                    },
                     "roadPosMap": {},
                     "nodePosMap": {
                         "node_0": {
@@ -12394,240 +12555,401 @@
                         },
                         "node_enemy_cchmpn_1": {
                             "position": {
-                                "x": 100,
-                                "y": -100
+                                "x": 200,
+                                "y": -200
                             }
                         },
                         "node_enemy_cchmpn_amod_2": {
                             "position": {
-                                "x": 200,
-                                "y": -100
-                            }
-                        },
-                        "node_enemy_cchmpn_amod_3": {
-                            "position": {
                                 "x": 300,
-                                "y": -100
+                                "y": -200
                             }
                         },
                         "node_enemy_cchmpn_bmod_2": {
                             "position": {
                                 "x": 400,
-                                "y": -100
+                                "y": -200
+                            }
+                        },
+                        "node_enemy_cchmpn_amod_3": {
+                            "position": {
+                                "x": 500,
+                                "y": -200
                             }
                         },
                         "node_enemy_cchmpn_bmod_3": {
                             "position": {
-                                "x": 500,
-                                "y": -100
+                                "x": 600,
+                                "y": -200
                             }
                         },
                         "node_enemy_ccripr_1": {
                             "position": {
-                                "x": 100,
-                                "y": -200
+                                "x": 200,
+                                "y": -400
                             }
                         },
                         "node_enemy_ccripr_2": {
                             "position": {
-                                "x": 200,
-                                "y": -200
+                                "x": 300,
+                                "y": -400
                             }
                         },
                         "node_enemy_ccwitch_1": {
                             "position": {
-                                "x": 100,
-                                "y": -300
+                                "x": 200,
+                                "y": -600
                             }
                         },
                         "node_enemy_ccwitch_2": {
                             "position": {
-                                "x": 200,
-                                "y": -300
+                                "x": 300,
+                                "y": -600
                             }
                         },
                         "node_enemy_atk_1": {
                             "position": {
-                                "x": 100,
-                                "y": -400
+                                "x": 200,
+                                "y": -800
                             }
                         },
                         "node_enemy_atk_2": {
                             "position": {
-                                "x": 200,
-                                "y": -400
+                                "x": 300,
+                                "y": -800
                             }
                         },
                         "node_enemy_atk_3": {
                             "position": {
-                                "x": 300,
-                                "y": -400
+                                "x": 400,
+                                "y": -800
                             }
                         },
                         "node_enemy_hp_1": {
                             "position": {
-                                "x": 100,
-                                "y": -500
+                                "x": 200,
+                                "y": -1000
                             }
                         },
                         "node_enemy_hp_2": {
                             "position": {
-                                "x": 200,
-                                "y": -500
+                                "x": 300,
+                                "y": -1000
                             }
                         },
                         "node_enemy_hp_3": {
                             "position": {
-                                "x": 300,
-                                "y": -500
+                                "x": 400,
+                                "y": -1000
                             }
                         },
                         "node_char_attackspeed_1": {
                             "position": {
-                                "x": 100,
-                                "y": -600
+                                "x": 200,
+                                "y": -1200
                             }
                         },
                         "node_char_attackspeed_2": {
                             "position": {
-                                "x": 200,
-                                "y": -600
+                                "x": 300,
+                                "y": -1200
                             }
                         },
                         "node_char_hp_1": {
                             "position": {
-                                "x": 100,
-                                "y": -700
+                                "x": 200,
+                                "y": -1400
                             }
                         },
                         "node_char_hp_2": {
                             "position": {
-                                "x": 200,
-                                "y": -700
+                                "x": 300,
+                                "y": -1400
                             }
                         },
                         "node_char_hp_3": {
                             "position": {
-                                "x": 300,
-                                "y": -700
+                                "x": 400,
+                                "y": -1400
                             }
                         },
                         "node_char_cost_guardspecial_1": {
                             "position": {
-                                "x": 100,
-                                "y": -800
-                            }
-                        },
-                        "node_char_cost_guardspecial_2": {
-                            "position": {
                                 "x": 200,
-                                "y": -800
+                                "y": -1600
                             }
                         },
                         "node_char_cost_castersupporter_1": {
                             "position": {
                                 "x": 300,
-                                "y": -800
+                                "y": -1600
+                            }
+                        },
+                        "node_char_cost_guardspecial_2": {
+                            "position": {
+                                "x": 400,
+                                "y": -1600
                             }
                         },
                         "node_char_cost_castersupporter_2": {
                             "position": {
-                                "x": 400,
-                                "y": -800
+                                "x": 500,
+                                "y": -1600
                             }
                         },
                         "node_global_costrecovery_1": {
                             "position": {
-                                "x": 100,
-                                "y": -900
+                                "x": 200,
+                                "y": -1800
                             }
                         },
                         "node_global_costrecovery_2": {
                             "position": {
-                                "x": 200,
-                                "y": -900
+                                "x": 300,
+                                "y": -1800
                             }
                         },
                         "node_global_costrecovery_3": {
                             "position": {
-                                "x": 300,
-                                "y": -900
+                                "x": 400,
+                                "y": -1800
                             }
                         },
                         "node_global_squadnum_1": {
                             "position": {
-                                "x": 100,
-                                "y": -1000
-                            }
-                        },
-                        "node_global_squadnum_2": {
-                            "position": {
                                 "x": 200,
-                                "y": -1000
+                                "y": -2000
                             }
                         },
                         "node_global_pcharnum_1": {
                             "position": {
                                 "x": 300,
-                                "y": -1000
+                                "y": -2000
+                            }
+                        },
+                        "node_global_squadnum_2": {
+                            "position": {
+                                "x": 400,
+                                "y": -2000
                             }
                         },
                         "node_global_pcharnum_2": {
                             "position": {
-                                "x": 400,
-                                "y": -1000
+                                "x": 500,
+                                "y": -2000
                             }
                         },
                         "node_token_storm_direction_1": {
                             "position": {
-                                "x": 100,
-                                "y": -1100
+                                "x": 200,
+                                "y": -2200
                             }
                         },
                         "node_token_storm_direction_2": {
                             "position": {
-                                "x": 200,
-                                "y": -1100
+                                "x": 300,
+                                "y": -2200
                             }
                         },
                         "node_global_lifepoint_1": {
                             "position": {
-                                "x": 100,
-                                "y": -1200
+                                "x": 200,
+                                "y": -2400
                             }
                         },
                         "node_char_atk_1": {
                             "position": {
-                                "x": 100,
-                                "y": -1300
+                                "x": 200,
+                                "y": -2600
                             }
                         },
                         "node_enemy_def_1": {
                             "position": {
-                                "x": 100,
-                                "y": -1400
+                                "x": 200,
+                                "y": -2800
                             }
                         },
                         "node_token_storm_speed_1": {
                             "position": {
-                                "x": 100,
-                                "y": -1500
+                                "x": 200,
+                                "y": -3000
                             }
                         },
                         "node_token_storm_damage_2": {
                             "position": {
-                                "x": 100,
-                                "y": -1600
+                                "x": 200,
+                                "y": -3200
                             }
                         }
                     },
                     "exclusionDataMap": {}
                 },
                 "bagViewData": {
-                    "width": 0,
-                    "height": 0,
+                    "width": 1000,
+                    "height": 3600,
                     "treasurePosMap": {},
-                    "bagPosMap": {},
+                    "bagPosMap": {
+                        "pack_enemy_cchmpn": {
+                            "pos": {
+                                "x": 500,
+                                "y": -200
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_ccripr": {
+                            "pos": {
+                                "x": 500,
+                                "y": -400
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_ccwitch": {
+                            "pos": {
+                                "x": 500,
+                                "y": -600
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_atk": {
+                            "pos": {
+                                "x": 500,
+                                "y": -800
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_hp": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1000
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_char_attackspeed": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1200
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_char_hp": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1400
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_char_exclude": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1600
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_costrecovery": {
+                            "pos": {
+                                "x": 500,
+                                "y": -1800
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_squad_limit": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2000
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_storm_direction": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2200
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_global_lifepoint_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2400
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_char_atk_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2600
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_enemy_def_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -2800
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_token_storm_speed_1": {
+                            "pos": {
+                                "x": 500,
+                                "y": -3000
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        },
+                        "pack_token_storm_damage_2": {
+                            "pos": {
+                                "x": 500,
+                                "y": -3200
+                            },
+                            "size": {
+                                "x": 600,
+                                "y": 100
+                            }
+                        }
+                    },
                     "roadPosMap": {}
                 },
                 "bagDataMap": {
@@ -12890,37 +13212,37 @@
                 },
                 "exclusionDataMap": {
                     "exclude_enemy_cchmpn": {
-                        "defaultSlotId": "node_enemy_cchmpn_1"
+                        "defaultSlotId": "node_enemy_cchmpn_bmod_3"
                     },
                     "exclude_enemy_ccripr": {
-                        "defaultSlotId": "node_enemy_ccripr_1"
+                        "defaultSlotId": "node_enemy_ccripr_2"
                     },
                     "exclude_enemy_ccwitch": {
-                        "defaultSlotId": "node_enemy_ccwitch_1"
+                        "defaultSlotId": "node_enemy_ccwitch_2"
                     },
                     "exclude_enemy_atk": {
-                        "defaultSlotId": "node_enemy_atk_1"
+                        "defaultSlotId": "node_enemy_atk_3"
                     },
                     "exclude_enemy_hp": {
-                        "defaultSlotId": "node_enemy_hp_1"
+                        "defaultSlotId": "node_enemy_hp_3"
                     },
                     "exclude_char_attackspeed": {
-                        "defaultSlotId": "node_char_attackspeed_1"
+                        "defaultSlotId": "node_char_attackspeed_2"
                     },
                     "exclude_char_hp": {
-                        "defaultSlotId": "node_char_hp_1"
+                        "defaultSlotId": "node_char_hp_3"
                     },
                     "exclude_char_exclude": {
-                        "defaultSlotId": "node_char_cost_guardspecial_1"
+                        "defaultSlotId": "node_char_cost_castersupporter_2"
                     },
                     "exclude_costrecovery": {
-                        "defaultSlotId": "node_global_costrecovery_1"
+                        "defaultSlotId": "node_global_costrecovery_3"
                     },
                     "exclude_squad_limit": {
-                        "defaultSlotId": "node_global_squadnum_1"
+                        "defaultSlotId": "node_global_pcharnum_2"
                     },
                     "exclude_storm_direction": {
-                        "defaultSlotId": "node_token_storm_direction_1"
+                        "defaultSlotId": "node_token_storm_direction_2"
                     }
                 },
                 "dimensionItemList": [

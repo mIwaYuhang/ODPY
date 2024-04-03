@@ -28,7 +28,7 @@ for legacy_cc_name in os.listdir("data/crisis/"):
         "data"]["seasonInfo"][0]["stages"][target_stage_id]["loadingPicId"]
     template["info"]["mapStageDataMap"][template_map_id]["description"] = target[
         "data"]["seasonInfo"][0]["stages"][target_stage_id]["description"]
-    template["info"]["mapStageDataMap"][template_map_id]["picId"] = target["data"]["seasonInfo"][0]["stages"][target_stage_id]["picId"]
+    # template["info"]["mapStageDataMap"][template_map_id]["picId"] = target["data"]["seasonInfo"][0]["stages"][target_stage_id]["picId"]
     template["info"]["mapStageDataMap"][template_map_id]["logoPicId"] = target["data"]["seasonInfo"][0]["stages"][target_stage_id]["logoPicId"]
 
     template["info"]["mapDetailDataMap"][template_map_id]["groupDescDataMap"] = {}
@@ -37,7 +37,7 @@ for legacy_cc_name in os.listdir("data/crisis/"):
 
     template["info"]["mapDetailDataMap"][template_map_id]["nodeViewData"] = {
         "width": 1000,
-        "height": 200,
+        "height": 400,
         "bagPosMap": {},
         "roadPosMap": {},
         "nodePosMap": {
@@ -51,8 +51,8 @@ for legacy_cc_name in os.listdir("data/crisis/"):
         "exclusionDataMap": {}
     }
     template["info"]["mapDetailDataMap"][template_map_id]["bagViewData"] = {
-        "width": 0,
-        "height": 0,
+        "width": 1000,
+        "height": 400,
         "treasurePosMap": {},
         "bagPosMap": {},
         "roadPosMap": {}
@@ -151,13 +151,44 @@ for legacy_cc_name in os.listdir("data/crisis/"):
             node_id
         )
 
+    for pack_id in pack_nodes:
+        pack_nodes[pack_id].sort(
+            key=lambda i: template["info"]
+            ["mapDetailDataMap"][template_map_id]["runeDataMap"][i[5:]]["score"]
+        )
+
+    for exclude_id in template["info"]["mapDetailDataMap"][template_map_id]["exclusionDataMap"]:
+        template["info"]["mapDetailDataMap"][template_map_id]["exclusionDataMap"][
+            exclude_id]["defaultSlotId"] = pack_nodes["pack_"+exclude_id[8:]][-1]
+
     for i, pack_id in enumerate(pack_nodes):
-        template["info"]["mapDetailDataMap"][template_map_id]["nodeViewData"]["height"] += 100
+        template["info"]["mapDetailDataMap"][template_map_id]["bagViewData"]["height"] += 200
+        template["info"]["mapDetailDataMap"][template_map_id]["bagViewData"]["bagPosMap"][pack_id] = {
+            "pos": {
+                "x": 500,
+                "y": -200-200*i
+            },
+            "size": {
+                "x": 600,
+                "y": 100
+            }
+        }
+        template["info"]["mapDetailDataMap"][template_map_id]["nodeViewData"]["height"] += 200
+        template["info"]["mapDetailDataMap"][template_map_id]["nodeViewData"]["bagPosMap"][pack_id] = {
+            "pos": {
+                "x": 500,
+                "y": -120-200*i
+            },
+            "size": {
+                "x": 800,
+                "y": 100
+            }
+        }
         for j, node_id in enumerate(pack_nodes[pack_id]):
             template["info"]["mapDetailDataMap"][template_map_id]["nodeViewData"]["nodePosMap"][node_id] = {
                 "position": {
-                    "x": 100*(j+1),
-                    "y": -100*(i+1)
+                    "x": 200+100*j,
+                    "y": -200-200*i
                 }
             }
 
