@@ -408,7 +408,8 @@
                             "node_21": 2,
                             "node_55": 2,
                             "node_53": 2,
-                            "node_52": 2
+                            "node_52": 2,
+                            "node_51": 2
                         },
                         "runePack": {},
                         "challenge": {},
@@ -422,6 +423,18 @@
                             "challenge": {}
                         },
                         "crisis_v2_02-03": {
+                            "state": 0,
+                            "scoreTotal": [],
+                            "rune": {},
+                            "challenge": {}
+                        },
+                        "crisis_v2_01-02_b": {
+                            "state": 0,
+                            "scoreTotal": [],
+                            "rune": {},
+                            "challenge": {}
+                        },
+                        "crisis_v2_01-04_b": {
                             "state": 0,
                             "scoreTotal": [],
                             "rune": {},
