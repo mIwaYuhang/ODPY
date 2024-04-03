@@ -130,7 +130,7 @@ for legacy_cc_name in os.listdir("data/crisis/"):
         template["info"]["mapDetailDataMap"][template_map_id]["runeDataMap"][rune_id] = {
             "runeId": rune_id,
             "runeGroupId": rune_group_id,
-            "runeIcon": "g_enemy_atk_1",
+            "runeIcon": f'g_enemy_atk_{target["data"]["stageRune"][target_stage_id][i]["points"]}',
             "runeName": rune_names[rune_id],
             "score": target["data"]["stageRune"][target_stage_id][i]["points"],
             "dimension": 0,

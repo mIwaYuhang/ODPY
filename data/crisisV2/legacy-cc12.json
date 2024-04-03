@@ -13890,7 +13890,7 @@
                     "char_atk_2": {
                         "runeId": "char_atk_2",
                         "runeGroupId": "group_char_atk_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "环境：高价值目标II",
                         "score": 2,
                         "dimension": 0,
@@ -13928,7 +13928,7 @@
                     "char_hp_2": {
                         "runeId": "char_hp_2",
                         "runeGroupId": "group_char_hp_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "源石环境：侵蚀II",
                         "score": 2,
                         "dimension": 0,
@@ -13966,7 +13966,7 @@
                     "global_costrecovery_2": {
                         "runeId": "global_costrecovery_2",
                         "runeGroupId": "group_global_costrecovery_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "目标：深度渗透II",
                         "score": 2,
                         "dimension": 0,
@@ -14004,7 +14004,7 @@
                     "enemy_atk_2": {
                         "runeId": "enemy_atk_2",
                         "runeGroupId": "group_enemy_atk_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "源石环境：刺激II",
                         "score": 2,
                         "dimension": 0,
@@ -14042,7 +14042,7 @@
                     "enemy_hp_2": {
                         "runeId": "enemy_hp_2",
                         "runeGroupId": "group_enemy_hp_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "源石环境：活性II",
                         "score": 2,
                         "dimension": 0,
@@ -14080,7 +14080,7 @@
                     "enemy_reid_2": {
                         "runeId": "enemy_reid_2",
                         "runeGroupId": "group_enemy_reid_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "复仇：无败利刃II",
                         "score": 2,
                         "dimension": 0,
@@ -14154,7 +14154,7 @@
                     "char_attackspeed_2": {
                         "runeId": "char_attackspeed_2",
                         "runeGroupId": "group_char_attackspeed_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "源石环境：疲惫加剧",
                         "score": 2,
                         "dimension": 0,
@@ -14192,7 +14192,7 @@
                     "global_squadnum_2": {
                         "runeId": "global_squadnum_2",
                         "runeGroupId": "group_global_squadnum_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "目标：隐秘行动II",
                         "score": 2,
                         "dimension": 0,
@@ -14230,7 +14230,7 @@
                     "global_pcharnum_2": {
                         "runeId": "global_pcharnum_2",
                         "runeGroupId": "group_global_pcharnum_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "环境：交战区II",
                         "score": 2,
                         "dimension": 0,
@@ -14268,7 +14268,7 @@
                     "char_exclude_guardsupporter_2": {
                         "runeId": "char_exclude_guardsupporter_2",
                         "runeGroupId": "group_char_exclude_guardsupporter_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "目标：战略调度",
                         "score": 2,
                         "dimension": 0,
@@ -14300,7 +14300,7 @@
                     "char_exclude_casterspecial_2": {
                         "runeId": "char_exclude_casterspecial_2",
                         "runeGroupId": "group_char_exclude_casterspecial_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "目标：战略调度",
                         "score": 2,
                         "dimension": 0,
@@ -14332,7 +14332,7 @@
                     "enemy_atk_3": {
                         "runeId": "enemy_atk_3",
                         "runeGroupId": "group_enemy_atk_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "源石环境：刺激III",
                         "score": 3,
                         "dimension": 0,
@@ -14370,7 +14370,7 @@
                     "enemy_reid_3": {
                         "runeId": "enemy_reid_3",
                         "runeGroupId": "group_enemy_reid_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "复仇：无败利刃III",
                         "score": 3,
                         "dimension": 0,
@@ -14475,7 +14475,7 @@
                     "enemy_reid_4": {
                         "runeId": "enemy_reid_4",
                         "runeGroupId": "group_enemy_reid_4",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "复仇：火与钢",
                         "score": 3,
                         "dimension": 0,
@@ -14606,7 +14606,7 @@
                     "enemy_hp_3": {
                         "runeId": "enemy_hp_3",
                         "runeGroupId": "group_enemy_hp_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "源石环境：活性III",
                         "score": 3,
                         "dimension": 0,
@@ -14644,7 +14644,7 @@
                     "char_hp_3": {
                         "runeId": "char_hp_3",
                         "runeGroupId": "group_char_hp_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "源石环境：侵蚀III",
                         "score": 3,
                         "dimension": 0,
@@ -14682,7 +14682,7 @@
                     "char_atk_3": {
                         "runeId": "char_atk_3",
                         "runeGroupId": "group_char_atk_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "环境：高价值目标III",
                         "score": 3,
                         "dimension": 0,
@@ -15011,7 +15011,7 @@
                     "enemy_sotidm_2": {
                         "runeId": "enemy_sotidm_2",
                         "runeGroupId": "group_enemy_sotidm_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "目标：身经百战",
                         "score": 2,
                         "dimension": 0,
@@ -15080,7 +15080,7 @@
                     "enemy_newrevg_2": {
                         "runeId": "enemy_newrevg_2",
                         "runeGroupId": "group_enemy_newrevg_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "目标：淬火利刃II",
                         "score": 2,
                         "dimension": 0,
@@ -15159,7 +15159,7 @@
                     "enemy_newrevg_3": {
                         "runeId": "enemy_newrevg_3",
                         "runeGroupId": "group_enemy_newrevg_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "目标：淬火利刃III",
                         "score": 3,
                         "dimension": 0,

@@ -14282,7 +14282,7 @@
                     "enemy_atk_2": {
                         "runeId": "enemy_atk_2",
                         "runeGroupId": "group_enemy_atk_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Originium Zone: Stimulus II",
                         "score": 2,
                         "dimension": 0,
@@ -14317,7 +14317,7 @@
                     "enemy_hp_2": {
                         "runeId": "enemy_hp_2",
                         "runeGroupId": "group_enemy_hp_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Originium Zone: Activation II",
                         "score": 2,
                         "dimension": 0,
@@ -14352,7 +14352,7 @@
                     "char_atk_2": {
                         "runeId": "char_atk_2",
                         "runeGroupId": "group_char_atk_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Environment: High-Value Target II",
                         "score": 2,
                         "dimension": 0,
@@ -14387,7 +14387,7 @@
                     "char_hp_2": {
                         "runeId": "char_hp_2",
                         "runeGroupId": "group_char_hp_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Originium Zone: Erosion II",
                         "score": 2,
                         "dimension": 0,
@@ -14422,7 +14422,7 @@
                     "char_debuff_2": {
                         "runeId": "char_debuff_2",
                         "runeGroupId": "group_char_debuff_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Originium Zone: Inertia II",
                         "score": 2,
                         "dimension": 0,
@@ -14462,7 +14462,7 @@
                     "char_cost_ranged_2": {
                         "runeId": "char_cost_ranged_2",
                         "runeGroupId": "group_char_cost_ranged_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Environment: Forced Diversion",
                         "score": 2,
                         "dimension": 0,
@@ -14497,7 +14497,7 @@
                     "char_cost_melee_2": {
                         "runeId": "char_cost_melee_2",
                         "runeGroupId": "group_char_cost_melee_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Environment: Surface Suppression",
                         "score": 2,
                         "dimension": 0,
@@ -14532,7 +14532,7 @@
                     "global_squadnum_2": {
                         "runeId": "global_squadnum_2",
                         "runeGroupId": "group_global_squadnum_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Objective: Covert Action II",
                         "score": 2,
                         "dimension": 0,
@@ -14567,7 +14567,7 @@
                     "global_pcharnum_2": {
                         "runeId": "global_pcharnum_2",
                         "runeGroupId": "group_global_pcharnum_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Environment: Crossfire Zone II",
                         "score": 2,
                         "dimension": 0,
@@ -14602,7 +14602,7 @@
                     "level_hidden_dsurch_2": {
                         "runeId": "level_hidden_dsurch_2",
                         "runeGroupId": "group_level_hidden_dsurch_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Environment: Sea Crawler Propagation II",
                         "score": 2,
                         "dimension": 0,
@@ -14655,7 +14655,7 @@
                     "char_cdtime_2": {
                         "runeId": "char_cdtime_2",
                         "runeGroupId": "group_char_cdtime_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Originium Zone: Hindrance II",
                         "score": 2,
                         "dimension": 0,
@@ -14690,7 +14690,7 @@
                     "enemy_dslntc_amod_2": {
                         "runeId": "enemy_dslntc_amod_2",
                         "runeGroupId": "group_enemy_dslntc_amod_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Basin Sea Reaper: Predatory Need II",
                         "score": 2,
                         "dimension": 0,
@@ -14758,7 +14758,7 @@
                     "enemy_dslntc_bmod_2": {
                         "runeId": "enemy_dslntc_bmod_2",
                         "runeGroupId": "group_enemy_dslntc_bmod_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Basin Sea Reaper: Survival Need II",
                         "score": 2,
                         "dimension": 0,
@@ -14821,7 +14821,7 @@
                     "enemy_dsurch_2": {
                         "runeId": "enemy_dsurch_2",
                         "runeGroupId": "group_enemy_dsurch_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Objective: High-Performance Separation II",
                         "score": 2,
                         "dimension": 0,
@@ -14953,7 +14953,7 @@
                     "enemy_dsmant_amod_2": {
                         "runeId": "enemy_dsmant_amod_2",
                         "runeGroupId": "group_enemy_dsmant_amod_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "The First To Talk: Tone II",
                         "score": 2,
                         "dimension": 0,
@@ -15090,7 +15090,7 @@
                     "enemy_dsmant_bmod_2": {
                         "runeId": "enemy_dsmant_bmod_2",
                         "runeGroupId": "group_enemy_dsmant_bmod_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "The First To Talk: Style II",
                         "score": 2,
                         "dimension": 0,
@@ -15222,7 +15222,7 @@
                     "enemy_dsurch_3": {
                         "runeId": "enemy_dsurch_3",
                         "runeGroupId": "group_enemy_dsurch_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "Objective: High-Performance Separation III",
                         "score": 3,
                         "dimension": 0,
@@ -15354,7 +15354,7 @@
                     "enemy_atk_3": {
                         "runeId": "enemy_atk_3",
                         "runeGroupId": "group_enemy_atk_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "Originium Zone: Stimulus III",
                         "score": 3,
                         "dimension": 0,
@@ -15389,7 +15389,7 @@
                     "enemy_hp_3": {
                         "runeId": "enemy_hp_3",
                         "runeGroupId": "group_enemy_hp_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "Originium Zone: Activation III",
                         "score": 3,
                         "dimension": 0,
@@ -15424,7 +15424,7 @@
                     "char_atk_3": {
                         "runeId": "char_atk_3",
                         "runeGroupId": "group_char_atk_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "Environment: High-Value Target III",
                         "score": 3,
                         "dimension": 0,
@@ -15459,7 +15459,7 @@
                     "char_hp_3": {
                         "runeId": "char_hp_3",
                         "runeGroupId": "group_char_hp_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "Originium Zone: Erosion III",
                         "score": 3,
                         "dimension": 0,
@@ -15494,7 +15494,7 @@
                     "level_hidden_dsurch_3": {
                         "runeId": "level_hidden_dsurch_3",
                         "runeGroupId": "group_level_hidden_dsurch_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "Environment: Sea Crawler Propagation III",
                         "score": 3,
                         "dimension": 0,
@@ -15640,7 +15640,7 @@
                     "enemy_def_2": {
                         "runeId": "enemy_def_2",
                         "runeGroupId": "group_enemy_def_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Anti-Armor II",
                         "score": 2,
                         "dimension": 0,
@@ -15675,7 +15675,7 @@
                     "global_costrecovery_2": {
                         "runeId": "global_costrecovery_2",
                         "runeGroupId": "group_global_costrecovery_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Objective: Deep Infiltration II",
                         "score": 2,
                         "dimension": 0,
@@ -15710,7 +15710,7 @@
                     "enemy_dslntc_amod_3": {
                         "runeId": "enemy_dslntc_amod_3",
                         "runeGroupId": "group_enemy_dslntc_amod_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "Basin Sea Reaper: Predatory Need III",
                         "score": 3,
                         "dimension": 0,
@@ -15778,7 +15778,7 @@
                     "enemy_dslntc_bmod_3": {
                         "runeId": "enemy_dslntc_bmod_3",
                         "runeGroupId": "group_enemy_dslntc_bmod_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "Basin Sea Reaper: Survival Need III",
                         "score": 3,
                         "dimension": 0,
@@ -15841,7 +15841,7 @@
                     "enemy_dsmant_amod_3": {
                         "runeId": "enemy_dsmant_amod_3",
                         "runeGroupId": "group_enemy_dsmant_amod_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "The First To Talk: Tone III",
                         "score": 3,
                         "dimension": 0,
@@ -15978,7 +15978,7 @@
                     "enemy_dsmant_bmod_3": {
                         "runeId": "enemy_dsmant_bmod_3",
                         "runeGroupId": "group_enemy_dsmant_bmod_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "The First To Talk: Style III",
                         "score": 3,
                         "dimension": 0,

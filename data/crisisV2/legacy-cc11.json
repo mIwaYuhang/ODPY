@@ -14359,7 +14359,7 @@
                     "char_atk_2": {
                         "runeId": "char_atk_2",
                         "runeGroupId": "group_char_atk_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "环境：高价值目标II",
                         "score": 2,
                         "dimension": 0,
@@ -14394,7 +14394,7 @@
                     "char_cost_slow_2": {
                         "runeId": "char_cost_slow_2",
                         "runeGroupId": "group_char_cost_slow_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "环境：后方制约II",
                         "score": 2,
                         "dimension": 0,
@@ -14447,7 +14447,7 @@
                     "char_cost_block_2": {
                         "runeId": "char_cost_block_2",
                         "runeGroupId": "group_char_cost_block_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "环境：前线制约II",
                         "score": 2,
                         "dimension": 0,
@@ -14500,7 +14500,7 @@
                     "char_hp_2": {
                         "runeId": "char_hp_2",
                         "runeGroupId": "group_char_hp_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "源石环境：侵蚀II",
                         "score": 2,
                         "dimension": 0,
@@ -14535,7 +14535,7 @@
                     "global_costrecovery_2": {
                         "runeId": "global_costrecovery_2",
                         "runeGroupId": "group_global_costrecovery_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "目标：深度渗透II",
                         "score": 2,
                         "dimension": 0,
@@ -14570,7 +14570,7 @@
                     "enemy_atk_2": {
                         "runeId": "enemy_atk_2",
                         "runeGroupId": "group_enemy_atk_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "源石环境：刺激II",
                         "score": 2,
                         "dimension": 0,
@@ -14605,7 +14605,7 @@
                     "enemy_hp_2": {
                         "runeId": "enemy_hp_2",
                         "runeGroupId": "group_enemy_hp_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "源石环境：活性II",
                         "score": 2,
                         "dimension": 0,
@@ -14640,7 +14640,7 @@
                     "enemy_hvyslr_amod_2": {
                         "runeId": "enemy_hvyslr_amod_2",
                         "runeGroupId": "group_enemy_hvyslr_amod_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "水手：健美II",
                         "score": 2,
                         "dimension": 0,
@@ -14805,7 +14805,7 @@
                     "enemy_hvyslr_bmod_2": {
                         "runeId": "enemy_hvyslr_bmod_2",
                         "runeGroupId": "group_enemy_hvyslr_bmod_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "水手：水性II",
                         "score": 2,
                         "dimension": 0,
@@ -15072,7 +15072,7 @@
                     "global_squadnum_2": {
                         "runeId": "global_squadnum_2",
                         "runeGroupId": "group_global_squadnum_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "目标：隐秘行动II",
                         "score": 2,
                         "dimension": 0,
@@ -15107,7 +15107,7 @@
                     "global_pcharnum_2": {
                         "runeId": "global_pcharnum_2",
                         "runeGroupId": "group_global_pcharnum_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "环境：交战区II",
                         "score": 2,
                         "dimension": 0,
@@ -15142,7 +15142,7 @@
                     "char_hp_3": {
                         "runeId": "char_hp_3",
                         "runeGroupId": "group_char_hp_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "源石环境：侵蚀III",
                         "score": 3,
                         "dimension": 0,
@@ -15177,7 +15177,7 @@
                     "global_costrecovery_3": {
                         "runeId": "global_costrecovery_3",
                         "runeGroupId": "group_global_costrecovery_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "目标：深度渗透III",
                         "score": 3,
                         "dimension": 0,
@@ -15212,7 +15212,7 @@
                     "enemy_atk_3": {
                         "runeId": "enemy_atk_3",
                         "runeGroupId": "group_enemy_atk_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "源石环境：刺激III",
                         "score": 3,
                         "dimension": 0,
@@ -15247,7 +15247,7 @@
                     "enemy_hp_3": {
                         "runeId": "enemy_hp_3",
                         "runeGroupId": "group_enemy_hp_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "源石环境：活性III",
                         "score": 3,
                         "dimension": 0,
@@ -15282,7 +15282,7 @@
                     "char_atk_3": {
                         "runeId": "char_atk_3",
                         "runeGroupId": "group_char_atk_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "环境：高价值目标III",
                         "score": 3,
                         "dimension": 0,
@@ -15523,7 +15523,7 @@
                     "char_blockcnt_add_2": {
                         "runeId": "char_blockcnt_add_2",
                         "runeGroupId": "group_char_blockcnt_add_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "环境：精神溃散II",
                         "score": 2,
                         "dimension": 0,
@@ -15558,7 +15558,7 @@
                     "enemy_norgst_2": {
                         "runeId": "enemy_norgst_2",
                         "runeGroupId": "group_enemy_norgst_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "目标：加速渗透II",
                         "score": 2,
                         "dimension": 0,
@@ -15631,7 +15631,7 @@
                     "enemy_hvyslr_amod_3": {
                         "runeId": "enemy_hvyslr_amod_3",
                         "runeGroupId": "group_enemy_hvyslr_amod_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "水手：健美III",
                         "score": 3,
                         "dimension": 0,
@@ -15796,7 +15796,7 @@
                     "enemy_hvyslr_bmod_3": {
                         "runeId": "enemy_hvyslr_bmod_3",
                         "runeGroupId": "group_enemy_hvyslr_bmod_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "水手：水性III",
                         "score": 3,
                         "dimension": 0,

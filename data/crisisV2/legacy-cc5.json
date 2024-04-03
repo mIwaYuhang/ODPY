@@ -13489,7 +13489,7 @@
                     "enemy_dekght_amod_2": {
                         "runeId": "enemy_dekght_amod_2",
                         "runeGroupId": "group_enemy_dekght_amod_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "None",
                         "score": 2,
                         "dimension": 0,
@@ -13639,7 +13639,7 @@
                     "enemy_dekght_amod_3": {
                         "runeId": "enemy_dekght_amod_3",
                         "runeGroupId": "group_enemy_dekght_amod_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "None",
                         "score": 3,
                         "dimension": 0,
@@ -13789,7 +13789,7 @@
                     "enemy_dekght_bmod_2": {
                         "runeId": "enemy_dekght_bmod_2",
                         "runeGroupId": "group_enemy_dekght_bmod_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "None",
                         "score": 2,
                         "dimension": 0,
@@ -13936,7 +13936,7 @@
                     "enemy_dekght_bmod_3": {
                         "runeId": "enemy_dekght_bmod_3",
                         "runeGroupId": "group_enemy_dekght_bmod_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "None",
                         "score": 3,
                         "dimension": 0,
@@ -14184,7 +14184,7 @@
                     "enemy_lfkght_2": {
                         "runeId": "enemy_lfkght_2",
                         "runeGroupId": "group_enemy_lfkght_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "None",
                         "score": 2,
                         "dimension": 0,
@@ -14285,7 +14285,7 @@
                     "enemy_lfkght_3": {
                         "runeId": "enemy_lfkght_3",
                         "runeGroupId": "group_enemy_lfkght_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "None",
                         "score": 3,
                         "dimension": 0,
@@ -14439,7 +14439,7 @@
                     "enemy_atk_2": {
                         "runeId": "enemy_atk_2",
                         "runeGroupId": "group_enemy_atk_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "None",
                         "score": 2,
                         "dimension": 0,
@@ -14474,7 +14474,7 @@
                     "enemy_atk_3": {
                         "runeId": "enemy_atk_3",
                         "runeGroupId": "group_enemy_atk_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "None",
                         "score": 3,
                         "dimension": 0,
@@ -14544,7 +14544,7 @@
                     "enemy_hp_2": {
                         "runeId": "enemy_hp_2",
                         "runeGroupId": "group_enemy_hp_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "None",
                         "score": 2,
                         "dimension": 0,
@@ -14614,7 +14614,7 @@
                     "char_atk_2": {
                         "runeId": "char_atk_2",
                         "runeGroupId": "group_char_atk_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "None",
                         "score": 2,
                         "dimension": 0,
@@ -14649,7 +14649,7 @@
                     "char_atk_3": {
                         "runeId": "char_atk_3",
                         "runeGroupId": "group_char_atk_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "None",
                         "score": 3,
                         "dimension": 0,
@@ -14737,7 +14737,7 @@
                     "char_defmagicresistance_2": {
                         "runeId": "char_defmagicresistance_2",
                         "runeGroupId": "group_char_defmagicresistance_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "None",
                         "score": 2,
                         "dimension": 0,
@@ -14790,7 +14790,7 @@
                     "char_defmagicresistance_3": {
                         "runeId": "char_defmagicresistance_3",
                         "runeGroupId": "group_char_defmagicresistance_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "None",
                         "score": 3,
                         "dimension": 0,
@@ -14878,7 +14878,7 @@
                     "global_costrecovery_2": {
                         "runeId": "global_costrecovery_2",
                         "runeGroupId": "group_global_costrecovery_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "None",
                         "score": 2,
                         "dimension": 0,
@@ -14913,7 +14913,7 @@
                     "global_costrecovery_3": {
                         "runeId": "global_costrecovery_3",
                         "runeGroupId": "group_global_costrecovery_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "None",
                         "score": 3,
                         "dimension": 0,
@@ -14983,7 +14983,7 @@
                     "global_squadnum_2": {
                         "runeId": "global_squadnum_2",
                         "runeGroupId": "group_global_squadnum_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "None",
                         "score": 2,
                         "dimension": 0,
@@ -15018,7 +15018,7 @@
                     "global_squadnum_3": {
                         "runeId": "global_squadnum_3",
                         "runeGroupId": "group_global_squadnum_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "None",
                         "score": 3,
                         "dimension": 0,
@@ -15088,7 +15088,7 @@
                     "global_pcharnum_2": {
                         "runeId": "global_pcharnum_2",
                         "runeGroupId": "group_global_pcharnum_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "None",
                         "score": 2,
                         "dimension": 0,
@@ -15193,7 +15193,7 @@
                     "global_forbidloc_2": {
                         "runeId": "global_forbidloc_2",
                         "runeGroupId": "group_global_forbidloc_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "None",
                         "score": 2,
                         "dimension": 0,
@@ -15263,7 +15263,7 @@
                     "char_exclude_guardhealer_2": {
                         "runeId": "char_exclude_guardhealer_2",
                         "runeGroupId": "group_char_exclude_guardhealer_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "None",
                         "score": 2,
                         "dimension": 0,
@@ -15326,7 +15326,7 @@
                     "char_exclude_casterdefender_2": {
                         "runeId": "char_exclude_casterdefender_2",
                         "runeGroupId": "group_char_exclude_casterdefender_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "None",
                         "score": 2,
                         "dimension": 0,
@@ -15354,7 +15354,7 @@
                     "char_exclude_castersupporter_2": {
                         "runeId": "char_exclude_castersupporter_2",
                         "runeGroupId": "group_char_exclude_castersupporter_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "None",
                         "score": 2,
                         "dimension": 0,
@@ -15417,7 +15417,7 @@
                     "char_hp_2": {
                         "runeId": "char_hp_2",
                         "runeGroupId": "group_char_hp_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "None",
                         "score": 2,
                         "dimension": 0,

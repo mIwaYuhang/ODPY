@@ -14246,7 +14246,7 @@
                     "enemy_hp_2": {
                         "runeId": "enemy_hp_2",
                         "runeGroupId": "group_enemy_hp_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Originium Zone: Activation II",
                         "score": 2,
                         "dimension": 0,
@@ -14281,7 +14281,7 @@
                     "char_exclude_snipercaster_2": {
                         "runeId": "char_exclude_snipercaster_2",
                         "runeGroupId": "group_char_exclude_snipercaster_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Objective: Strategic Dispatch",
                         "score": 2,
                         "dimension": 0,
@@ -14310,7 +14310,7 @@
                     "char_exclude_guardspecial_2": {
                         "runeId": "char_exclude_guardspecial_2",
                         "runeGroupId": "group_char_exclude_guardspecial_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Objective: Strategic Dispatch",
                         "score": 2,
                         "dimension": 0,
@@ -14339,7 +14339,7 @@
                     "global_pcharnum_2": {
                         "runeId": "global_pcharnum_2",
                         "runeGroupId": "group_global_pcharnum_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Environment: Crossfire Zone II",
                         "score": 2,
                         "dimension": 0,
@@ -14374,7 +14374,7 @@
                     "global_squadnum_2": {
                         "runeId": "global_squadnum_2",
                         "runeGroupId": "group_global_squadnum_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Objective: Covert Action II",
                         "score": 2,
                         "dimension": 0,
@@ -14409,7 +14409,7 @@
                     "char_atk_2": {
                         "runeId": "char_atk_2",
                         "runeGroupId": "group_char_atk_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Environment: High-Value Target II",
                         "score": 2,
                         "dimension": 0,
@@ -14444,7 +14444,7 @@
                     "char_hp_2": {
                         "runeId": "char_hp_2",
                         "runeGroupId": "group_char_hp_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Originium Zone: Erosion II",
                         "score": 2,
                         "dimension": 0,
@@ -14479,7 +14479,7 @@
                     "global_costrecovery_2": {
                         "runeId": "global_costrecovery_2",
                         "runeGroupId": "group_global_costrecovery_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Objective: Deep Infiltration II",
                         "score": 2,
                         "dimension": 0,
@@ -14514,7 +14514,7 @@
                     "enemy_atk_attackspeed_2": {
                         "runeId": "enemy_atk_attackspeed_2",
                         "runeGroupId": "group_enemy_atk_attackspeed_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Originium Zone: Deep Stimulus II",
                         "score": 2,
                         "dimension": 0,
@@ -14567,7 +14567,7 @@
                     "enemy_cadkgt_amod_2": {
                         "runeId": "enemy_cadkgt_amod_2",
                         "runeGroupId": "group_enemy_cadkgt_amod_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Viviana: Dazzle II",
                         "score": 2,
                         "dimension": 0,
@@ -14686,7 +14686,7 @@
                     "enemy_cadkgt_bmod_2": {
                         "runeId": "enemy_cadkgt_bmod_2",
                         "runeGroupId": "group_enemy_cadkgt_bmod_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Viviana: Candlelight II",
                         "score": 2,
                         "dimension": 0,
@@ -14815,7 +14815,7 @@
                     "enemy_nmekgt_amod_2": {
                         "runeId": "enemy_nmekgt_amod_2",
                         "runeGroupId": "group_enemy_nmekgt_amod_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Tola: Lone Khaganquest II",
                         "score": 2,
                         "dimension": 0,
@@ -14919,7 +14919,7 @@
                     "enemy_nmekgt_bmod_2": {
                         "runeId": "enemy_nmekgt_bmod_2",
                         "runeGroupId": "group_enemy_nmekgt_bmod_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Tola: Khagan's Excursion II",
                         "score": 2,
                         "dimension": 0,
@@ -14987,7 +14987,7 @@
                     "char_attackspeed_2": {
                         "runeId": "char_attackspeed_2",
                         "runeGroupId": "group_char_attackspeed_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Originium Zone: Exacerbated Exhaustion",
                         "score": 2,
                         "dimension": 0,
@@ -15022,7 +15022,7 @@
                     "enemy_cadkgt_amod_3": {
                         "runeId": "enemy_cadkgt_amod_3",
                         "runeGroupId": "group_enemy_cadkgt_amod_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "Viviana: Dazzle III",
                         "score": 3,
                         "dimension": 0,
@@ -15141,7 +15141,7 @@
                     "enemy_cadkgt_bmod_3": {
                         "runeId": "enemy_cadkgt_bmod_3",
                         "runeGroupId": "group_enemy_cadkgt_bmod_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "Viviana: Candlelight III",
                         "score": 3,
                         "dimension": 0,
@@ -15270,7 +15270,7 @@
                     "enemy_nmekgt_amod_3": {
                         "runeId": "enemy_nmekgt_amod_3",
                         "runeGroupId": "group_enemy_nmekgt_amod_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "Tola: Lone Khaganquest III",
                         "score": 3,
                         "dimension": 0,
@@ -15397,7 +15397,7 @@
                     "enemy_nmekgt_bmod_3": {
                         "runeId": "enemy_nmekgt_bmod_3",
                         "runeGroupId": "group_enemy_nmekgt_bmod_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "Tola: Khagan's Excursion III",
                         "score": 3,
                         "dimension": 0,
@@ -15639,7 +15639,7 @@
                     "token_neonlamp_candle_2": {
                         "runeId": "token_neonlamp_candle_2",
                         "runeGroupId": "group_token_neonlamp_candle_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Environment: Lingering Starfire",
                         "score": 2,
                         "dimension": 0,
@@ -15712,7 +15712,7 @@
                     "enemy_napkgt_2": {
                         "runeId": "enemy_napkgt_2",
                         "runeGroupId": "group_enemy_napkgt_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Environment: Beverage Promotion II",
                         "score": 2,
                         "dimension": 0,
@@ -15765,7 +15765,7 @@
                     "enemy_atk_attackspeed_3": {
                         "runeId": "enemy_atk_attackspeed_3",
                         "runeGroupId": "group_enemy_atk_attackspeed_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "Originium Zone: Deep Stimulus III",
                         "score": 3,
                         "dimension": 0,
@@ -15818,7 +15818,7 @@
                     "char_atk_3": {
                         "runeId": "char_atk_3",
                         "runeGroupId": "group_char_atk_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "Environment: High-Value Target III",
                         "score": 3,
                         "dimension": 0,
@@ -15853,7 +15853,7 @@
                     "char_hp_3": {
                         "runeId": "char_hp_3",
                         "runeGroupId": "group_char_hp_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "Originium Zone: Erosion III",
                         "score": 3,
                         "dimension": 0,

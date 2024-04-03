@@ -13957,7 +13957,7 @@
                     "enemy_dmech_hidden_2": {
                         "runeId": "enemy_dmech_hidden_2",
                         "runeGroupId": "group_enemy_dmech_hidden_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "环境：城防小队II",
                         "score": 2,
                         "dimension": 0,
@@ -14135,7 +14135,7 @@
                     "global_squadnum_2": {
                         "runeId": "global_squadnum_2",
                         "runeGroupId": "group_global_squadnum_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "目标：隐秘行动II",
                         "score": 2,
                         "dimension": 0,
@@ -14170,7 +14170,7 @@
                     "char_atk_2": {
                         "runeId": "char_atk_2",
                         "runeGroupId": "group_char_atk_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "环境：高价值目标II",
                         "score": 2,
                         "dimension": 0,
@@ -14205,7 +14205,7 @@
                     "char_hp_2": {
                         "runeId": "char_hp_2",
                         "runeGroupId": "group_char_hp_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "源石环境：侵蚀II",
                         "score": 2,
                         "dimension": 0,
@@ -14240,7 +14240,7 @@
                     "enemy_atk_2": {
                         "runeId": "enemy_atk_2",
                         "runeGroupId": "group_enemy_atk_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "源石环境：刺激II",
                         "score": 2,
                         "dimension": 0,
@@ -14275,7 +14275,7 @@
                     "global_costrecovery_2": {
                         "runeId": "global_costrecovery_2",
                         "runeGroupId": "group_global_costrecovery_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "目标：深度渗透II",
                         "score": 2,
                         "dimension": 0,
@@ -14310,7 +14310,7 @@
                     "global_costrecovery_3": {
                         "runeId": "global_costrecovery_3",
                         "runeGroupId": "group_global_costrecovery_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "目标：深度渗透III",
                         "score": 3,
                         "dimension": 0,
@@ -14345,7 +14345,7 @@
                     "char_cost_sniperguard_2": {
                         "runeId": "char_cost_sniperguard_2",
                         "runeGroupId": "group_char_cost_sniperguard_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "目标：纵深合约",
                         "score": 2,
                         "dimension": 0,
@@ -14398,7 +14398,7 @@
                     "char_cost_casterspecial_2": {
                         "runeId": "char_cost_casterspecial_2",
                         "runeGroupId": "group_char_cost_casterspecial_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "目标：火力合约",
                         "score": 2,
                         "dimension": 0,
@@ -14451,7 +14451,7 @@
                     "global_pcharnum_2": {
                         "runeId": "global_pcharnum_2",
                         "runeGroupId": "group_global_pcharnum_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "环境：交战区II",
                         "score": 2,
                         "dimension": 0,
@@ -14486,7 +14486,7 @@
                     "enemy_dzom_2": {
                         "runeId": "enemy_dzom_2",
                         "runeGroupId": "group_enemy_dzom_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "目标：再度新生II",
                         "score": 2,
                         "dimension": 0,
@@ -14531,7 +14531,7 @@
                     "enemy_defmagicresis_2": {
                         "runeId": "enemy_defmagicresis_2",
                         "runeGroupId": "group_enemy_defmagicresis_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "目标：装备精良II",
                         "score": 2,
                         "dimension": 0,
@@ -14584,7 +14584,7 @@
                     "enemy_dklord_2": {
                         "runeId": "enemy_dklord_2",
                         "runeGroupId": "group_enemy_dklord_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "目标：曼弗雷德的精锐I",
                         "score": 2,
                         "dimension": 0,
@@ -14670,7 +14670,7 @@
                     "enemy_manfri_amod_2": {
                         "runeId": "enemy_manfri_amod_2",
                         "runeGroupId": "group_enemy_manfri_amod_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "曼弗雷德：提卡兹新生II",
                         "score": 2,
                         "dimension": 0,
@@ -14794,7 +14794,7 @@
                     "enemy_manfri_amod_3": {
                         "runeId": "enemy_manfri_amod_3",
                         "runeGroupId": "group_enemy_manfri_amod_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "曼弗雷德：提卡兹新生III",
                         "score": 3,
                         "dimension": 0,
@@ -14918,7 +14918,7 @@
                     "enemy_manfri_bmod_2": {
                         "runeId": "enemy_manfri_bmod_2",
                         "runeGroupId": "group_enemy_manfri_bmod_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "曼弗雷德：死亡诡计II",
                         "score": 2,
                         "dimension": 0,
@@ -15045,7 +15045,7 @@
                     "enemy_manfri_bmod_3": {
                         "runeId": "enemy_manfri_bmod_3",
                         "runeGroupId": "group_enemy_manfri_bmod_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "曼弗雷德：死亡诡计III",
                         "score": 3,
                         "dimension": 0,
@@ -15172,7 +15172,7 @@
                     "char_atk_3": {
                         "runeId": "char_atk_3",
                         "runeGroupId": "group_char_atk_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "环境：高价值目标III",
                         "score": 3,
                         "dimension": 0,
@@ -15207,7 +15207,7 @@
                     "char_hp_3": {
                         "runeId": "char_hp_3",
                         "runeGroupId": "group_char_hp_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "源石环境：侵蚀III",
                         "score": 3,
                         "dimension": 0,
@@ -15242,7 +15242,7 @@
                     "enemy_atk_3": {
                         "runeId": "enemy_atk_3",
                         "runeGroupId": "group_enemy_atk_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "源石环境：刺激III",
                         "score": 3,
                         "dimension": 0,
@@ -15277,7 +15277,7 @@
                     "enemy_dklord_3": {
                         "runeId": "enemy_dklord_3",
                         "runeGroupId": "group_enemy_dklord_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "目标：曼弗雷德的精锐II",
                         "score": 3,
                         "dimension": 0,
@@ -15363,7 +15363,7 @@
                     "enemy_dzom_3": {
                         "runeId": "enemy_dzom_3",
                         "runeGroupId": "group_enemy_dzom_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "目标：再度新生III",
                         "score": 3,
                         "dimension": 0,
@@ -15443,7 +15443,7 @@
                     "enemy_defmagicresis_3": {
                         "runeId": "enemy_defmagicresis_3",
                         "runeGroupId": "group_enemy_defmagicresis_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "目标：装备精良III",
                         "score": 3,
                         "dimension": 0,

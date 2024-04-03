@@ -14006,7 +14006,7 @@
                     "enemy_spmage_2": {
                         "runeId": "enemy_spmage_2",
                         "runeGroupId": "group_enemy_spmage_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Objective: Overflowing Emotions",
                         "score": 2,
                         "dimension": 0,
@@ -14079,7 +14079,7 @@
                     "char_attackspeed_2": {
                         "runeId": "char_attackspeed_2",
                         "runeGroupId": "group_char_attackspeed_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Originium Zone: Exacerbated Exhaustion",
                         "score": 2,
                         "dimension": 0,
@@ -14114,7 +14114,7 @@
                     "char_cost_attackers_2": {
                         "runeId": "char_cost_attackers_2",
                         "runeGroupId": "group_char_cost_attackers_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Objective: Assault Contract",
                         "score": 2,
                         "dimension": 0,
@@ -14167,7 +14167,7 @@
                     "char_cost_supporters_2": {
                         "runeId": "char_cost_supporters_2",
                         "runeGroupId": "group_char_cost_supporters_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Objective: Defense Contract",
                         "score": 2,
                         "dimension": 0,
@@ -14220,7 +14220,7 @@
                     "char_hp_2": {
                         "runeId": "char_hp_2",
                         "runeGroupId": "group_char_hp_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Originium Zone: Erosion II",
                         "score": 2,
                         "dimension": 0,
@@ -14255,7 +14255,7 @@
                     "global_costrecovery_2": {
                         "runeId": "global_costrecovery_2",
                         "runeGroupId": "group_global_costrecovery_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Objective: Deep Infiltration II",
                         "score": 2,
                         "dimension": 0,
@@ -14290,7 +14290,7 @@
                     "enemy_atk_2": {
                         "runeId": "enemy_atk_2",
                         "runeGroupId": "group_enemy_atk_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Originium Zone: Stimulus II",
                         "score": 2,
                         "dimension": 0,
@@ -14325,7 +14325,7 @@
                     "enemy_hp_2": {
                         "runeId": "enemy_hp_2",
                         "runeGroupId": "group_enemy_hp_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Originium Zone: Activation II",
                         "score": 2,
                         "dimension": 0,
@@ -14360,7 +14360,7 @@
                     "enemy_spslme_amod_2": {
                         "runeId": "enemy_spslme_amod_2",
                         "runeGroupId": "group_enemy_spslme_amod_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Objective: Distinctive Darkness II",
                         "score": 2,
                         "dimension": 0,
@@ -14423,7 +14423,7 @@
                     "enemy_spslme_bmod_2": {
                         "runeId": "enemy_spslme_bmod_2",
                         "runeGroupId": "group_enemy_spslme_bmod_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Objective: Ephemerality II",
                         "score": 2,
                         "dimension": 0,
@@ -14491,7 +14491,7 @@
                     "enemy_xi_amod_2": {
                         "runeId": "enemy_xi_amod_2",
                         "runeGroupId": "group_enemy_xi_amod_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Free: Unperturbed II",
                         "score": 2,
                         "dimension": 0,
@@ -14671,7 +14671,7 @@
                     "enemy_xi_bmod_2": {
                         "runeId": "enemy_xi_bmod_2",
                         "runeGroupId": "group_enemy_xi_bmod_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Free: Four Corners II",
                         "score": 2,
                         "dimension": 0,
@@ -14823,7 +14823,7 @@
                     "global_squadnum_2": {
                         "runeId": "global_squadnum_2",
                         "runeGroupId": "group_global_squadnum_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Objective: Covert Action II",
                         "score": 2,
                         "dimension": 0,
@@ -14858,7 +14858,7 @@
                     "global_pcharnum_2": {
                         "runeId": "global_pcharnum_2",
                         "runeGroupId": "group_global_pcharnum_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Environment: Crossfire Zone II",
                         "score": 2,
                         "dimension": 0,
@@ -14893,7 +14893,7 @@
                     "enemy_hp_3": {
                         "runeId": "enemy_hp_3",
                         "runeGroupId": "group_enemy_hp_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "Originium Zone: Activation III",
                         "score": 3,
                         "dimension": 0,
@@ -14928,7 +14928,7 @@
                     "enemy_xi_amod_3": {
                         "runeId": "enemy_xi_amod_3",
                         "runeGroupId": "group_enemy_xi_amod_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "Free: Unperturbed III",
                         "score": 3,
                         "dimension": 0,
@@ -15108,7 +15108,7 @@
                     "enemy_xi_bmod_3": {
                         "runeId": "enemy_xi_bmod_3",
                         "runeGroupId": "group_enemy_xi_bmod_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "Free: Four Corners III",
                         "score": 3,
                         "dimension": 0,
@@ -15421,7 +15421,7 @@
                     "enemy_attackspeed_2": {
                         "runeId": "enemy_attackspeed_2",
                         "runeGroupId": "group_enemy_attackspeed_2",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_2",
                         "runeName": "Anti-Clustering",
                         "score": 2,
                         "dimension": 0,
@@ -15456,7 +15456,7 @@
                     "char_attackspeed_3": {
                         "runeId": "char_attackspeed_3",
                         "runeGroupId": "group_char_attackspeed_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "Originium Zone: Deep Exhaustion",
                         "score": 3,
                         "dimension": 0,
@@ -15491,7 +15491,7 @@
                     "global_costrecovery_3": {
                         "runeId": "global_costrecovery_3",
                         "runeGroupId": "group_global_costrecovery_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "Objective: Deep Infiltration III",
                         "score": 3,
                         "dimension": 0,
@@ -15526,7 +15526,7 @@
                     "enemy_spslme_amod_3": {
                         "runeId": "enemy_spslme_amod_3",
                         "runeGroupId": "group_enemy_spslme_amod_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "Objective: Distinctive Darkness III",
                         "score": 3,
                         "dimension": 0,
@@ -15612,7 +15612,7 @@
                     "enemy_spslme_bmod_3": {
                         "runeId": "enemy_spslme_bmod_3",
                         "runeGroupId": "group_enemy_spslme_bmod_3",
-                        "runeIcon": "g_enemy_atk_1",
+                        "runeIcon": "g_enemy_atk_3",
                         "runeName": "Objective: Ephemerality III",
                         "score": 3,
                         "dimension": 0,
