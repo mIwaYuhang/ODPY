@@ -1,5 +1,5 @@
 {
-    "current": "tough_13-19",
+    "current": "hard_13-01",
     "currentCharConfig": "95cf97c228e6c235cd6503e5eeb1b737",
     "saved": {
         "95cf97c228e6c235cd6503e5eeb1b737": {
@@ -96315,6 +96315,821 @@
                         }
                     ],
                     "randomSeed": 17368672,
+                    "runeList": null
+                }
+            },
+            "hard_13-01": {
+                "campaignOnlyVersion": 0,
+                "timestamp": "1700000000",
+                "journal": {
+                    "metadata": {
+                        "standardPlayTime": 413.866272,
+                        "gameResult": 1,
+                        "saveTime": "2023-11-15T06:13:20Z",
+                        "remainingCost": 99,
+                        "remainingLifePoint": 3,
+                        "killedEnemiesCnt": 57,
+                        "missedEnemiesCnt": 0,
+                        "levelId": "Obt/Hard/level_hard_13-01",
+                        "stageId": "hard_13-01",
+                        "validKilledEnemiesCnt": 57
+                    },
+                    "squad": [
+                        {
+                            "charInstId": 479,
+                            "skinId": "char_479_sleach@summer#11",
+                            "tmplId": null,
+                            "skillId": "skchr_sleach_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_sleach",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 1014,
+                            "skinId": "char_1014_nearl2@epoque#17",
+                            "tmplId": null,
+                            "skillId": "skchr_nearl2_2",
+                            "skillIndex": 1,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_003_nearl2",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 4064,
+                            "skinId": "char_4064_mlynar@epoque#28",
+                            "tmplId": null,
+                            "skillId": "skchr_mlynar_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "",
+                            "uniequipLevel": 0
+                        },
+                        {
+                            "charInstId": 264,
+                            "skinId": "char_264_f12yin@epoque#15",
+                            "tmplId": null,
+                            "skillId": "skchr_f12yin_2",
+                            "skillIndex": 1,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_f12yin",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 350,
+                            "skinId": "char_350_surtr@summer#9",
+                            "tmplId": null,
+                            "skillId": "skchr_surtr_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "",
+                            "uniequipLevel": 0
+                        },
+                        {
+                            "charInstId": 1013,
+                            "skinId": "char_1013_chen2@boc#6",
+                            "tmplId": null,
+                            "skillId": "skchr_chen2_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "",
+                            "uniequipLevel": 0
+                        },
+                        {
+                            "charInstId": 3,
+                            "skinId": "char_003_kalts@boc#6",
+                            "tmplId": null,
+                            "skillId": "skchr_kalts_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_003_kalts",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 179,
+                            "skinId": "char_179_cgbird@witch#1",
+                            "tmplId": null,
+                            "skillId": "skchr_cgbird_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_cgbird",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 1016,
+                            "skinId": "char_1016_agoat2#2",
+                            "tmplId": null,
+                            "skillId": "skchr_agoat2_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "",
+                            "uniequipLevel": 0
+                        },
+                        {
+                            "charInstId": 1028,
+                            "skinId": "char_1028_texas2@iteration#1",
+                            "tmplId": null,
+                            "skillId": "skchr_texas2_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_texas2",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 1026,
+                            "skinId": "char_1026_gvial2@summer#12",
+                            "tmplId": null,
+                            "skillId": "skchr_gvial2_2",
+                            "skillIndex": 1,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_gvial2",
+                            "uniequipLevel": 3
+                        },
+                        {
+                            "charInstId": 4116,
+                            "skinId": "char_4116_blkkgt#2",
+                            "tmplId": null,
+                            "skillId": "skchr_blkkgt_3",
+                            "skillIndex": 2,
+                            "skillLvl": 10,
+                            "level": 90,
+                            "phase": 2,
+                            "potentialRank": 5,
+                            "favorBattlePhase": 100,
+                            "isAssistChar": false,
+                            "uniequipId": "uniequip_002_blkkgt",
+                            "uniequipLevel": 3
+                        }
+                    ],
+                    "logs": [
+                        {
+                            "timestamp": 0.1333332,
+                            "signiture": {
+                                "uniqueId": 2147484127,
+                                "charId": "char_479_sleach"
+                            },
+                            "op": 0,
+                            "direction": 3,
+                            "pos": {
+                                "row": 1,
+                                "col": 5
+                            }
+                        },
+                        {
+                            "timestamp": 7.03332663,
+                            "signiture": {
+                                "uniqueId": 2147483912,
+                                "charId": "char_264_f12yin"
+                            },
+                            "op": 0,
+                            "direction": 3,
+                            "pos": {
+                                "row": 1,
+                                "col": 4
+                            }
+                        },
+                        {
+                            "timestamp": 12.0333214,
+                            "signiture": {
+                                "uniqueId": 2147483912,
+                                "charId": "char_264_f12yin"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 1,
+                                "col": 4
+                            }
+                        },
+                        {
+                            "timestamp": 13.1666546,
+                            "signiture": {
+                                "uniqueId": 2147484127,
+                                "charId": "char_479_sleach"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 1,
+                                "col": 5
+                            }
+                        },
+                        {
+                            "timestamp": 13.23332,
+                            "signiture": {
+                                "uniqueId": 2147484664,
+                                "charId": "char_1016_agoat2"
+                            },
+                            "op": 0,
+                            "direction": 3,
+                            "pos": {
+                                "row": 3,
+                                "col": 7
+                            }
+                        },
+                        {
+                            "timestamp": 33.0333023,
+                            "signiture": {
+                                "uniqueId": 2147484674,
+                                "charId": "char_1026_gvial2"
+                            },
+                            "op": 0,
+                            "direction": 3,
+                            "pos": {
+                                "row": 3,
+                                "col": 4
+                            }
+                        },
+                        {
+                            "timestamp": 43.03329,
+                            "signiture": {
+                                "uniqueId": 2147484674,
+                                "charId": "char_1026_gvial2"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 3,
+                                "col": 4
+                            }
+                        },
+                        {
+                            "timestamp": 43.03329,
+                            "signiture": {
+                                "uniqueId": 2147487712,
+                                "charId": "char_4064_mlynar"
+                            },
+                            "op": 0,
+                            "direction": 3,
+                            "pos": {
+                                "row": 4,
+                                "col": 3
+                            }
+                        },
+                        {
+                            "timestamp": 43.19996,
+                            "signiture": {
+                                "uniqueId": 2147484127,
+                                "charId": "char_479_sleach"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 1,
+                                "col": 5
+                            }
+                        },
+                        {
+                            "timestamp": 52.0666161,
+                            "signiture": {
+                                "uniqueId": 2147484664,
+                                "charId": "char_1016_agoat2"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 3,
+                                "col": 7
+                            }
+                        },
+                        {
+                            "timestamp": 55.5999451,
+                            "signiture": {
+                                "uniqueId": 2147484662,
+                                "charId": "char_1014_nearl2"
+                            },
+                            "op": 0,
+                            "direction": 3,
+                            "pos": {
+                                "row": 2,
+                                "col": 1
+                            }
+                        },
+                        {
+                            "timestamp": 68.03327,
+                            "signiture": {
+                                "uniqueId": 2147483651,
+                                "charId": "char_003_kalts"
+                            },
+                            "op": 0,
+                            "direction": 0,
+                            "pos": {
+                                "row": 3,
+                                "col": 8
+                            }
+                        },
+                        {
+                            "timestamp": 73.23326,
+                            "signiture": {
+                                "uniqueId": 2147484127,
+                                "charId": "char_479_sleach"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 1,
+                                "col": 5
+                            }
+                        },
+                        {
+                            "timestamp": 73.29993,
+                            "signiture": {
+                                "uniqueId": 1073741827,
+                                "charId": "token_10002_kalts_mon3tr"
+                            },
+                            "op": 0,
+                            "direction": 1,
+                            "pos": {
+                                "row": 6,
+                                "col": 9
+                            }
+                        },
+                        {
+                            "timestamp": 74.13326,
+                            "signiture": {
+                                "uniqueId": 2147484662,
+                                "charId": "char_1014_nearl2"
+                            },
+                            "op": 1,
+                            "direction": 0,
+                            "pos": {
+                                "row": 2,
+                                "col": 1
+                            }
+                        },
+                        {
+                            "timestamp": 83.16659,
+                            "signiture": {
+                                "uniqueId": 2147487712,
+                                "charId": "char_4064_mlynar"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 4,
+                                "col": 3
+                            }
+                        },
+                        {
+                            "timestamp": 95.36658,
+                            "signiture": {
+                                "uniqueId": 1,
+                                "charId": "trap_126_outset"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 5,
+                                "col": 2
+                            }
+                        },
+                        {
+                            "timestamp": 103.299904,
+                            "signiture": {
+                                "uniqueId": 2147484127,
+                                "charId": "char_479_sleach"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 1,
+                                "col": 5
+                            }
+                        },
+                        {
+                            "timestamp": 103.4999,
+                            "signiture": {
+                                "uniqueId": 2147484127,
+                                "charId": "char_479_sleach"
+                            },
+                            "op": 1,
+                            "direction": 0,
+                            "pos": {
+                                "row": 1,
+                                "col": 5
+                            }
+                        },
+                        {
+                            "timestamp": 103.566566,
+                            "signiture": {
+                                "uniqueId": 2147487764,
+                                "charId": "char_4116_blkkgt"
+                            },
+                            "op": 0,
+                            "direction": 3,
+                            "pos": {
+                                "row": 1,
+                                "col": 5
+                            }
+                        },
+                        {
+                            "timestamp": 110.2999,
+                            "signiture": {
+                                "uniqueId": 2147483998,
+                                "charId": "char_350_surtr"
+                            },
+                            "op": 0,
+                            "direction": 0,
+                            "pos": {
+                                "row": 1,
+                                "col": 1
+                            }
+                        },
+                        {
+                            "timestamp": 111.533226,
+                            "signiture": {
+                                "uniqueId": 2147487712,
+                                "charId": "char_4064_mlynar"
+                            },
+                            "op": 1,
+                            "direction": 0,
+                            "pos": {
+                                "row": 4,
+                                "col": 3
+                            }
+                        },
+                        {
+                            "timestamp": 115.966553,
+                            "signiture": {
+                                "uniqueId": 2147483998,
+                                "charId": "char_350_surtr"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 1,
+                                "col": 1
+                            }
+                        },
+                        {
+                            "timestamp": 116.666557,
+                            "signiture": {
+                                "uniqueId": 2147484676,
+                                "charId": "char_1028_texas2"
+                            },
+                            "op": 0,
+                            "direction": 1,
+                            "pos": {
+                                "row": 6,
+                                "col": 1
+                            }
+                        },
+                        {
+                            "timestamp": 135.466537,
+                            "signiture": {
+                                "uniqueId": 2147483998,
+                                "charId": "char_350_surtr"
+                            },
+                            "op": 1,
+                            "direction": 0,
+                            "pos": {
+                                "row": 1,
+                                "col": 1
+                            }
+                        },
+                        {
+                            "timestamp": 135.466537,
+                            "signiture": {
+                                "uniqueId": 2147484676,
+                                "charId": "char_1028_texas2"
+                            },
+                            "op": 1,
+                            "direction": 0,
+                            "pos": {
+                                "row": 6,
+                                "col": 1
+                            }
+                        },
+                        {
+                            "timestamp": 151.499863,
+                            "signiture": {
+                                "uniqueId": 2147484674,
+                                "charId": "char_1026_gvial2"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 3,
+                                "col": 4
+                            }
+                        },
+                        {
+                            "timestamp": 155.333191,
+                            "signiture": {
+                                "uniqueId": 4,
+                                "charId": "trap_126_outset"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 2,
+                                "col": 4
+                            }
+                        },
+                        {
+                            "timestamp": 166.6665,
+                            "signiture": {
+                                "uniqueId": 2147484676,
+                                "charId": "char_1028_texas2"
+                            },
+                            "op": 0,
+                            "direction": 0,
+                            "pos": {
+                                "row": 3,
+                                "col": 6
+                            }
+                        },
+                        {
+                            "timestamp": 181.166489,
+                            "signiture": {
+                                "uniqueId": 2147484676,
+                                "charId": "char_1028_texas2"
+                            },
+                            "op": 1,
+                            "direction": 0,
+                            "pos": {
+                                "row": 3,
+                                "col": 6
+                            }
+                        },
+                        {
+                            "timestamp": 181.5665,
+                            "signiture": {
+                                "uniqueId": 2147487712,
+                                "charId": "char_4064_mlynar"
+                            },
+                            "op": 0,
+                            "direction": 3,
+                            "pos": {
+                                "row": 2,
+                                "col": 5
+                            }
+                        },
+                        {
+                            "timestamp": 194.066483,
+                            "signiture": {
+                                "uniqueId": 2147484662,
+                                "charId": "char_1014_nearl2"
+                            },
+                            "op": 0,
+                            "direction": 3,
+                            "pos": {
+                                "row": 2,
+                                "col": 1
+                            }
+                        },
+                        {
+                            "timestamp": 212.566467,
+                            "signiture": {
+                                "uniqueId": 2147484662,
+                                "charId": "char_1014_nearl2"
+                            },
+                            "op": 1,
+                            "direction": 0,
+                            "pos": {
+                                "row": 2,
+                                "col": 1
+                            }
+                        },
+                        {
+                            "timestamp": 221.999786,
+                            "signiture": {
+                                "uniqueId": 2147487712,
+                                "charId": "char_4064_mlynar"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 2,
+                                "col": 5
+                            }
+                        },
+                        {
+                            "timestamp": 225.39978,
+                            "signiture": {
+                                "uniqueId": 2147483998,
+                                "charId": "char_350_surtr"
+                            },
+                            "op": 0,
+                            "direction": 3,
+                            "pos": {
+                                "row": 2,
+                                "col": 1
+                            }
+                        },
+                        {
+                            "timestamp": 230.39978,
+                            "signiture": {
+                                "uniqueId": 2147483998,
+                                "charId": "char_350_surtr"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 2,
+                                "col": 1
+                            }
+                        },
+                        {
+                            "timestamp": 248.1331,
+                            "signiture": {
+                                "uniqueId": 2147483998,
+                                "charId": "char_350_surtr"
+                            },
+                            "op": 1,
+                            "direction": 0,
+                            "pos": {
+                                "row": 2,
+                                "col": 1
+                            }
+                        },
+                        {
+                            "timestamp": 285.099731,
+                            "signiture": {
+                                "uniqueId": 2147484674,
+                                "charId": "char_1026_gvial2"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 3,
+                                "col": 4
+                            }
+                        },
+                        {
+                            "timestamp": 289.399719,
+                            "signiture": {
+                                "uniqueId": 2147484662,
+                                "charId": "char_1014_nearl2"
+                            },
+                            "op": 0,
+                            "direction": 3,
+                            "pos": {
+                                "row": 2,
+                                "col": 1
+                            }
+                        },
+                        {
+                            "timestamp": 309.5997,
+                            "signiture": {
+                                "uniqueId": 2147484662,
+                                "charId": "char_1014_nearl2"
+                            },
+                            "op": 1,
+                            "direction": 0,
+                            "pos": {
+                                "row": 2,
+                                "col": 1
+                            }
+                        },
+                        {
+                            "timestamp": 362.59964,
+                            "signiture": {
+                                "uniqueId": 2147484674,
+                                "charId": "char_1026_gvial2"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 3,
+                                "col": 4
+                            }
+                        },
+                        {
+                            "timestamp": 367.999634,
+                            "signiture": {
+                                "uniqueId": 2147487764,
+                                "charId": "char_4116_blkkgt"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 1,
+                                "col": 5
+                            }
+                        },
+                        {
+                            "timestamp": 378.8663,
+                            "signiture": {
+                                "uniqueId": 2147483998,
+                                "charId": "char_350_surtr"
+                            },
+                            "op": 0,
+                            "direction": 3,
+                            "pos": {
+                                "row": 2,
+                                "col": 1
+                            }
+                        },
+                        {
+                            "timestamp": 383.8663,
+                            "signiture": {
+                                "uniqueId": 2147483998,
+                                "charId": "char_350_surtr"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 2,
+                                "col": 1
+                            }
+                        },
+                        {
+                            "timestamp": 401.132965,
+                            "signiture": {
+                                "uniqueId": 2147483998,
+                                "charId": "char_350_surtr"
+                            },
+                            "op": 1,
+                            "direction": 0,
+                            "pos": {
+                                "row": 2,
+                                "col": 1
+                            }
+                        },
+                        {
+                            "timestamp": 403.632935,
+                            "signiture": {
+                                "uniqueId": 2147487712,
+                                "charId": "char_4064_mlynar"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 2,
+                                "col": 5
+                            }
+                        },
+                        {
+                            "timestamp": 403.632935,
+                            "signiture": {
+                                "uniqueId": 2147483651,
+                                "charId": "char_003_kalts"
+                            },
+                            "op": 2,
+                            "direction": 0,
+                            "pos": {
+                                "row": 3,
+                                "col": 8
+                            }
+                        }
+                    ],
+                    "randomSeed": 3844453,
                     "runeList": null
                 }
             }
