@@ -146,6 +146,10 @@
           "occPer": "ALWAYS"
         },
         {
+          "stageId": "camp_r_17",
+          "occPer": "ALWAYS"
+        },
+        {
           "stageId": "camp_r_16",
           "occPer": "ALWAYS"
         },
@@ -178,11 +182,11 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "camp_r_17",
+          "stageId": "camp_r_08",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "camp_r_08",
+          "stageId": "camp_r_07",
           "occPer": "ALWAYS"
         },
         {
@@ -218,11 +222,11 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "camp_r_07",
+          "stageId": "camp_r_18",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "camp_r_18",
+          "stageId": "camp_r_19",
           "occPer": "ALWAYS"
         }
       ],
@@ -329,6 +333,14 @@
         },
         {
           "stageId": "tough_12-01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "main_13-07",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "tough_13-07",
           "occPer": "ALWAYS"
         },
         {
@@ -677,6 +689,24 @@
       "buildingProductList": [],
       "voucherRelateList": null
     },
+    "LMTGS_COIN_4401": {
+      "itemId": "LMTGS_COIN_4401",
+      "name": "Headhunting Data Contract",
+      "description": "A long-term, stable relationship with the headhunting agency can effectively control our expenditures. However, we hope that this method will not be required every time.",
+      "rarity": "TIER_5",
+      "iconId": "LMTGS_COIN_4401",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 10022,
+      "usage": "A time-limited currency arranged for a new type of headhunting contract; Collect enough to recruit an operator from a designated pool for a limited time",
+      "obtainApproach": "New Operator's gift",
+      "hideInItemGet": false,
+      "classifyType": "NORMAL",
+      "itemType": "LMTGS_COIN",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
     "EPGS_COIN": {
       "itemId": "EPGS_COIN",
       "name": "Headhunting Parametric Model",
@@ -739,7 +769,7 @@
       "iconId": "STORY_REVIEW_COIN",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 10202,
+      "sortId": 10203,
       "usage": "A topological model of effective intelligence that can be used to reconstruct past events.",
       "obtainApproach": "Purchase Certificates Store, Event Store",
       "hideInItemGet": false,
@@ -956,6 +986,42 @@
       "overrideBkg": null,
       "stackIconId": null,
       "sortId": 20018,
+      "usage": "ID Info Update Card for a system upgrade to the Rhodes Island bridge. This one is for you, Doctor.",
+      "obtainApproach": "Store and Gift",
+      "hideInItemGet": false,
+      "classifyType": "CONSUME",
+      "itemType": "RENAMING_CARD",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "renamingCard_0_044": {
+      "itemId": "renamingCard_0_044",
+      "name": "ID Info Update Card",
+      "description": "Don't waste the precious chance to do a system update.",
+      "rarity": "TIER_5",
+      "iconId": "renamingCard",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 20019,
+      "usage": "ID Info Update Card for a system upgrade to the Rhodes Island bridge. This one is for you, Doctor.",
+      "obtainApproach": "Store and Gift",
+      "hideInItemGet": false,
+      "classifyType": "CONSUME",
+      "itemType": "RENAMING_CARD",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "renamingCard_30_044": {
+      "itemId": "renamingCard_30_044",
+      "name": "ID Info Update Card",
+      "description": "Don't waste the precious chance to do a system update.",
+      "rarity": "TIER_5",
+      "iconId": "renamingCard",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 20020,
       "usage": "ID Info Update Card for a system upgrade to the Rhodes Island bridge. This one is for you, Doctor.",
       "obtainApproach": "Store and Gift",
       "hideInItemGet": false,
@@ -1685,6 +1751,24 @@
       "buildingProductList": [],
       "voucherRelateList": null
     },
+    "LIMITED_TKT_GACHA_10_4401": {
+      "itemId": "LIMITED_TKT_GACHA_10_4401",
+      "name": "Candleglow Sonata Headhunting Permit",
+      "description": "In order to ensure the available talent pool can be scaled upwards to satisfy the Doctor's emergency preparation request, this batch of headhunting items carries specificity, time-sensitivity, and of course, a degree of risk.",
+      "rarity": "TIER_5",
+      "iconId": "LIMITED_TKT_GACHA_10_4401",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 40003,
+      "usage": "A batch headhunting permit issued by the Rhodes Island HR Department; Can be used at a certain time to recruit talented Operators, 10 rolls at once.",
+      "obtainApproach": "Gift",
+      "hideInItemGet": false,
+      "classifyType": "NORMAL",
+      "itemType": "LIMITED_TKT_GACHA_10",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
     "7003": {
       "itemId": "7003",
       "name": "Headhunting Permit",
@@ -1966,6 +2050,24 @@
       "sortId": 50013,
       "usage": "A lot of tablework went into this Senior Operator Transfer Permit from Rhodes Island's HR distribution; a 100% guarantee on the aid you receive is no small ask.",
       "obtainApproach": "Gift",
+      "hideInItemGet": false,
+      "classifyType": "CONSUME",
+      "itemType": "VOUCHER_PICK",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "voucher_item_pick4401": {
+      "itemId": "voucher_item_pick4401",
+      "name": "Thank-You Celebration Operator Permit",
+      "description": "Allows you to select a 6-star Operator from a past Headhunting Pool, up to and including 'As In My Adumbration.'",
+      "rarity": "TIER_5",
+      "iconId": "voucher_recruitR6_g",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 50014,
+      "usage": "A lot of tablework went into this Top Operator Transfer Permit from Rhodes Island's HR distribution; a 100% guarantee on the aid you receive is no small ask.",
+      "obtainApproach": "Store",
       "hideInItemGet": false,
       "classifyType": "CONSUME",
       "itemType": "VOUCHER_PICK",
@@ -3039,6 +3141,24 @@
       "buildingProductList": [],
       "voucherRelateList": null
     },
+    "randomMaterial_leith2": {
+      "itemId": "randomMaterial_leith2",
+      "name": "Investigation Resupply",
+      "description": "'Though the contents are as unalike as the sounds of the heart, they will help you in your search for the truth. Follow the echoes not yet forgotten, and you will eventually find the answer.'",
+      "rarity": "TIER_5",
+      "iconId": "randomMaterial_leith2",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 60113,
+      "usage": "Package from an unknown source containing various supplies, including random materials.",
+      "obtainApproach": "From events",
+      "hideInItemGet": false,
+      "classifyType": "CONSUME",
+      "itemType": "VOUCHER_MGACHA",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
     "2001": {
       "itemId": "2001",
       "name": "Drill Battle Record",
@@ -3172,6 +3292,14 @@
         },
         {
           "stageId": "tough_12-08",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "main_13-01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "tough_13-01",
           "occPer": "ALWAYS"
         },
         {
@@ -4225,51 +4353,7 @@
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act12mini_04",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act20side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act20side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act11mini_02",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act18side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act18side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act16side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act16side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act16side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act10mini_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act10mini_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act10mini_03",
+          "stageId": "act12mini_03",
           "occPer": "OFTEN"
         },
         {
@@ -4277,7 +4361,59 @@
           "occPer": "OFTEN"
         },
         {
+          "stageId": "act10mini_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act10mini_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act10mini_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act16side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act16side_02",
+          "occPer": "OFTEN"
+        },
+        {
           "stageId": "act15side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act16side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act18side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act11mini_02",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act20side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act20side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act19side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act19side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act18side_02",
           "occPer": "OFTEN"
         },
         {
@@ -4290,10 +4426,6 @@
         },
         {
           "stageId": "act14side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act14side_02",
           "occPer": "OFTEN"
         },
         {
@@ -4321,11 +4453,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act19side_02",
+          "stageId": "act17d0_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act17d0_01",
+          "stageId": "act18d0_02",
           "occPer": "OFTEN"
         },
         {
@@ -4353,75 +4485,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act18d0_02",
+          "stageId": "act14side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act19side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act7d5_02",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act12mini_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act28side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act28side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act28side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act15mini_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act15mini_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act15mini_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act15mini_04",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act27side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act27side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act27side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act26side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act26side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act26side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act25side_01",
+          "stageId": "act12mini_04",
           "occPer": "OFTEN"
         },
         {
@@ -4429,11 +4497,71 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act25side_02",
+          "stageId": "act7d5_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act12mini_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act14mini_01",
+          "stageId": "act26side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act27side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act27side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act27side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act15mini_04",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act15mini_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act26side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act15mini_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act28side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act28side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act28side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act29side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act29side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act29side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act15mini_01",
           "occPer": "OFTEN"
         },
         {
@@ -4441,7 +4569,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act12mini_01",
+          "stageId": "act26side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act25side_02",
           "occPer": "OFTEN"
         },
         {
@@ -4461,19 +4593,19 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act25side_03",
-          "occPer": "OFTEN"
-        },
-        {
           "stageId": "act22side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act23side_03",
+          "stageId": "act22side_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act23side_02",
+          "stageId": "act25side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act23side_03",
           "occPer": "OFTEN"
         },
         {
@@ -4493,7 +4625,15 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act22side_01",
+          "stageId": "act14mini_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act25side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act23side_02",
           "occPer": "OFTEN"
         },
         {
@@ -4584,11 +4724,11 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "a001_04",
+          "stageId": "act4d0_03",
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act22side_04",
+          "stageId": "a001_04",
           "occPer": "ALMOST"
         },
         {
@@ -4608,7 +4748,11 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act4d0_03",
+          "stageId": "act29side_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act22side_04",
           "occPer": "ALMOST"
         },
         {
@@ -4766,6 +4910,14 @@
         {
           "stageId": "tough_12-18",
           "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_13-03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-03",
+          "occPer": "OFTEN"
         }
       ],
       "buildingProductList": [
@@ -4823,6 +4975,14 @@
         {
           "stageId": "tough_12-18",
           "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_13-03",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-03",
+          "occPer": "SOMETIMES"
         }
       ],
       "buildingProductList": [
@@ -4854,11 +5014,7 @@
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act19side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act15side_01",
+          "stageId": "act12mini_03",
           "occPer": "OFTEN"
         },
         {
@@ -4882,15 +5038,15 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act15side_02",
-          "occPer": "OFTEN"
-        },
-        {
           "stageId": "act16side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act18side_02",
+          "stageId": "act15side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act16side_01",
           "occPer": "OFTEN"
         },
         {
@@ -4914,11 +5070,15 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act16side_01",
+          "stageId": "act19side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act19side_02",
+          "stageId": "act18side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act15side_02",
           "occPer": "OFTEN"
         },
         {
@@ -4926,7 +5086,7 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act14side_02",
+          "stageId": "act14side_01",
           "occPer": "OFTEN"
         },
         {
@@ -4954,11 +5114,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act14side_01",
+          "stageId": "act17d0_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act17d0_01",
+          "stageId": "act18d0_02",
           "occPer": "OFTEN"
         },
         {
@@ -4986,75 +5146,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act18d0_02",
+          "stageId": "act14side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act11d0_03",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act6d5_02",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act12mini_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act28side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act28side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act28side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act15mini_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act15mini_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act15mini_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act15mini_04",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act27side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act27side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act27side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act26side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act26side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act26side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act25side_01",
+          "stageId": "act19side_01",
           "occPer": "OFTEN"
         },
         {
@@ -5062,15 +5158,83 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act25side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act14mini_01",
-          "occPer": "OFTEN"
+          "stageId": "act6d5_02",
+          "occPer": "ALWAYS"
         },
         {
           "stageId": "act12mini_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act26side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act27side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act27side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act27side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act15mini_04",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act15mini_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act26side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act15mini_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act28side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act28side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act28side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act29side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act29side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act29side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act15mini_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act11d0_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act26side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act25side_02",
           "occPer": "OFTEN"
         },
         {
@@ -5094,15 +5258,15 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act25side_03",
-          "occPer": "OFTEN"
-        },
-        {
           "stageId": "act22side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act23side_03",
+          "stageId": "act25side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act22side_01",
           "occPer": "OFTEN"
         },
         {
@@ -5126,7 +5290,15 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act22side_01",
+          "stageId": "act14mini_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act25side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act23side_03",
           "occPer": "OFTEN"
         },
         {
@@ -5157,8 +5329,8 @@
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act19side_04",
-          "occPer": "OFTEN"
+          "stageId": "act12mini_06",
+          "occPer": "ALWAYS"
         },
         {
           "stageId": "act7d5_04",
@@ -5217,8 +5389,8 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act4d0_04",
-          "occPer": "ALWAYS"
+          "stageId": "act19side_04",
+          "occPer": "OFTEN"
         },
         {
           "stageId": "a001_03",
@@ -5249,7 +5421,11 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act12mini_06",
+          "stageId": "act29side_04",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act4d0_04",
           "occPer": "ALWAYS"
         },
         {
@@ -5337,6 +5513,10 @@
           "occPer": "USUAL"
         },
         {
+          "stageId": "act29side_07",
+          "occPer": "USUAL"
+        },
+        {
           "stageId": "act9d0_08",
           "occPer": "USUAL"
         },
@@ -5374,6 +5554,14 @@
         },
         {
           "stageId": "tough_11-09",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_13-14",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-14",
           "occPer": "OFTEN"
         },
         {
@@ -5434,6 +5622,14 @@
           "occPer": "SOMETIMES"
         },
         {
+          "stageId": "main_13-14",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-14",
+          "occPer": "SOMETIMES"
+        },
+        {
           "stageId": "sub_04-1-1",
           "occPer": "SOMETIMES"
         }
@@ -5467,11 +5663,7 @@
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act20side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act14side_02",
+          "stageId": "act19side_01",
           "occPer": "OFTEN"
         },
         {
@@ -5531,11 +5723,15 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act14side_03",
+          "stageId": "act20side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act20side_02",
+          "stageId": "act14side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act14side_03",
           "occPer": "OFTEN"
         },
         {
@@ -5543,7 +5739,7 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act13side_03",
+          "stageId": "act13side_02",
           "occPer": "OFTEN"
         },
         {
@@ -5575,11 +5771,11 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act15d5_03",
-          "occPer": "ALWAYS"
+          "stageId": "act20side_01",
+          "occPer": "OFTEN"
         },
         {
-          "stageId": "act16d5_01",
+          "stageId": "act15d5_03",
           "occPer": "ALWAYS"
         },
         {
@@ -5607,28 +5803,24 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act13side_02",
+          "stageId": "act13side_03",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act4d0_01",
+          "stageId": "act16d5_01",
           "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act19side_02",
+          "occPer": "OFTEN"
         },
         {
           "stageId": "a001_02",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act19side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act25side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act26side_03",
-          "occPer": "OFTEN"
+          "stageId": "act12mini_04",
+          "occPer": "USUAL"
         },
         {
           "stageId": "act26side_02",
@@ -5647,12 +5839,12 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act25side_02",
+          "stageId": "act27side_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act27side_01",
-          "occPer": "OFTEN"
+          "stageId": "act15mini_04",
+          "occPer": "USUAL"
         },
         {
           "stageId": "act15mini_03",
@@ -5679,24 +5871,32 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act15mini_04",
-          "occPer": "USUAL"
+          "stageId": "act29side_03",
+          "occPer": "OFTEN"
         },
         {
-          "stageId": "act19side_02",
+          "stageId": "act29side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act29side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act26side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act4d0_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act25side_01",
           "occPer": "OFTEN"
         },
         {
           "stageId": "act25side_03",
           "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act14mini_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act12mini_04",
-          "occPer": "USUAL"
         },
         {
           "stageId": "act12mini_03",
@@ -5719,19 +5919,19 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act14mini_01",
-          "occPer": "OFTEN"
-        },
-        {
           "stageId": "act13mini_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act22side_02",
+          "stageId": "act13mini_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act22side_01",
+          "stageId": "act25side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act22side_02",
           "occPer": "OFTEN"
         },
         {
@@ -5755,7 +5955,15 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act13mini_01",
+          "stageId": "act14mini_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act14mini_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act22side_01",
           "occPer": "OFTEN"
         },
         {
@@ -5786,8 +5994,8 @@
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act18side_04",
-          "occPer": "USUAL"
+          "stageId": "act20side_04",
+          "occPer": "ALWAYS"
         },
         {
           "stageId": "act15side_05",
@@ -5854,8 +6062,8 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act6d5_04",
-          "occPer": "ALWAYS"
+          "stageId": "act18side_04",
+          "occPer": "USUAL"
         },
         {
           "stageId": "a001_03",
@@ -5894,7 +6102,11 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act20side_04",
+          "stageId": "act29side_06",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act6d5_04",
           "occPer": "ALWAYS"
         },
         {
@@ -6040,6 +6252,14 @@
         {
           "stageId": "tough_12-12",
           "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_13-15",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-15",
+          "occPer": "OFTEN"
         }
       ],
       "buildingProductList": [
@@ -6097,6 +6317,14 @@
         {
           "stageId": "tough_12-12",
           "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_13-15",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-15",
+          "occPer": "SOMETIMES"
         }
       ],
       "buildingProductList": [
@@ -6128,12 +6356,8 @@
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act19side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act15side_02",
-          "occPer": "OFTEN"
+          "stageId": "act12mini_04",
+          "occPer": "USUAL"
         },
         {
           "stageId": "act15side_01",
@@ -6156,11 +6380,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act15side_03",
+          "stageId": "act16side_03",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act16side_03",
+          "stageId": "act16side_02",
           "occPer": "OFTEN"
         },
         {
@@ -6188,19 +6412,27 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act16side_02",
-          "occPer": "OFTEN"
-        },
-        {
           "stageId": "act20side_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act14side_01",
+          "stageId": "act19side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act14side_03",
+          "stageId": "act15side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act19side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act15side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act14side_02",
           "occPer": "OFTEN"
         },
         {
@@ -6228,11 +6460,11 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act14side_02",
-          "occPer": "OFTEN"
+          "stageId": "act17d0_02",
+          "occPer": "USUAL"
         },
         {
-          "stageId": "act17d0_02",
+          "stageId": "act17d0_01",
           "occPer": "USUAL"
         },
         {
@@ -6260,31 +6492,23 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act17d0_01",
-          "occPer": "USUAL"
+          "stageId": "act14side_03",
+          "occPer": "OFTEN"
         },
         {
-          "stageId": "act19side_02",
+          "stageId": "act14side_01",
           "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act6d5_01",
+          "occPer": "ALWAYS"
         },
         {
           "stageId": "a001_01",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act12mini_04",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act25side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act26side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act26side_02",
+          "stageId": "act12mini_02",
           "occPer": "OFTEN"
         },
         {
@@ -6300,23 +6524,23 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act25side_02",
+          "stageId": "act27side_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act27side_01",
-          "occPer": "OFTEN"
+          "stageId": "act15mini_04",
+          "occPer": "USUAL"
         },
         {
           "stageId": "act15mini_03",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act15mini_02",
+          "stageId": "act26side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act15mini_01",
+          "stageId": "act15mini_02",
           "occPer": "OFTEN"
         },
         {
@@ -6332,19 +6556,19 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act15mini_04",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act6d5_01",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act25side_03",
+          "stageId": "act29side_03",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act14mini_02",
+          "stageId": "act29side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act29side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act15mini_01",
           "occPer": "OFTEN"
         },
         {
@@ -6352,7 +6576,11 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act12mini_02",
+          "stageId": "act26side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act25side_02",
           "occPer": "OFTEN"
         },
         {
@@ -6372,19 +6600,19 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act14mini_01",
-          "occPer": "OFTEN"
-        },
-        {
           "stageId": "act13mini_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act22side_01",
+          "stageId": "act22side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act23side_03",
+          "stageId": "act25side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act22side_01",
           "occPer": "OFTEN"
         },
         {
@@ -6404,7 +6632,19 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act22side_02",
+          "stageId": "act14mini_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act14mini_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act25side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act23side_03",
           "occPer": "OFTEN"
         },
         {
@@ -6491,12 +6731,12 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "a001_04",
-          "occPer": "USUAL"
+          "stageId": "act7d5_03",
+          "occPer": "ALWAYS"
         },
         {
-          "stageId": "act14mini_05",
-          "occPer": "ALWAYS"
+          "stageId": "a001_04",
+          "occPer": "USUAL"
         },
         {
           "stageId": "act25side_04",
@@ -6519,7 +6759,11 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act7d5_03",
+          "stageId": "act29side_05",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act14mini_05",
           "occPer": "ALWAYS"
         },
         {
@@ -6579,7 +6823,7 @@
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act13mini_07",
+          "stageId": "act14mini_07",
           "occPer": "USUAL"
         },
         {
@@ -6611,15 +6855,15 @@
           "occPer": "ALMOST"
         },
         {
+          "stageId": "act13mini_07",
+          "occPer": "USUAL"
+        },
+        {
           "stageId": "act10d5_05",
           "occPer": "OFTEN"
         },
         {
           "stageId": "act4d0_05",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act14mini_07",
           "occPer": "USUAL"
         },
         {
@@ -6652,6 +6896,14 @@
         },
         {
           "stageId": "tough_12-16",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_13-10",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-10",
           "occPer": "OFTEN"
         }
       ],
@@ -6702,6 +6954,14 @@
         {
           "stageId": "tough_12-16",
           "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_13-10",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-10",
+          "occPer": "SOMETIMES"
         }
       ],
       "buildingProductList": [
@@ -6733,11 +6993,7 @@
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act20side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act14side_02",
+          "stageId": "act19side_01",
           "occPer": "OFTEN"
         },
         {
@@ -6797,11 +7053,15 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act14side_03",
+          "stageId": "act20side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act20side_02",
+          "stageId": "act14side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act14side_03",
           "occPer": "OFTEN"
         },
         {
@@ -6809,7 +7069,7 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act13side_03",
+          "stageId": "act13side_02",
           "occPer": "OFTEN"
         },
         {
@@ -6841,12 +7101,12 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act16d5_01",
-          "occPer": "USUAL"
+          "stageId": "act20side_01",
+          "occPer": "OFTEN"
         },
         {
-          "stageId": "act17d0_02",
-          "occPer": "OFTEN"
+          "stageId": "act16d5_01",
+          "occPer": "USUAL"
         },
         {
           "stageId": "act17d0_01",
@@ -6873,27 +7133,23 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act13side_02",
+          "stageId": "act13side_03",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act7d5_01",
-          "occPer": "USUAL"
+          "stageId": "act17d0_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act19side_02",
+          "occPer": "OFTEN"
         },
         {
           "stageId": "a001_02",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act19side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act25side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act26side_03",
+          "stageId": "act12mini_04",
           "occPer": "OFTEN"
         },
         {
@@ -6913,11 +7169,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act25side_02",
+          "stageId": "act27side_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act27side_01",
+          "stageId": "act15mini_04",
           "occPer": "OFTEN"
         },
         {
@@ -6945,23 +7201,31 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act15mini_04",
+          "stageId": "act29side_03",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act19side_02",
+          "stageId": "act29side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act29side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act26side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act7d5_01",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act25side_01",
           "occPer": "OFTEN"
         },
         {
           "stageId": "act25side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act14mini_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act12mini_04",
           "occPer": "OFTEN"
         },
         {
@@ -6985,19 +7249,19 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act14mini_01",
-          "occPer": "OFTEN"
-        },
-        {
           "stageId": "act13mini_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act22side_02",
+          "stageId": "act13mini_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act22side_01",
+          "stageId": "act25side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act22side_02",
           "occPer": "OFTEN"
         },
         {
@@ -7021,7 +7285,15 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act13mini_01",
+          "stageId": "act14mini_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act14mini_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act22side_01",
           "occPer": "OFTEN"
         },
         {
@@ -7052,8 +7324,8 @@
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act20side_06",
-          "occPer": "ALMOST"
+          "stageId": "act20side_04",
+          "occPer": "OFTEN"
         },
         {
           "stageId": "act18side_03",
@@ -7120,8 +7392,8 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act11d0_05",
-          "occPer": "OFTEN"
+          "stageId": "act20side_06",
+          "occPer": "ALMOST"
         },
         {
           "stageId": "act6d5_05",
@@ -7132,7 +7404,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act20side_04",
+          "stageId": "act11d0_05",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act28side_05",
           "occPer": "OFTEN"
         },
         {
@@ -7144,11 +7420,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act25side_07",
-          "occPer": "OFTEN"
+          "stageId": "act29side_06",
+          "occPer": "ALMOST"
         },
         {
-          "stageId": "act28side_05",
+          "stageId": "act23side_05",
           "occPer": "OFTEN"
         },
         {
@@ -7164,7 +7440,7 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act23side_05",
+          "stageId": "act25side_07",
           "occPer": "OFTEN"
         },
         {
@@ -7224,19 +7500,23 @@
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act15mini_08",
-          "occPer": "OFTEN"
+          "stageId": "act18d3_09",
+          "occPer": "USUAL"
         },
         {
           "stageId": "act12mini_08",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act15side_06",
+          "stageId": "act15mini_08",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act29side_08",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act18d3_09",
+          "stageId": "act15side_06",
           "occPer": "USUAL"
         },
         {
@@ -7277,6 +7557,14 @@
         },
         {
           "stageId": "tough_11-06",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_13-08",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-08",
           "occPer": "OFTEN"
         },
         {
@@ -7325,6 +7613,14 @@
           "occPer": "SOMETIMES"
         },
         {
+          "stageId": "main_13-08",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-08",
+          "occPer": "SOMETIMES"
+        },
+        {
           "stageId": "main_11-18",
           "occPer": "SOMETIMES"
         },
@@ -7362,11 +7658,7 @@
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act20side_01",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act14side_03",
+          "stageId": "act19side_02",
           "occPer": "USUAL"
         },
         {
@@ -7398,11 +7690,11 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act10mini_02",
+          "stageId": "act14side_03",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act10mini_01",
+          "stageId": "act10mini_02",
           "occPer": "USUAL"
         },
         {
@@ -7426,20 +7718,28 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act13side_01",
-          "occPer": "USUAL"
-        },
-        {
           "stageId": "act11mini_04",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act13side_02",
+          "stageId": "act20side_02",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act9mini_01",
-          "occPer": "ALWAYS"
+          "stageId": "act10mini_01",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act20side_01",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act13side_01",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act13side_03",
+          "occPer": "USUAL"
         },
         {
           "stageId": "act10d5_02",
@@ -7470,11 +7770,11 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act15d5_02",
-          "occPer": "ALWAYS"
+          "stageId": "act13side_02",
+          "occPer": "USUAL"
         },
         {
-          "stageId": "act16d5_03",
+          "stageId": "act15d5_02",
           "occPer": "ALWAYS"
         },
         {
@@ -7502,32 +7802,24 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act13side_03",
-          "occPer": "USUAL"
+          "stageId": "act9mini_01",
+          "occPer": "ALWAYS"
         },
         {
-          "stageId": "act20side_02",
-          "occPer": "USUAL"
+          "stageId": "act16d5_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act4d0_02",
+          "occPer": "ALWAYS"
         },
         {
           "stageId": "a001_01",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act19side_02",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act25side_02",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act25side_01",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act26side_03",
-          "occPer": "USUAL"
+          "stageId": "act12mini_04",
+          "occPer": "ALMOST"
         },
         {
           "stageId": "act26side_02",
@@ -7578,28 +7870,32 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act25side_03",
+          "stageId": "act29side_03",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act4d0_02",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act14mini_01",
+          "stageId": "act29side_02",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act14mini_03",
-          "occPer": "ALMOST"
+          "stageId": "act29side_01",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act26side_03",
+          "occPer": "USUAL"
         },
         {
           "stageId": "act19side_01",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act12mini_04",
-          "occPer": "ALMOST"
+          "stageId": "act25side_01",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act25side_03",
+          "occPer": "USUAL"
         },
         {
           "stageId": "act12mini_03",
@@ -7618,23 +7914,23 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act14mini_02",
-          "occPer": "USUAL"
-        },
-        {
           "stageId": "act13mini_03",
           "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act13mini_02",
+          "occPer": "USUAL"
         },
         {
           "stageId": "act13mini_01",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act22side_02",
+          "stageId": "act25side_02",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act22side_01",
+          "stageId": "act22side_02",
           "occPer": "USUAL"
         },
         {
@@ -7654,7 +7950,19 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act13mini_02",
+          "stageId": "act14mini_03",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act14mini_02",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act14mini_01",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act22side_01",
           "occPer": "USUAL"
         },
         {
@@ -7685,7 +7993,7 @@
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act15side_04",
+          "stageId": "act16side_04",
           "occPer": "ALMOST"
         },
         {
@@ -7745,7 +8053,7 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act11d0_04",
+          "stageId": "act15side_04",
           "occPer": "ALMOST"
         },
         {
@@ -7757,23 +8065,11 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act11mini_06",
-          "occPer": "ALWAYS"
+          "stageId": "act11d0_04",
+          "occPer": "ALMOST"
         },
         {
-          "stageId": "act20side_05",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act20side_03",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act14mini_06",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act25side_06",
+          "stageId": "act28side_04",
           "occPer": "ALWAYS"
         },
         {
@@ -7781,12 +8077,28 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act28side_04",
+          "stageId": "act25side_06",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act16side_04",
-          "occPer": "ALMOST"
+          "stageId": "act29side_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act20side_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act20side_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act11mini_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act14mini_06",
+          "occPer": "ALWAYS"
         },
         {
           "stageId": "main_01-07",
@@ -7923,6 +8235,14 @@
         {
           "stageId": "tough_12-13",
           "occPer": "USUAL"
+        },
+        {
+          "stageId": "main_13-02",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "tough_13-02",
+          "occPer": "USUAL"
         }
       ],
       "buildingProductList": [
@@ -7983,6 +8303,14 @@
         },
         {
           "stageId": "tough_12-13",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_13-02",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-02",
           "occPer": "SOMETIMES"
         }
       ],
@@ -8258,6 +8586,14 @@
         {
           "stageId": "tough_12-07",
           "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_13-19",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-19",
+          "occPer": "OFTEN"
         }
       ],
       "buildingProductList": [],
@@ -8298,6 +8634,14 @@
         {
           "stageId": "tough_12-07",
           "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_13-19",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-19",
+          "occPer": "SOMETIMES"
         }
       ],
       "buildingProductList": [
@@ -8329,7 +8673,7 @@
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act27side_08",
+          "stageId": "act13d5_08",
           "occPer": "USUAL"
         },
         {
@@ -8337,11 +8681,11 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act17d0_07",
+          "stageId": "act27side_08",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act13d5_08",
+          "stageId": "act17d0_07",
           "occPer": "USUAL"
         },
         {
@@ -8387,6 +8731,22 @@
         {
           "stageId": "tough_10-14",
           "occPer": "USUAL"
+        },
+        {
+          "stageId": "main_13-09",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-09",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_13-18",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-18",
+          "occPer": "OFTEN"
         }
       ],
       "buildingProductList": [],
@@ -8434,6 +8794,22 @@
         },
         {
           "stageId": "tough_10-06",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_13-09",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-09",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_13-18",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-18",
           "occPer": "SOMETIMES"
         }
       ],
@@ -8502,6 +8878,10 @@
           "occPer": "ALMOST"
         },
         {
+          "stageId": "act29side_09",
+          "occPer": "ALMOST"
+        },
+        {
           "stageId": "act6d5_07",
           "occPer": "OFTEN"
         },
@@ -8555,6 +8935,14 @@
         },
         {
           "stageId": "tough_12-05",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_13-17",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-17",
           "occPer": "OFTEN"
         }
       ],
@@ -8619,6 +9007,14 @@
         },
         {
           "stageId": "tough_12-05",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_13-17",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-17",
           "occPer": "SOMETIMES"
         }
       ],
@@ -8872,6 +9268,22 @@
           "occPer": "OFTEN"
         },
         {
+          "stageId": "main_13-05",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-05",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_13-16",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-16",
+          "occPer": "OFTEN"
+        },
+        {
           "stageId": "sub_05-4-2",
           "occPer": "OFTEN"
         },
@@ -8940,6 +9352,22 @@
           "occPer": "SOMETIMES"
         },
         {
+          "stageId": "main_13-05",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-05",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_13-16",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-16",
+          "occPer": "SOMETIMES"
+        },
+        {
           "stageId": "sub_05-4-2",
           "occPer": "SOMETIMES"
         }
@@ -8973,6 +9401,22 @@
       "itemType": "MATERIAL",
       "stageDropList": [
         {
+          "stageId": "act18d3_08",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act9mini_05",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act8mini_06",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13side_09",
+          "occPer": "USUAL"
+        },
+        {
           "stageId": "act27side_07",
           "occPer": "ALMOST"
         },
@@ -8986,22 +9430,6 @@
         },
         {
           "stageId": "act10mini_08",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act13side_09",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act9mini_05",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act8mini_06",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act18d3_08",
           "occPer": "USUAL"
         },
         {
@@ -9029,11 +9457,19 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "sub_03-3-2",
+          "stageId": "main_13-06",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-06",
           "occPer": "OFTEN"
         },
         {
           "stageId": "sub_05-4-3",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "sub_03-3-2",
           "occPer": "OFTEN"
         }
       ],
@@ -9078,6 +9514,14 @@
         },
         {
           "stageId": "tough_12-17",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_13-06",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-06",
           "occPer": "SOMETIMES"
         },
         {
@@ -9148,6 +9592,14 @@
         {
           "stageId": "tough_12-09",
           "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_13-12",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-12",
+          "occPer": "OFTEN"
         }
       ],
       "buildingProductList": [],
@@ -9195,6 +9647,14 @@
         },
         {
           "stageId": "tough_12-09",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_13-12",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-12",
           "occPer": "SOMETIMES"
         }
       ],
@@ -9356,6 +9816,14 @@
           "occPer": "OFTEN"
         },
         {
+          "stageId": "main_13-11",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-11",
+          "occPer": "OFTEN"
+        },
+        {
           "stageId": "sub_09-1-2",
           "occPer": "OFTEN"
         }
@@ -9406,12 +9874,158 @@
         {
           "stageId": "tough_12-11",
           "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_13-11",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-11",
+          "occPer": "SOMETIMES"
         }
       ],
       "buildingProductList": [
         {
           "roomType": "WORKSHOP",
           "formulaId": "61"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "premium_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+        }
+      ]
+    },
+    "31073": {
+      "itemId": "31073",
+      "name": "Fuscous Fiber",
+      "description": "A derived product in Originium engineering, widely used in industrial fields due to its exceptional functionality. In recent years, its unique appearance has also drawn keen interest from those working in design.",
+      "rarity": "TIER_3",
+      "iconId": "MTL_SL_XW",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100009,
+      "usage": "A specialized fiber bundle, possessing high tensile strength and elastic modulus. Used in a variety of strengthening projects.",
+      "obtainApproach": null,
+      "hideInItemGet": false,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "main_13-04",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-04",
+          "occPer": "OFTEN"
+        }
+      ],
+      "buildingProductList": [],
+      "voucherRelateList": [
+        {
+          "voucherId": "advanced_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+        }
+      ]
+    },
+    "31074": {
+      "itemId": "31074",
+      "name": "Solidified Fiber Board",
+      "description": "A compound fiber board crafted through bespoke manufacturing. Exhibits outstanding functionality, both physically and chemically, coupled with a rarely-seen ease of processing. An irreplaceable part of many an industrial workflow.",
+      "rarity": "TIER_4",
+      "iconId": "MTL_SL_XWB",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100008,
+      "usage": "A specialized fiber board, solidified in a mold. Used in a variety of strengthening projects.",
+      "obtainApproach": null,
+      "hideInItemGet": false,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "main_13-04",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-04",
+          "occPer": "SOMETIMES"
+        }
+      ],
+      "buildingProductList": [
+        {
+          "roomType": "WORKSHOP",
+          "formulaId": "63"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "premium_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+        }
+      ]
+    },
+    "31083": {
+      "itemId": "31083",
+      "name": "Aggregate Cyclicene",
+      "description": "A novel transparent material born from the laboratory. Its high luminous transmittance and phenomenal durability in all aspects promise to make it an excellent substitute for many conventional materials.",
+      "rarity": "TIER_3",
+      "iconId": "MTL_SL_HT",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100007,
+      "usage": "A superlatively heat- and chemical-resistant industrial material. Used in a variety of strengthening projects.",
+      "obtainApproach": null,
+      "hideInItemGet": false,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "main_13-13",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-13",
+          "occPer": "OFTEN"
+        }
+      ],
+      "buildingProductList": [],
+      "voucherRelateList": [
+        {
+          "voucherId": "advanced_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+        }
+      ]
+    },
+    "31084": {
+      "itemId": "31084",
+      "name": "Cyclicene Prefab",
+      "description": "An industrial product arrived at through the introduction of several excellent materials into the synthesis process, preserving luminous transmittance while vastly increasing strength and shock resistance. Prospects are high for its wide adoption in the field of defense.",
+      "rarity": "TIER_4",
+      "iconId": "MTL_SL_HTT",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100006,
+      "usage": "A prefabricated industrial intermediate composed of multiple first-rate materials. Used in a variety of strengthening projects.",
+      "obtainApproach": null,
+      "hideInItemGet": false,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "main_13-13",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-13",
+          "occPer": "SOMETIMES"
+        }
+      ],
+      "buildingProductList": [
+        {
+          "roomType": "WORKSHOP",
+          "formulaId": "64"
         }
       ],
       "voucherRelateList": [
@@ -12800,6 +13414,42 @@
       "buildingProductList": [],
       "voucherRelateList": null
     },
+    "p_char_4107_vrdant": {
+      "itemId": "p_char_4107_vrdant",
+      "name": "Verdant's Token",
+      "description": "A stalk of grass one could mistake for a weed at first glance. Holds a special significance to him. A sharp notch has been cut in the grass's blade—don't worry, he's not trying to hurt you.",
+      "rarity": "TIER_4",
+      "iconId": "p_char_4107_vrdant",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 800053,
+      "usage": "Used to improve the Potential of Verdant.",
+      "obtainApproach": "New Operator's gift",
+      "hideInItemGet": false,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "p_char_4100_caper": {
+      "itemId": "p_char_4100_caper",
+      "name": "Caper's Token",
+      "description": "A soft, puffy ball of white fur. She insisted that you accept it. The smug smile on her face gives you a bad feeling, but nothing has happened. Yet.",
+      "rarity": "TIER_4",
+      "iconId": "p_char_4100_caper",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 800054,
+      "usage": "Used to improve the Potential of Caper.",
+      "obtainApproach": "New Operator's gift",
+      "hideInItemGet": false,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
     "p_char_128_plosis": {
       "itemId": "p_char_128_plosis",
       "name": "Ptilopsis's Token",
@@ -15140,6 +15790,78 @@
       "buildingProductList": [],
       "voucherRelateList": null
     },
+    "p_char_4110_delphn": {
+      "itemId": "p_char_4110_delphn",
+      "name": "Delphine's Token",
+      "description": "A refined cufflink. Servicemen of Windermere lineage have always been fastidious about their martial appearances, with not a hair out of place. Now, she's removed this small token of her own accord, and gifted it to you.",
+      "rarity": "TIER_5",
+      "iconId": "p_char_4110_delphn",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 700130,
+      "usage": "Used to improve the Potential of Delphine.",
+      "obtainApproach": "New Operator's gift",
+      "hideInItemGet": false,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "p_char_494_vendla": {
+      "itemId": "p_char_494_vendla",
+      "name": "Vendela's Token",
+      "description": "A withered white rose, cream-colored petals stained by irremovable traces of deep red, reflecting certain recollections of her past life. Bygones are bygones, and there is so little she can hold onto.",
+      "rarity": "TIER_5",
+      "iconId": "p_char_494_vendla",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 700131,
+      "usage": "Used to improve the Potential of Vendela.",
+      "obtainApproach": "New Operator's gift",
+      "hideInItemGet": false,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "p_char_499_kaitou": {
+      "itemId": "p_char_499_kaitou",
+      "name": "Diamante's Token",
+      "description": "A simple gemstone magnifying glass that has seen many years of use. Find the traces of forgery, and identify my true nature.",
+      "rarity": "TIER_5",
+      "iconId": "p_char_499_kaitou",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 700132,
+      "usage": "Used to improve the Potential of Diamante.",
+      "obtainApproach": "New Operator's gift",
+      "hideInItemGet": false,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "p_char_4109_baslin": {
+      "itemId": "p_char_4109_baslin",
+      "name": "Bassline's Token",
+      "description": "The mouthpiece of a tuba. Bassline has rubbed it clean and restored its former sheen.",
+      "rarity": "TIER_5",
+      "iconId": "p_char_4109_baslin",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 700133,
+      "usage": "Used to improve the Potential of Bassline.",
+      "obtainApproach": "New Operator's gift",
+      "hideInItemGet": false,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
     "p_char_103_angel": {
       "itemId": "p_char_103_angel",
       "name": "Exusiai's Token",
@@ -15701,7 +16423,7 @@
     "p_char_311_mudrok": {
       "itemId": "p_char_311_mudrok",
       "name": "Mudrock's Token",
-      "description": "A tiny little rock sculture. It looks like it's 'gazing' at you inquisitively.",
+      "description": "A tiny little rock sculpture. It looks like it's 'gazing' at you inquisitively.",
       "rarity": "TIER_6",
       "iconId": "p_char_311_mudrok",
       "overrideBkg": null,
@@ -16572,6 +17294,60 @@
       "stackIconId": null,
       "sortId": 600080,
       "usage": "Used to improve the Potential of Jessica the Liberated.",
+      "obtainApproach": "New Operator's gift",
+      "hideInItemGet": false,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "p_char_4088_hodrer": {
+      "itemId": "p_char_4088_hodrer",
+      "name": "Hoederer's Token",
+      "description": "A notebook with a singed corner. Recorded are not only operation results, but the lives of Sarkaz, sifted from the ashes.",
+      "rarity": "TIER_6",
+      "iconId": "p_char_4088_hodrer",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 600081,
+      "usage": "Used to improve the Potential of Hoederer.",
+      "obtainApproach": "New Operator's gift",
+      "hideInItemGet": false,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "p_char_4098_vvana": {
+      "itemId": "p_char_4098_vvana",
+      "name": "Viviana's Token",
+      "description": "A dried marigold bookmark. A book's journey is long and far; let it mark a temporary repose, the place to return to after stepping away.",
+      "rarity": "TIER_6",
+      "iconId": "p_char_4098_vvana",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 600082,
+      "usage": "Used to improve the Potential of Viviana.",
+      "obtainApproach": "New Operator's gift",
+      "hideInItemGet": false,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "p_char_245_cello": {
+      "itemId": "p_char_245_cello",
+      "name": "Virtuosa's Token",
+      "description": "A pair of black gloves made from fine materials, bringing calm to the instrument's strings, and to the restless sounds of the heart.",
+      "rarity": "TIER_6",
+      "iconId": "p_char_245_cello",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 600083,
+      "usage": "Used to improve the Potential of Virtuosa.",
       "obtainApproach": "New Operator's gift",
       "hideInItemGet": false,
       "classifyType": "MATERIAL",
@@ -22780,6 +23556,24 @@
       "buildingProductList": [],
       "voucherRelateList": null
     },
+    "act21side_token_permesso_rep_1": {
+      "itemId": "act21side_token_permesso_rep_1",
+      "name": "Permesso di Importazione",
+      "description": "Steaks, seasonal vegetables, and fresh fruit to please any soul, or a little something otherwise. The clever ones know what the famiglie want, and will ready it in advance, to be supplied when the time comes.",
+      "rarity": "TIER_5",
+      "iconId": "act21side_token_permesso",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "Permits issued by the Dipartimento di Sicurezza Alimentare to the famiglie. These grant famiglia members entry to the Dipartimento di Sicurezza Alimentare and the right to obtain goods, whether said goods fall under 'alimentare' notwithstanding.",
+      "obtainApproach": "Event Stage drop, Event mission reward",
+      "hideInItemGet": false,
+      "classifyType": "NONE",
+      "itemType": "ACTIVITY_ITEM",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
     "voucher_vigil": {
       "itemId": "voucher_vigil",
       "name": "Vigil's Folder",
@@ -24328,6 +25122,187 @@
       "stageDropList": [],
       "buildingProductList": [],
       "voucherRelateList": null
+    },
+    "act29side_token_erin": {
+      "itemId": "act29side_token_erin",
+      "name": "Die Klänge von den Erinnerungen",
+      "description": "Memories of the past are scattered across the ancient capital of Leithanien, carried by broken passages of music. Like today's Leithanien, they will need be tuned before they can be heard.",
+      "rarity": "TIER_5",
+      "iconId": "act29side_token_erin",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "Leaves that fall on the streets of Zwillingstürme. Missing phrases of music can be found on them from time to time. Give them to tune seekers at concerts and be rewarded with the gift of music.",
+      "obtainApproach": "Event Stage drop, Event mission reward",
+      "hideInItemGet": false,
+      "classifyType": "NONE",
+      "itemType": "ACTIVITY_ITEM",
+      "stageDropList": [
+        {
+          "stageId": "act29side_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act29side_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act29side_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act29side_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act29side_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act29side_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act29side_07",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act29side_08",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act29side_09",
+          "occPer": "ALWAYS"
+        }
+      ],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "act29side_frag_1": {
+      "itemId": "act29side_frag_1",
+      "name": "Note of Joy",
+      "description": "Knock on the shut door and reach out. We should have been united through joy.",
+      "rarity": "TIER_5",
+      "iconId": "act29side_frag_1",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 5200001,
+      "usage": "A piece of fallen memory, preserved with Arts. It pulses in your palm to the rhythm of emotion. It will be forged into a key before oblivion.",
+      "obtainApproach": "Event Stages",
+      "hideInItemGet": false,
+      "classifyType": "NONE",
+      "itemType": "ACTIVITY_ITEM",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "act29side_frag_2": {
+      "itemId": "act29side_frag_2",
+      "name": "Note of Anger",
+      "description": "Knock on the shut door and reach out. We should have been united through anger.",
+      "rarity": "TIER_5",
+      "iconId": "act29side_frag_2",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 5200002,
+      "usage": "A piece of fallen memory, preserved with Arts. It pulses in your palm to the rhythm of emotion. It will be forged into a key before oblivion.",
+      "obtainApproach": "Event Stages",
+      "hideInItemGet": false,
+      "classifyType": "NONE",
+      "itemType": "ACTIVITY_ITEM",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "act29side_frag_3": {
+      "itemId": "act29side_frag_3",
+      "name": "Note of Sorrow",
+      "description": "Knock on the shut door and reach out. We should have been united through sorrow.",
+      "rarity": "TIER_5",
+      "iconId": "act29side_frag_3",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 5200003,
+      "usage": "A piece of fallen memory, preserved with Arts. It pulses in your palm to the rhythm of emotion. It will be forged into a key before oblivion.",
+      "obtainApproach": "Event Stages",
+      "hideInItemGet": false,
+      "classifyType": "NONE",
+      "itemType": "ACTIVITY_ITEM",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "act29side_frag_4": {
+      "itemId": "act29side_frag_4",
+      "name": "Note of Fear",
+      "description": "Knock on the shut door and reach out. We should have been united through fear.",
+      "rarity": "TIER_5",
+      "iconId": "act29side_frag_4",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 5200004,
+      "usage": "A piece of fallen memory, preserved with Arts. It pulses in your palm to the rhythm of emotion. It will be forged into a key before oblivion.",
+      "obtainApproach": "Event Stages",
+      "hideInItemGet": false,
+      "classifyType": "NONE",
+      "itemType": "ACTIVITY_ITEM",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "voucher_lessng": {
+      "itemId": "voucher_lessng",
+      "name": "Lessing's Folder",
+      "description": "Several proverbs are written on the paper with tidy, print-like handwriting. The pen has penetrated the paper in a few places. There are also a few scribbles about things that need to be done.",
+      "rarity": "TIER_6",
+      "iconId": "voucher_lessng",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "A folder storing personal notes. Lessing is obtained the first time this item is obtained, and can improve Lessing's Potential thereafter.",
+      "obtainApproach": "From events",
+      "hideInItemGet": false,
+      "classifyType": "NONE",
+      "itemType": "ACTIVITY_POTENTIAL",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "classic_fes_pick_tier_5_4401": {
+      "itemId": "classic_fes_pick_tier_5_4401",
+      "name": "Kernel Locating 5* Operator",
+      "description": "Boosts the pull rate of one chosen 5-star operator",
+      "rarity": "TIER_6",
+      "iconId": "classic_fes_pick_tier_5",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "Boosts the pull rate of one chosen 5-star operator",
+      "obtainApproach": "Boosts the pull rate of one chosen 5-star operator",
+      "hideInItemGet": false,
+      "classifyType": "NORMAL",
+      "itemType": "CLASSIC_FES_PICK_TIER_5",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "classic_fes_pick_tier_6_4401": {
+      "itemId": "classic_fes_pick_tier_6_4401",
+      "name": "Kernel Locating 6* Operator",
+      "description": "Boosts the pull rate of one chosen 6-star operator",
+      "rarity": "TIER_6",
+      "iconId": "classic_fes_pick_tier_6",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "Boosts the pull rate of one chosen 6-star operator",
+      "obtainApproach": "Boosts the pull rate of one chosen 6-star operator",
+      "hideInItemGet": false,
+      "classifyType": "NORMAL",
+      "itemType": "CLASSIC_FES_PICK_TIER_6",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
     }
   },
   "expItems": {
@@ -24611,6 +25586,10 @@
     "premium_material_issue_voucher": {
       "id": "premium_material_issue_voucher",
       "displayType": "NONE"
+    },
+    "voucher_item_pick4401": {
+      "id": "voucher_item_pick4401",
+      "displayType": "DIVIDE"
     }
   },
   "uniqueInfo": {
@@ -25267,6 +26246,23 @@
     "furni_BSsafehouse_column_01": 1,
     "furni_BSsafehouse_wallpaper_01": 1,
     "furni_BSsafehouse_floor_01": 1,
+    "furni_magicAcademy_cabinet_01": 1,
+    "furni_magicAcademy_stair_01": 1,
+    "furni_magicAcademy_ceilingLights_01": 1,
+    "furni_magicAcademy_ceilingLights_02": 1,
+    "furni_magicAcademy_curtain_01": 1,
+    "furni_magicAcademy_orchestraPit_01": 1,
+    "furni_magicAcademy_carpet_01": 1,
+    "furni_magicAcademy_table_01": 1,
+    "furni_magicAcademy_chair_01": 1,
+    "furni_magicAcademy_ceilingLights_03": 1,
+    "furni_magicAcademy_musicBox_01": 1,
+    "furni_magicAcademy_audio_01": 1,
+    "furni_magicAcademy_cabinet_02": 1,
+    "furni_magicAcademy_amethyst_01": 1,
+    "furni_magicAcademy_stool_01": 1,
+    "furni_magicAcademy_wallpaper_01": 1,
+    "furni_magicAcademy_floor_01": 1,
     "furni_oct1st_deckChair_01": 1,
     "furni_animation_projector_01": 1,
     "furni_animation_trophy_01": 1,
@@ -25430,6 +26426,9 @@
     "furni_dropS034_gravity_01": 1,
     "furni_dropS034_Image_01": 1,
     "furni_terratimes_BSW_01": 1,
+    "furni_terratimes_RhodesIsland_01": 1,
+    "furni_terracommericials_HotWaterKettle_01": 1,
+    "furni_terratimes_Leithanien_01": 1,
     "furni_contract_s0_01": 1,
     "furni_contract_s1_01": 1,
     "furni_contract_s2_01": 1,
@@ -25460,6 +26459,7 @@
     "furni_annihilation_s16_01": 1,
     "furni_annihilation_s17_01": 1,
     "furni_annihilation_s18_01": 1,
+    "furni_annihilation_s19_01": 1,
     "furni_team001_blackSteel_target_01": 1,
     "furni_team001_followers_ceilingLight_01": 1,
     "furni_team001_ursus_baseballStand_01": 1,
@@ -25475,6 +26475,7 @@
     "furni_team002_abyssal_trident_01": 1,
     "furni_team002_sweep_weaponRack_01": 1,
     "furni_act38d0_Galleria_01": 1,
+    "furni_act44d0_rise_01": 1,
     "furni_animation_monitor_01": 1,
     "furni_animation_frostnovaDevice_01": 1,
     "char_002_amiya@winter#1": 1,
@@ -25540,6 +26541,12 @@
     "char_297_hamoni@epoque#24": 1,
     "char_135_halo@epoque#25": 1,
     "char_209_ardign@epoque#26": 1,
+    "char_427_vigil@epoque#27": 1,
+    "char_126_shotst@epoque#28": 1,
+    "char_4064_mlynar@epoque#28": 1,
+    "char_222_bpipe@epoque#28": 1,
+    "char_405_absin@epoque#28": 1,
+    "char_431_ashlok@epoque#28": 1,
     "char_120_hibisc@nian#1": 1,
     "char_010_chen@nian#2": 1,
     "char_308_swire@nian#2": 1,
@@ -25670,6 +26677,7 @@
     "char_4032_provs@wild#7": 1,
     "char_185_frncat@wild#7": 1,
     "char_4047_pianst@wild#8": 1,
+    "char_2012_typhon@wild#9": 1,
     "char_219_meteo@sweep#1": 1,
     "char_108_silent@sweep#1": 1,
     "char_235_jesica@sweep#1": 1,
@@ -25741,7 +26749,12 @@
     "char_4082_qiubai@ncg#1": 1,
     "char_106_franka@ncg#1": 1,
     "char_4019_ncdeer@ncdeer#1": 1,
-    "char_4014_lunacu@yun#1": 1
+    "char_4014_lunacu@yun#1": 1,
+    "char_4048_doroth@witch#4": 1,
+    "char_300_phenxi@witch#4": 1,
+    "char_492_quercu@witch#4": 1,
+    "char_436_whispr@witch#4": 1,
+    "char_1028_texas2@iteration#1": 1
   },
   "itemTimeLimit": {
     "renamingCard_0_018": 180,
@@ -25753,7 +26766,9 @@
     "renamingCard_0_033": 180,
     "renamingCard_30_033": 180,
     "renamingCard_0_038": 180,
-    "renamingCard_30_038": 180
+    "renamingCard_30_038": 180,
+    "renamingCard_0_044": 180,
+    "renamingCard_30_044": 180
   },
   "uniCollectionInfo": {
     "uni_set_pizza": {
@@ -27299,6 +28314,9 @@
     },
     "voucher_ulika": {
       "charId": "char_4091_ulika"
+    },
+    "voucher_lessng": {
+      "charId": "char_4011_lessng"
     }
   },
   "favorCharacters": {
