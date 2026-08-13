@@ -24,8 +24,8 @@
     },
     "versionGlobal": {
         "android": {
-            "resVersion": "26-07-24-09-41-40_8f90af",
-            "clientVersion": "35.7.01"
+            "resVersion": "26-08-11-11-20-00_747e4d",
+            "clientVersion": "36.7.22"
         }
     },
     "remote": {},
@@ -61,9 +61,9 @@
             "sign": "sign",
             "content": {
                 "configVer": "1",
-                "funcVer": "V070",
+                "funcVer": "V072",
                 "configs": {
-                    "V070": {
+                    "V072": {
                         "override": true,
                         "network": {
                             "gs": "{server}",
